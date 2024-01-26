@@ -16,6 +16,10 @@ let setTheme = (theme) => {
   if (typeof mermaid !== "undefined") {
     setMermaidTheme(theme);
   }
+  // if apexcharts is not defined, do nothing
+  if (typeof ApexCharts !== "undefined") {
+    setApexchartsTheme(theme);
+  }
   // if echarts is not defined, do nothing
   if (typeof echarts !== "undefined") {
     setEchartsTheme(theme);
@@ -127,7 +131,7 @@ let setMermaidTheme = (theme) => {
 let setEchartsTheme = (theme) => {
   /* Re-render the SVG, based on https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_includes/mermaid.html */
   document.querySelectorAll(".echarts").forEach((elem) => {
-    // Get the code block content from previous element, since it is the mermaid code itself as defined in Markdown, but it is hidden
+    // Get the code block content from previous element, since it is the echarts code itself as defined in Markdown, but it is hidden
     let jsonData = elem.previousSibling.childNodes[0].innerHTML;
     echarts.dispose(elem);
 
@@ -138,6 +142,27 @@ let setEchartsTheme = (theme) => {
     }
 
     chart.setOption(JSON.parse(jsonData));
+  });
+};
+
+let setApexchartsTheme = (theme) => {
+  /* Re-render the SVG, based on https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_includes/mermaid.html */
+  document.querySelectorAll(".apexcharts").forEach((elem) => {
+    // Get the code block content from previous element, since it is the apexcharts code itself as defined in Markdown, but it is hidden
+    let jsonData = elem.previousSibling.childNodes[0].innerHTML;
+    let jsonDataObj = JSON.parse(jsonData);
+
+    /* set theme if theme is not enforced */
+    if (!("theme" in jsonDataObj)) {
+      elem.innerHTML = '';
+      let chart = new ApexCharts(elem, jsonDataObj);
+      chart.render();
+      chart.updateOptions({
+        "theme": {
+          "mode": theme,
+          }
+      });
+    }
   });
 };
 

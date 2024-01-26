@@ -61,3 +61,8 @@
   >
   <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+<!-- Apexcharts -->
+{% if page.chart and page.chart.apexcharts %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.45/dist/apexcharts.min.css">
+{% endif %}
