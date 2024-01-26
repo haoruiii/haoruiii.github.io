@@ -6,6 +6,7 @@ codeBlocks.forEach(function (codeBlock) {
     codeBlock.querySelector("code:not(.language-apexcharts)") &&
     codeBlock.querySelector("code:not(.language-chartjs)") &&
     codeBlock.querySelector("code:not(.language-echarts)") &&
+    codeBlock.querySelector("code:not(.language-geojson)") &&
     codeBlock.querySelector("code:not(.language-mermaid)")
   ) {
     // create copy button
