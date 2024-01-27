@@ -135,8 +135,8 @@ let setEchartsTheme = (theme) => {
     let jsonData = elem.previousSibling.childNodes[0].innerHTML;
     echarts.dispose(elem);
 
-    if (theme === 'dark') {
-      var chart = echarts.init(elem, 'dark-fresh-cut');
+    if (theme === "dark") {
+      var chart = echarts.init(elem, "dark-fresh-cut");
     } else {
       var chart = echarts.init(elem);
     }
@@ -154,13 +154,13 @@ let setApexchartsTheme = (theme) => {
 
     /* set theme if theme is not enforced */
     if (!("theme" in jsonDataObj)) {
-      elem.innerHTML = '';
+      elem.innerHTML = "";
       let chart = new ApexCharts(elem, jsonDataObj);
       chart.render();
       chart.updateOptions({
-        "theme": {
-          "mode": theme,
-          }
+        theme: {
+          mode: theme,
+        },
       });
     }
   });

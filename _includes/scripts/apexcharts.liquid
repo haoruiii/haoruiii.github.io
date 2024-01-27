@@ -1,5 +1,9 @@
 {% if page.chart and page.chart.apexcharts %}
-  <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.45/dist/apexcharts.min.js" integrity="sha256-SQkKKOiAPbEWrvIQnoPnAiUIFiQDiTPKu21mYmmY1G8=" crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/apexcharts@3.45/dist/apexcharts.min.js"
+    integrity="sha256-SQkKKOiAPbEWrvIQnoPnAiUIFiQDiTPKu21mYmmY1G8="
+    crossorigin="anonymous"
+  ></script>
   <script>
     let theme = localStorage.getItem('theme');
 
@@ -17,9 +21,9 @@
       let jsonDataObj = JSON.parse(jsonData);
 
       /* set theme if theme is not enforced */
-      if (!("theme" in jsonDataObj)) {
+      if (!('theme' in jsonDataObj)) {
         jsonDataObj.theme = {
-          "mode": theme,
+          mode: theme,
         };
       }
 
