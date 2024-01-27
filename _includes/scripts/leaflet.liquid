@@ -16,7 +16,7 @@
       mapElement.classList.add('map');
       backup.after(mapElement);
 
-      var map = L.map(mapElement).setView([-3.0521, -60.0953], 10);
+      var map = L.map(mapElement);
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
