@@ -67,6 +67,9 @@ jobs:
       - name: Run axe 🪓
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
+          mkdir ~/.npm-global
+          npm config set prefix '~/.npm-global'
+          export PATH=~/.npm-global/bin:$PATH
           npm install -g @axe-core/cli
           npm install -g http-server
           http-server _site/ &
