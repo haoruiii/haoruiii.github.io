@@ -70,4 +70,11 @@ jobs:
           npm install -g @axe-core/cli
           npm install -g http-server
           http-server _site/ &
-          axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit
+          axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit --save ./axe-reports/json/
+          axe reporter ./axe-reports/json/ --format=html > ./axe-reports/report.html
+      - name: Upload html report ⬆️
+        uses: actions/upload-artifact@v4
+        with:
+          name: HTML Report
+          path: axe-reports/report.html
+          retention-days: 7
