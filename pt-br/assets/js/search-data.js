@@ -1,4 +1,14 @@
 
+const currentUrl = window.location.href;
+const siteUrl = "https://george-gca.github.io"; 
+let updatedUrl = currentUrl.replace("https://george-gca.github.io/multi-language-al-folio", "");
+if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
+  const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
+  updatedUrl = currentUrl.replace(otherSiteUrl + "/multi-language-al-folio", "");
+}
+if ("pt-br".length > 0) {
+  updatedUrl = updatedUrl.replace("/pt-br", "");
+}
 // get the ninja-keys element
 const ninja = document.querySelector('ninja-keys');
 
@@ -528,14 +538,14 @@ ninja.data = [{
           title: 'en-us',
           section: 'Idiomas',
           handler: () => {
-            window.location.href = "/multi-language-al-folio/assets/js/search-data.js";
+            window.location.href = "/multi-language-al-folio" + updatedUrl;
           },
         },{
           id: 'lang-fr-ca',
           title: 'fr-ca',
           section: 'Idiomas',
           handler: () => {
-            window.location.href = "/multi-language-al-folio/fr-ca/assets/js/search-data.js";
+            window.location.href = "/multi-language-al-folio/fr-ca" + updatedUrl;
           },
         },{
       id: 'light-theme',
