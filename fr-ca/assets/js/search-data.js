@@ -83,7 +83,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/multi-language-al-folio/fr-ca/blog/";
               },
-            },{id: "post-a-post-with-image-galleries",
+            },{id: "post-a-post-with-plotly-js",
+        
+          title: "a post with plotly.js",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "articles",
+        handler: () => {
+          
+            window.location.href = "/multi-language-al-folio/fr-ca/blog/2025/plotly/";
+          
+        },
+      },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
         
