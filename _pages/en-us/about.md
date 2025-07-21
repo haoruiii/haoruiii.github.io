@@ -12,7 +12,8 @@ profile:
   more_info: >
     <p>Room 3115 LSA Building</p>
     <p>500 S. State Street</p>
-    <p>Ann Arbor, MI 48109-1382, USA</p>
+    <p>Ann Arbor, MI 48109-1382</p>
+    <p>United States of America</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I received my Bachelor's degree in Sociology from the University of Michigan in 2025, with a Minor in Statistics. He is interested in using quantitative methods to study the role of education in social mobility, paying attention to the experiences of China. 
+I received my Bachelor's degree in Sociology from the University of Michigan in 2025, with a Minor in Statistics. I am interested in using quantitative methods to study the role of education in social mobility, paying attention to the experiences of China. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
