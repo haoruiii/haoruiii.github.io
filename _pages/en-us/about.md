@@ -1,18 +1,19 @@
 ---
 page_id: about
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Student, <a href = 'https://lsa.umich.edu/soc'>Department of Sociology at the University of Michigan</a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room 3115 LSA Building</p>
+    <p>500 S. State Street</p>
+    <p>Ann Arbor, MI 48109-1382</p>
+    <p>United States of America</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,6 +28,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+I received my Bachelor's degree in Sociology from the University of Michigan in 2025, with a Minor in Statistics. He is interested in using quantitative methods to study the role of education in social mobility, paying attention to the experiences of China. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
