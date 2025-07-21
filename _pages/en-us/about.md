@@ -1,6 +1,6 @@
 ---
 page_id: about
-layout: About
+layout: about
 title: About
 permalink: /
 subtitle: Ph.D. Student, <a href = 'https://lsa.umich.edu/soc'>Department of Sociology at the University of Michigan</a>. 
