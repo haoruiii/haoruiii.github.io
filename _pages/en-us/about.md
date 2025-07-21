@@ -12,8 +12,7 @@ profile:
   more_info: >
     <p>Room 3115 LSA Building</p>
     <p>500 S. State Street</p>
-    <p>Ann Arbor, MI 48109-1382</p>
-    <p>United States of America</p>
+    <p>Ann Arbor, MI 48109-1382, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
