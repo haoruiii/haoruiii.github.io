@@ -543,18 +543,11 @@ ninja.data = [{
           window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
-          id: 'lang-pt-br',
-          title: 'pt-br',
+          id: 'lang-zh-cn',
+          title: 'zh-cn',
           section: 'Languages',
           handler: () => {
-            window.location.href = "/pt-br" + updatedUrl;
-          },
-        },{
-          id: 'lang-fr-ca',
-          title: 'fr-ca',
-          section: 'Languages',
-          handler: () => {
-            window.location.href = "/fr-ca" + updatedUrl;
+            window.location.href = "/zh-cn" + updatedUrl;
           },
         },{
       id: 'light-theme',

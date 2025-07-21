@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://haoruiii.github.io/sitemap.xml
