@@ -508,18 +508,18 @@ ninja.data = [{
           section: "Projetos",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/6_project/";
             },},{
-        id: 'social-bluesky',
-        title: 'Bluesky',
-        section: 'Redes sociais',
-        handler: () => {
-          window.open("https://bsky.app/profile/haoruiii.bsky.social", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'Enviar um email',
         section: 'Redes sociais',
         handler: () => {
           window.open("mailto:%68%61%6F%72%75%69%69%69@%75%6D%69%63%68.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Redes sociais',
+        handler: () => {
+          window.open("https://bsky.app/profile/haoruiii.bsky.social", "_blank");
         },
       },{
         id: 'social-linkedin',
