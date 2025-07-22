@@ -529,6 +529,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/haoruiii", "_blank");
         },
       },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Redes sociais',
+        handler: () => {
+          window.open("https://www.xiaohongshu.com/user/profile/61309a24000000000201b7dd", "_blank");
+        },
+      },{
           id: 'lang-en-us',
           title: 'en-us',
           section: 'Idiomas',
