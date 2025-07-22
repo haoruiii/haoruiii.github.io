@@ -26,7 +26,7 @@ citation:
 collections:
   books: livros
   posts: postagens
-contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
+# contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
 cv:
   address: Endereço
   area: Área
