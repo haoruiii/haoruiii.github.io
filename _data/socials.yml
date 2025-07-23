@@ -47,7 +47,7 @@ linkedin_username: haoruiii # your LinkedIn user name
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: assets/img/xiaohongshu.png # can be png, svg, jpg
+  logo: assets/img/xiaohongshu.svg # can be png, svg, jpg
   title: Red Note
   url: https://www.xiaohongshu.com/user/profile/61309a24000000000201b7dd
 
