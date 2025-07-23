@@ -529,6 +529,13 @@ ninja.data = [{
           window.open("https://www.xiaohongshu.com/user/profile/61309a24000000000201b7dd", "_blank");
         },
       },{
+        id: 'social-bilibili_url',
+        title: 'Bilibili_url',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
           id: 'lang-zh-cn',
           title: 'zh-cn',
           section: 'Languages',
