@@ -27,19 +27,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/cv/";
           },
-        },{id: "nav-projetos",
-          title: "projetos",
-          description: "Uma crescente coleção de seus projetos interessantes.",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/zh-cn/projects/";
-          },
         },{id: "nav-publicações",
           title: "publicações",
           description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-cn/publications/";
+          },
+        },{id: "nav-projetos",
+          title: "projetos",
+          description: "Uma crescente coleção de seus projetos interessantes.",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/zh-cn/projects/";
           },
         },{id: "nav-blog",
           title: "blog",
