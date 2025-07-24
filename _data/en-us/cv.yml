@@ -15,21 +15,21 @@
   contents:
     - title: Ph.D. in Sociology
       institution: University of Michigan
-      year: "In Progress"
-      location: "Ann Arbor, Michigan, USA"
+      year: "2025-"
+      location: "Ann Arbor, MI"
       description: 
         - "Advisor: Alexandra A. Killewald"
     - title: B.A. in Sociology
       institution: University of Michigan
       year: "2025"
-      location: "Ann Arbor, Michigan, USA"
+      location: "Ann Arbor, MI"
       description:
         - with Highest Honors and Highest Distinction
         - Minor in Statistics
     - title: High School Diploma
       institution: Nanjing Foreign Language School
       year: "2021"
-      location: "Nanjing, Jiangsu, China"
+      location: "Nanjing, China"
 
 - title: Experience
   type: time_table
