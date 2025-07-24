@@ -10,7 +10,3 @@ description:
 toc:
   sidebar: left
 ---
-
-## Education
-
-2025, University of Michigan
