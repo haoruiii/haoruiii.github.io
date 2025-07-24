@@ -1,33 +1,35 @@
-- title: General Information
+- title: Contact
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Email
+      value: haoruiii@umich.edu
+    - name: Website
+      value: https://haoruiii.github.io
+    - name: LinkedIn
+      value: https://www.linkedin.com/in/haoruiii
+    - name: Address
+      value: LSA 3115, 500 S. State St., Ann Arbor, MI 48109, USA
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      location: Zurich
+    - title: Ph.D. in Sociology
+      institution: University of Michigan
+      year: "2025-"
+      location: Ann Arbor, MI, USA
+      description: 
+        - "Advisor: Alexandra A. Killewald"
+    - title: B.A. in Sociology
+      institution: University of Michigan
+      year: "2025"
+      location: Ann Arbor, MI, USA
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - with Highest Honors and Highest Distinction
+        - Minor in Statistics
+    - title: High School Diploma
+      institution: Nanjing Foreign Language School
+      year: "2021"
+      location: Nanjing, Jiangsu, China
 
 - title: Experience
   type: time_table
