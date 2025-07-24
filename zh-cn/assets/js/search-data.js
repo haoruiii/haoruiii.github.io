@@ -20,19 +20,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/zh-cn/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "um tema simples para acadêmicos",
+  },{id: "nav-cv",
+          title: "cv",
+          description: "Esta é uma descrição da página. Você pode modificá-la em &#39;_pages/cv.md&#39;. Também pode alterar ou remover o botão no topo de download de pdf.",
           section: "Menu de navegação",
           handler: () => {
-            window.location.href = "/zh-cn/blog/";
-          },
-        },{id: "nav-publicações",
-          title: "publicações",
-          description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/zh-cn/publications/";
+            window.location.href = "/zh-cn/cv/";
           },
         },{id: "nav-projetos",
           title: "projetos",
@@ -41,12 +34,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/projects/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Esta é uma descrição da página. Você pode modificá-la em &#39;_pages/cv.md&#39;. Também pode alterar ou remover o botão no topo de download de pdf.",
+        },{id: "nav-publicações",
+          title: "publicações",
+          description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
           section: "Menu de navegação",
           handler: () => {
-            window.location.href = "/zh-cn/cv/";
+            window.location.href = "/zh-cn/publications/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "um tema simples para acadêmicos",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/zh-cn/blog/";
           },
         },{id: "nav-ensino",
           title: "ensino",
@@ -54,13 +54,6 @@ ninja.data = [{
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-cn/teaching/";
-          },
-        },{id: "nav-membros",
-          title: "membros",
-          description: "membros do grupo de pesquisa ou laboratório",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/zh-cn/people/";
           },
         },{id: "dropdown-publicações",
               title: "publicações",
