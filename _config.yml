@@ -2,9 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: > # the website title (if blank, full name will be used instead)
-  彭浩瑞
-  Peng, Haorui
+title: 彭浩瑞 | Peng, Haorui # the website title (if blank, full name will be used instead)
 
 first_name: Peng, Haorui
 middle_name: '|'
