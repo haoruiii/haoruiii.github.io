@@ -1,27 +1,34 @@
 ---
 page_id: about
 layout: about
-title: sobre
+title: 个人简介
 permalink: /
-subtitle: <a href='#'>Afiliações</a>. Endereço. Contatos. Lema. Etc.
+subtitle: 美国密歇根大学社会学系，博士新生
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 seu telefone do trabalho</p>
-    <p>123 seu endereço</p>
-    <p>Sua cidade, estado 12345</p>
+    <p>Room 3115 LSA Building</p>
+    <p>500 S. State Street</p>
+    <p>Ann Arbor, MI 48109-1382</p>
+    <p>United States of America</p>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: false # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-Escreva sua biografia aqui. Diga ao mundo sobre você. Adicione o link para o seu [subreddit](http://reddit.com) favorito. Você pode colocar uma foto também. O código já está dentro, basta nomear sua foto como `prof_pic.jpg` e colocá-la na pasta `img/`.
+彭浩瑞，江苏南京人。2021年毕业于南京外国语学校；2025年本科毕业于美国密歇根大学，获得社会学文学学士学位（最高荣誉）、辅修统计学。
 
-Coloque seu endereço / caixa postal / outras informações logo abaixo da sua foto. Você também pode desabilitar qualquer um desses elementos editando a propriedade `profile` do cabeçalho YAML do seu `_pages/about.md`. Edite `_bibliography/papers.bib` e o Jekyll renderizará sua [página de publicações](/multi-language-al-folio/publications/) automaticamente.
-
-Adicione links para seus perfis de mídias sociais também. Este tema está configurado para usar [Font Awesome icons](https://fontawesome.com/) e [Academicons](https://jpswalsh.github.io/academicons/), como os visto abaixo. Adicione seu Facebook, Twitter, LinkedIn, Google Scholar ou simplesmente desative todos eles.
+主要研究方向：社会分层与流动、教育、定量方法、当代中国、社会人口学。
