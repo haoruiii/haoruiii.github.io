@@ -20,8 +20,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/zh-cn/";
     },
-  },{id: "nav-cv",
-          title: "cv",
+  },{id: "nav-简历",
+          title: "简历",
           description: "Esta é uma descrição da página. Você pode modificá-la em &#39;_pages/cv.md&#39;. Também pode alterar ou remover o botão no topo de download de pdf.",
           section: "Menu de navegação",
           handler: () => {
