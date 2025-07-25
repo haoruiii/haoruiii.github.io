@@ -44,7 +44,10 @@
       location: Ann Arbor, MI
       year: "2025"
       description: 
-        - Presented annually to the author of the best senior thesis in Sociology
+        - title: Presented annually to the author of the best senior thesis in Sociology
+          contents: 
+            - "Title: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China"
+            - "Advisor: Alexandra A. Killewald"
     - title: <a href = 'https://lsa.umich.edu/honors/current-students/honors-awards---grants/honors-scholarships-and-awards.html'>Nominee, Marshall Sahlins Social Science Award</a>
       institution: University of Michigan
       location: Ann Arbor, MI
@@ -63,6 +66,18 @@
       year: "2021-2022"
       description: 
         - for Fall 2021, Spring 2022, and Fall 2022 semesters
+
+- title: Scholarships and grants
+  type: time_table
+  contents: 
+    - title: LRCCS Doctoral Fellowship
+      institution: Lieberthal-Rogel Center for Chinese Studies, University of Michigan
+      year: "2025-2030"
+      description: $25,000
+    - title: Howard and Alice Curler Academic Excellence Scholarship
+      institution: Community Foundation for the Fox Valley Region
+      year: "2022"
+      description: $1,750
 
 - title: Experience
   type: time_table
