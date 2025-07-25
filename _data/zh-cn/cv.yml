@@ -18,101 +18,87 @@
       year: "2025-"
       location: "美国安娜堡"
       description: 
-        - "导师：<a href = 'https://inequality.umich.edu/affiliate/alexandra-sasha-killewald/'>Alexandra A. Killewald</a>"
+        - "导师: <a href = 'https://inequality.umich.edu/affiliate/alexandra-sasha-killewald/'>Alexandra A. Killewald</a>"
     - title: B.A. in Sociology
       institution: 密歇根大学
       year: "2025"
       location: "美国安娜堡"
       description:
         - with Highest Honors and Highest Distinction
-        - Minor in Statistics
-    - title: High School Diploma
-      institution: Nanjing Foreign Language School
+        - 统计学辅修
+    - title: 高中
+      institution: 南京外国语学校
       year: "2021"
-      location: "Nanjing, China"
+      location: "江苏南京"
 
-- title: Research Interests
+- title: 主要研究方向
   type: list
   contents:
-    - Stratification & Mobility, Education, Social Demography, Quantitative Methods
+    - 社会分层与流动、教育、当代中国、定量方法、社会人口学
 
-- title: Honors and Awards
+- title: 荣誉及获奖
   type: time_table
   contents:
     - title: <a href = 'https://lsa.umich.edu/soc/undergraduates/writing-awards.html'>Robert Cooley Angell Award</a>
-      institution: University of Michigan
-      location: Ann Arbor, MI
+      institution: 密歇根大学
+      location: 美国安娜堡
       year: "2025"
       description: 
-        - title: Presented annually to the author of the best senior thesis in Sociology
+        - title: 最佳毕业论文（社会学）
           contents: 
-            - "Title: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China"
-            - "Advisor: Alexandra A. Killewald"
-    - title: <a href = 'https://lsa.umich.edu/honors/current-students/honors-awards---grants/honors-scholarships-and-awards.html'>Nominee, Marshall Sahlins Social Science Award</a>
-      institution: University of Michigan
-      location: Ann Arbor, MI
+            - "题目: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China"
+            - "导师: Alexandra A. Killewald"
+    - title: <a href = 'https://lsa.umich.edu/honors/current-students/honors-awards---grants/honors-scholarships-and-awards.html'>提名, Marshall Sahlins Social Science Award</a>
+      institution: 密歇根大学
+      location: 美国安娜堡
       year: "2025"
     - title: James B. Angell Scholar
-      institution: University of Michigan
-      location: Ann Arbor, MI
+      institution: 密歇根大学
+      location: 美国安娜堡
       year: "2025"
     - title: University Honors
-      institution: University of Michigan
-      location: Ann Arbor, MI
+      institution: 密歇根大学
+      location: 美国安娜堡
       year: "2023-2024"
-    - title: Dean's list
-      institution: University of Wisconsin-Oshkosh
-      location: Menasha, WI
-      year: "2021-2022"
-      description: 
-        - for Fall 2021, Spring 2022, and Fall 2022 semesters
 
-- title: Scholarships and grants
+- title: 奖学金
   type: time_table
   contents: 
-    - title: LRCCS Doctoral Fellowship
-      institution: Lieberthal-Rogel Center for Chinese Studies, University of Michigan
+    - title: LRCCS博士奖学金
+      institution: 密歇根大学李侃如－罗睿驰中国研究中心 (LRCCS)
       year: "2025-2030"
       description: $25,000
-    - title: Howard and Alice Curler Academic Excellence Scholarship
-      institution: Community Foundation for the Fox Valley Region
+    - title: Howard and Alice Curler学术优秀奖学金
+      institution: 福克斯谷地区社区基金会
       year: "2022"
       description: $1,750
 
-
-
-
-
-- title: Training & Non-Degree
+- title: 证书课程
   type: time_table
   contents:
-    - title: <a href = ''>Statistics with Python</a>
-      institution: University of Michigan
+    - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/XSLSLKJT7ZME'>用Python进行统计</a>
+      institution: 密歇根大学
       location: Coursera
       year: "2024"
       description:
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/SNG74KPQXLRJ'>Understanding and Visualizing Data with Python</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/LTFLCSRBDF82'>Inferential Statistical Analysis with Python</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/DHPKRM93DGHH'>Fitting Statistical Models to Data with Python</a>
-    - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/J2NQ3CBB9YV2'>Python for Everybody</a>
-      institution: University of Michigan
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/SNG74KPQXLRJ'>使用Python理解和可视化数据</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/LTFLCSRBDF82'>使用Python进行推理统计分析</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/DHPKRM93DGHH'>使用Python对数据拟合统计模型</a>
+    - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/J2NQ3CBB9YV2'>面向所有人的Python</a>
+      institution: 密歇根大学
       location: Coursera
       year: "2022"
       description:
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/HFFP8WTBBSLE'>Getting Started with Python</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/WVJ5XF72FCKD'>Python Data Structures</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/Z4XSNA8LNEG4'>Using Python to Access Web Data</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/5L37YDS3GNRP'>Using Databases with Python</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/RQE3RLVRE7ZM'>Retrieving, Processing, and Visualizing Data with Python</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/HFFP8WTBBSLE'>Python入门</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/WVJ5XF72FCKD'>Python数据结构</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/Z4XSNA8LNEG4'>使用Python访问网络数据</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/5L37YDS3GNRP'>用Python使用数据库</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/RQE3RLVRE7ZM'>使用Python检索、处理和可视化数据</a>
 
 - title: Additional Information
   type: map
   contents:
-    - name: Languages
-      value: Mandarin (native), English (proficient), French (basic), German (basic)
-    - name: Coding
+    - name: 编程
       value: R, Stata, Excel, Python, LaTeX
-    - name: LinkedIn
-      value: <a href = 'https://www.linkedin.com/in/haoruiii'>https://www.linkedin.com/in/haoruiii</a>
-    - name: IT Skills
+    - name: 计算机技能
       value: Adobe Illustrator, Photoshop, Audition; Final Cut Pro

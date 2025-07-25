@@ -34,7 +34,7 @@
 - title: Research Interests
   type: list
   contents:
-    - Stratification & Mobility, Education, Social Demography, Quantitative Methods
+    - Stratification & Mobility, Education, Social Demography, Quantitative Methods, Contemporary China
 
 - title: Honors and Awards
   type: time_table
@@ -67,7 +67,7 @@
       description: 
         - for Fall 2021, Spring 2022, and Fall 2022 semesters
 
-- title: Scholarships and grants
+- title: Scholarships and Grants
   type: time_table
   contents: 
     - title: LRCCS Doctoral Fellowship
@@ -79,14 +79,10 @@
       year: "2022"
       description: $1,750
 
-
-
-
-
 - title: Training & Non-Degree
   type: time_table
   contents:
-    - title: <a href = ''>Statistics with Python</a>
+    - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/XSLSLKJT7ZME'>Statistics with Python</a>
       institution: University of Michigan
       location: Coursera
       year: "2024"
@@ -112,7 +108,5 @@
       value: Mandarin (native), English (proficient), French (basic), German (basic)
     - name: Coding
       value: R, Stata, Excel, Python, LaTeX
-    - name: LinkedIn
-      value: <a href = 'https://www.linkedin.com/in/haoruiii'>https://www.linkedin.com/in/haoruiii</a>
     - name: IT Skills
       value: Adobe Illustrator, Photoshop, Audition; Final Cut Pro
