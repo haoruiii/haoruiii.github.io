@@ -84,7 +84,7 @@
 
 
 - title: Training & Non-Degree
-  type: nested_list
+  type: time_table
   contents:
     - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/J2NQ3CBB9YV2'>Python for Everybody</a>
       institution: University of Michigan
