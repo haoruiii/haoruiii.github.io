@@ -21,14 +21,14 @@
         - "Advisor: Alexandra A. Killewald"
     - title: B.A. in Sociology
       institution: University of Michigan
-      year: "2025 "
+      year: "2025"
       location: "Ann Arbor, MI"
       description:
         - with Highest Honors and Highest Distinction
         - Minor in Statistics
     - title: High School Diploma
       institution: Nanjing Foreign Language School
-      year: "2021 "
+      year: "2021"
       location: "Nanjing, China"
 
 - title: Research Interests
@@ -39,9 +39,30 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Robert Cooley Angell Award
+    - title: <a href = 'https://lsa.umich.edu/soc/undergraduates/writing-awards.html'>Robert Cooley Angell Award</a>
       institution: University of Michigan
       location: Ann Arbor, MI
+      year: "2025"
+      description: 
+        - Presented annually to the author of the best senior thesis in Sociology
+    - title: <a href = 'https://lsa.umich.edu/honors/current-students/honors-awards---grants/honors-scholarships-and-awards.html'>Nominee, Marshall Sahlins Social Science Award</a>
+      institution: University of Michigan
+      location: Ann Arbor, MI
+      year: "2025"
+    - title: James B. Angell Scholar
+      institution: University of Michigan
+      location: Ann Arbor, MI
+      year: "2025"
+    - title: University Honors
+      institution: University of Michigan
+      location: Ann Arbor, MI
+      year: "2023-2024"
+    - title: Dean's list
+      institution: University of Wisconsin-Oshkosh
+      location: Menasha, WI
+      year: "2021-2022"
+      description: 
+        - for Fall 2021, Spring 2022, and Fall 2022 semesters
 
 - title: Experience
   type: time_table
