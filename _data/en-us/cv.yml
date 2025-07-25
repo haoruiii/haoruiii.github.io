@@ -18,7 +18,7 @@
       year: "2025-"
       location: "Ann Arbor, MI"
       description: 
-        - "Advisor: Alexandra A. Killewald"
+        - "Advisor: <a href = 'https://inequality.umich.edu/affiliate/alexandra-sasha-killewald/'>Alexandra A. Killewald</a>"
     - title: B.A. in Sociology
       institution: University of Michigan
       year: "2025"
@@ -86,6 +86,14 @@
 - title: Training & Non-Degree
   type: time_table
   contents:
+    - title: <a href = ''>Statistics with Python</a>
+      institution: University of Michigan
+      location: Coursera
+      year: "2024"
+      description:
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/SNG74KPQXLRJ'>Understanding and Visualizing Data with Python</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/LTFLCSRBDF82'>Inferential Statistical Analysis with Python</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/DHPKRM93DGHH'>Fitting Statistical Models to Data with Python</a>
     - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/J2NQ3CBB9YV2'>Python for Everybody</a>
       institution: University of Michigan
       location: Coursera
@@ -96,13 +104,15 @@
         - <a href = 'https://www.coursera.org/account/accomplishments/records/Z4XSNA8LNEG4'>Using Python to Access Web Data</a>
         - <a href = 'https://www.coursera.org/account/accomplishments/records/5L37YDS3GNRP'>Using Databases with Python</a>
         - <a href = 'https://www.coursera.org/account/accomplishments/records/RQE3RLVRE7ZM'>Retrieving, Processing, and Visualizing Data with Python</a>
-    - title: <a href = ''>Statistics with Python</a>
-      institution: University of Michigan
-      location: Coursera
-      year: "2024"
-      description:
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/SNG74KPQXLRJ'>Understanding and Visualizing Data with Python</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/LTFLCSRBDF82'>Inferential Statistical Analysis with Python</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/DHPKRM93DGHH'>Fitting Statistical Models to Data with Python</a>
 
-
+- title: Additional Information
+  type: map
+  contents:
+    - name: Languages
+      value: Mandarin (native), English (proficient), French (basic), German (basic)
+    - name: Coding
+      value: R, Stata, Excel, Python, LaTeX
+    - name: LinkedIn
+      value: <a href = 'https://www.linkedin.com/in/haoruiii'>https://www.linkedin.com/in/haoruiii</a>
+    - name: IT Skills
+      value: Adobe Illustrator, Photoshop, Audition; Final Cut Pro

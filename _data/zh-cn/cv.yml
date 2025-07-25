@@ -1,101 +1,118 @@
-- title: Informações Gerais
+- title: 联系方式
   type: map
   contents:
-    - name: Nome Completo
-      value: Albert Einstein
-    - name: Data de Nascimento
-      value: 14 de março de 1879
-    - name: Idiomas
-      value: Inglês, Alemão
+    - name: 邮箱
+      value: <a href = 'mailto:haoruiii@umich.edu'>haoruiii@umich.edu</a>
+    - name: 个人网站
+      value: <a href = 'https://haoruiii.github.io'>https://haoruiii.github.io</a>
+    - name: 领英
+      value: <a href = 'https://www.linkedin.com/in/haoruiii'>https://www.linkedin.com/in/haoruiii</a>
+    - name: 通讯地址
+      value: LSA 3115, 500 S. State St., Ann Arbor, MI 48109, USA
 
-- title: Educação
+- title: 教育经历
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurique, Suíça
-      year: 1905
+    - title: Ph.D. in Sociology
+      institution: 密歇根大学
+      year: "2025-"
+      location: "美国安娜堡"
+      description: 
+        - "导师：<a href = 'https://inequality.umich.edu/affiliate/alexandra-sasha-killewald/'>Alexandra A. Killewald</a>"
+    - title: B.A. in Sociology
+      institution: 密歇根大学
+      year: "2025"
+      location: "美国安娜堡"
       description:
-        - Descrição 1.
-        - Descrição 2.
-        - title: Descrição 3.
-          contents:
-            - Sub-descrição 1.
-            - Sub-descrição 2.
-    - title: Diploma de ensino federal
-      institution: Eidgenössische Technische Hochschule, Zurique, Suíça
-      year: 1900
-      description:
-        - Descrição 1.
-        - Descrição 2.
+        - with Highest Honors and Highest Distinction
+        - Minor in Statistics
+    - title: High School Diploma
+      institution: Nanjing Foreign Language School
+      year: "2021"
+      location: "Nanjing, China"
 
-- title: Experiência
-  type: time_table
-  contents:
-    - title: Professor de Física Teórica
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Descrição 1.
-        - Descrição 2.
-        - title: Descrição 3.
-          contents:
-            - Sub-descrição 1.
-            - Sub-descrição 2.
-    - title: Professor Visitante
-      institution: California Institute of Technology, Pasadena, Califórnia, EUA
-      year: 1933
-      description:
-        - Descrição 1.
-        - Descrição 2.
-
-    - title: Diretor
-      institution: Kaiser Wilhelm Institute for Physics, Berlim, Alemanha.
-      year: 1917-1933
-
-    - title: Professor de Física Teórica
-      institution: Karl-Ferdinand University, Praga, Tchecoslováquia
-      year: 1911 - 1917
-      description:
-
-    - title: Professor Associado de Física Teórica
-      institution: University of Zurich, Zurique, Suíça
-      year: 1909 - 1911
-
-- title: Projetos de Código Aberto
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-atual
-      description: Uma variação do tema al-folio com suporte a múltiplos idiomas.
-
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-atual
-      description: Um tema Jekyll bonito, simples, limpo e responsivo para acadêmicos.
-
-- title: Honrarias e Prêmios
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Prêmio Nobel de Física
-        - Medalha Matteucci
-    - year: 2029
-      items:
-        - Medalha Max Planck
-
-- title: Interesses Acadêmicos
-  type: nested_list
-  contents:
-    - title: Tópico 1.
-      items:
-        - Descrição 1.
-        - Descrição 2.
-    - title: Tópico 2.
-      items:
-        - Descrição 1.
-        - Descrição 2.
-
-- title: Outros Interesses
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Stratification & Mobility, Education, Social Demography, Quantitative Methods
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: <a href = 'https://lsa.umich.edu/soc/undergraduates/writing-awards.html'>Robert Cooley Angell Award</a>
+      institution: University of Michigan
+      location: Ann Arbor, MI
+      year: "2025"
+      description: 
+        - title: Presented annually to the author of the best senior thesis in Sociology
+          contents: 
+            - "Title: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China"
+            - "Advisor: Alexandra A. Killewald"
+    - title: <a href = 'https://lsa.umich.edu/honors/current-students/honors-awards---grants/honors-scholarships-and-awards.html'>Nominee, Marshall Sahlins Social Science Award</a>
+      institution: University of Michigan
+      location: Ann Arbor, MI
+      year: "2025"
+    - title: James B. Angell Scholar
+      institution: University of Michigan
+      location: Ann Arbor, MI
+      year: "2025"
+    - title: University Honors
+      institution: University of Michigan
+      location: Ann Arbor, MI
+      year: "2023-2024"
+    - title: Dean's list
+      institution: University of Wisconsin-Oshkosh
+      location: Menasha, WI
+      year: "2021-2022"
+      description: 
+        - for Fall 2021, Spring 2022, and Fall 2022 semesters
+
+- title: Scholarships and grants
+  type: time_table
+  contents: 
+    - title: LRCCS Doctoral Fellowship
+      institution: Lieberthal-Rogel Center for Chinese Studies, University of Michigan
+      year: "2025-2030"
+      description: $25,000
+    - title: Howard and Alice Curler Academic Excellence Scholarship
+      institution: Community Foundation for the Fox Valley Region
+      year: "2022"
+      description: $1,750
+
+
+
+
+
+- title: Training & Non-Degree
+  type: time_table
+  contents:
+    - title: <a href = ''>Statistics with Python</a>
+      institution: University of Michigan
+      location: Coursera
+      year: "2024"
+      description:
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/SNG74KPQXLRJ'>Understanding and Visualizing Data with Python</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/LTFLCSRBDF82'>Inferential Statistical Analysis with Python</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/DHPKRM93DGHH'>Fitting Statistical Models to Data with Python</a>
+    - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/J2NQ3CBB9YV2'>Python for Everybody</a>
+      institution: University of Michigan
+      location: Coursera
+      year: "2022"
+      description:
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/HFFP8WTBBSLE'>Getting Started with Python</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/WVJ5XF72FCKD'>Python Data Structures</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/Z4XSNA8LNEG4'>Using Python to Access Web Data</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/5L37YDS3GNRP'>Using Databases with Python</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/RQE3RLVRE7ZM'>Retrieving, Processing, and Visualizing Data with Python</a>
+
+- title: Additional Information
+  type: map
+  contents:
+    - name: Languages
+      value: Mandarin (native), English (proficient), French (basic), German (basic)
+    - name: Coding
+      value: R, Stata, Excel, Python, LaTeX
+    - name: LinkedIn
+      value: <a href = 'https://www.linkedin.com/in/haoruiii'>https://www.linkedin.com/in/haoruiii</a>
+    - name: IT Skills
+      value: Adobe Illustrator, Photoshop, Audition; Final Cut Pro
