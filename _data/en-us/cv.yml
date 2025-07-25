@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Email
-      value: haoruiii@umich.edu
+      value: <a href = 'haoruiii@umich.edu'>haoruiii@umich.edu</a>
     - name: Website
-      value: https://haoruiii.github.io
+      value: <a href = 'https://haoruiii.github.io'>https://haoruiii.github.io</a>
     - name: LinkedIn
-      value: https://www.linkedin.com/in/haoruiii
+      value: <a href = 'https://www.linkedin.com/in/haoruiii>https://www.linkedin.com/in/haoruiii</a>
     - name: Address
       value: LSA 3115, 500 S. State St., Ann Arbor, MI 48109, USA
 
@@ -21,15 +21,27 @@
         - "Advisor: Alexandra A. Killewald"
     - title: B.A. in Sociology
       institution: University of Michigan
-      year: "2025"
+      year: "2025 "
       location: "Ann Arbor, MI"
       description:
         - with Highest Honors and Highest Distinction
         - Minor in Statistics
     - title: High School Diploma
       institution: Nanjing Foreign Language School
-      year: "2021"
+      year: "2021 "
       location: "Nanjing, China"
+
+- title: Research Interests
+  type: list
+  contents:
+    - Stratification & Mobility, Education, Social Demography, Quantitative Methods
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: Robert Cooley Angell Award
+      institution: University of Michigan
+      location: Ann Arbor, MI
 
 - title: Experience
   type: time_table
@@ -75,16 +87,7 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+
 
 - title: Academic Interests
   type: nested_list
