@@ -71,7 +71,7 @@
   type: time_table
   contents: 
     - title: LRCCS Doctoral Fellowship
-      institution: Lieberthal-Rogel Center for Chinese Studies, University of Michigan
+      institution: <a href = 'https://ii.umich.edu/lrccs/about-us.html'>Lieberthal-Rogel Center for Chinese Studies</a>, University of Michigan
       year: "2025-2030"
       description: $25,000
     - title: Howard and Alice Curler Academic Excellence Scholarship

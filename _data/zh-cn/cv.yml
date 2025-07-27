@@ -65,7 +65,7 @@
   type: time_table
   contents: 
     - title: LRCCS博士奖学金
-      institution: 密歇根大学李侃如－罗睿驰中国研究中心 (LRCCS)
+      institution: 密歇根大学<a href = 'https://ii.umich.edu/lrccs/about-us.html'>李侃如－罗睿驰中国研究中心 (LRCCS)</a>
       year: "2025-2030"
       description: $25,000
     - title: Howard and Alice Curler学术优秀奖学金
