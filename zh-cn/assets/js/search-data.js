@@ -455,9 +455,9 @@ ninja.data = [{
             },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
           title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "Novidades",},{id: "projects-projeto-1",
-          title: 'projeto 1',
-          description: "com imagem de fundo",
+          section: "Novidades",},{id: "projects-试论当代中国的教育与流动性变迁",
+          title: '试论当代中国的教育与流动性变迁',
+          description: "来自CGSS的一些结果",
           section: "Projetos",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_1/";
             },},{id: "projects-projeto-2",
