@@ -1,82 +1,15 @@
 ---
 page_id: project_1
 layout: page
-title: projeto 1
-description: com imagem de fundo
-img: assets/img/12.jpg
+title: 试论当代中国的教育与流动性变迁
+description: 来自CGSS的一些结果
+img: assets/img/project_1/chn.jpg
 importance: 1
-category: work
+category: Academics
 related_publications: true
+giscus_comments: true
 ---
 
-Cada projeto tem uma bela página de apresentação de recursos.
-É fácil incluir imagens em um formato flexível de grade de 3 colunas.
-Faça suas fotos 1/3, 2/3 ou largura total.
+**摘要:** 
 
-Para dar um plano de fundo ao seu projeto na página do portfólio, basta adicionar a tag img ao front Matter assim:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+父母的职业成就常对子女的职业地位影响颇深：父母职业地位高则通常子女职业地位高，而父母职业地位低则通常意味着子女职业地位也相对较低。对这一“相对代际职业持续性”来说，教育起到至关重要的作用。在中国，社会及教育层面的高速变化——特别是1999年的高等教育扩张——或也已经使教育在代际持续性中的作用变得不同。本文假设：人们愈加分层的教育及职业成就增强了代际持续性；同时，职业成就与家庭出身相对弱关联的大学毕业生在人口中所占比例的提高减弱了代际持续性。通过分析中国综合社会调查的九波数据，本文首先确认1964-1979与1980-1995两个年龄组的代际职业流动性基本没有差别、总体保持稳定。模拟计算则进一步发现，四个教育过程对代际职业流动性的影响相互抵消，从而使总的流动性在年龄组间保持稳定。

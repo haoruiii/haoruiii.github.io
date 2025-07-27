@@ -3,81 +3,13 @@ page_id: project_1
 layout: page
 title: Education and Social Mobility in China
 description: My senior thesis project
-img: assets/img/project_1/chn.jpg
+img: assets/img/project_1/eng.jpg
 importance: 1
 category: Academics
 related_publications: true
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Abstract:** 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Children of parents with high-status occupations often end up working in high-status occupations, while their peers whose parents have low-status jobs often end up in low-status jobs. Education plays a pivotal and multifaceted role in this relative intergenerational occupation persistence. Rapid social and educational change in China, and especially the 1999 Higher Education Expansion, may have produced changes in education’s role in intergenerational persistence. I hypothesize that stratified higher education and occupation outcomes in the population may have strengthened intergenerational persistence, while growing percentages of college graduates, for whom occupational attainment tends to vary less by social origin, may have weakened persistence. Analyzing data from nine waves of Chinese General Social Survey, I first confirm that intergenerational occupational persistence in China remained stable between the 1964-1979 and 1980-1995 birth cohorts. Next, model-based simulations suggest that changes in (1) the association between parents’ occupation status and children’s educational attainment and (2) the correlation between children’s education and occupation status in adulthood decreased persistence, while changes in (3) the gaps in adult occupation status by parental occupation status among people with the same education and (4) the shares of the population in different educational groups increased persistence. Overall cross-cohort stability in intergenerational occupation persistence resulted from offsetting contributions of these four educational processes. However, the analyses are underpowered, and further efforts are needed to draw more definitive conclusions when new data are available. 
