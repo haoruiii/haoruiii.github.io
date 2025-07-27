@@ -27,9 +27,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/cv/";
           },
-        },{id: "nav-publicações",
-          title: "publicações",
-          description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
+        },{id: "nav-发表",
+          title: "发表",
+          description: "个人发表及工作论文（倒序）",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-cn/publications/";
@@ -455,51 +455,36 @@ ninja.data = [{
             },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
           title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "Novidades",},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/9_project/";
-            },},{id: "projects-projeto-1",
+          section: "Novidades",},{id: "projects-projeto-1",
           title: 'projeto 1',
           description: "com imagem de fundo",
           section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/1_project/";
+              window.location.href = "/zh-cn/projects/zh-cn/project_1/";
             },},{id: "projects-projeto-2",
           title: 'projeto 2',
           description: "um projeto com imagem de fundo e comentários do giscus",
           section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/2_project/";
+              window.location.href = "/zh-cn/projects/zh-cn/project_2/";
             },},{id: "projects-projeto-3-com-um-nome-bem-longo",
           title: 'projeto 3 com um nome bem longo',
           description: "um projeto que redireciona pra outro website",
           section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/3_project/";
+              window.location.href = "/zh-cn/projects/zh-cn/project_3/";
             },},{id: "projects-projeto-4",
           title: 'projeto 4',
           description: "outro sem imagem",
           section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/4_project/";
+              window.location.href = "/zh-cn/projects/zh-cn/project_4/";
             },},{id: "projects-projeto-5",
           title: 'projeto 5',
           description: "um projeto com imagem de fundo",
           section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/5_project/";
+              window.location.href = "/zh-cn/projects/zh-cn/project_5/";
             },},{id: "projects-projeto-6",
           title: 'projeto 6',
           description: "um projeto sem imagem",
           section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/6_project/";
+              window.location.href = "/zh-cn/projects/zh-cn/project_6/";
             },},{
         id: 'social-email',
         title: 'Enviar um email',
