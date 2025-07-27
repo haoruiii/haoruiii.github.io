@@ -2,8 +2,8 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: publicações
-description: publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.
+title: 发表
+description: 个人发表及工作论文（倒序）
 nav: true
 nav_order: 2
 ---
