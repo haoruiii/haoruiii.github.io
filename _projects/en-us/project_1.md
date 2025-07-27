@@ -1,9 +1,9 @@
 ---
 page_id: project_1
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Education and Social Mobility in China
+description: My senior thesis project
+img: assets/img/project_1/chn.jpg
 importance: 1
 category: Academics
 related_publications: true
