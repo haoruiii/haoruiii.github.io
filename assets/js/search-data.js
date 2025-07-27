@@ -448,9 +448,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-education-and-social-mobility-in-china",
-          title: 'Education and Social Mobility in China',
-          description: "My senior thesis project",
+          section: "News",},{id: "projects-education-39-s-role-in-intergenerational-persistence",
+          title: 'Education&amp;#39;s Role in Intergenerational Persistence',
+          description: "The Experiences of China",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/project_1/";
             },},{id: "projects-project-2",
