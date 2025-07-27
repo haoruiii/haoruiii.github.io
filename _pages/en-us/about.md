@@ -15,7 +15,7 @@ profile:
     <p>Ann Arbor, MI 48109-1382</p>
     <p>United States of America</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
