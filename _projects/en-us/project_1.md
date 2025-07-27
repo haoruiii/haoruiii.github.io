@@ -1,14 +1,16 @@
 ---
 page_id: project_1
 layout: page
-title: Education and Social Mobility in China
-description: My senior thesis project
+title: Education's Role in Intergenerational Persistence
+description: The Experiences of China
 img: assets/img/project_1/eng.jpg
 importance: 1
 category: Academics
 related_publications: true
 giscus_comments: true
 ---
+
+My thesis {% cite RN1063 %} focuses on the role of education in the cross-cohort changes of social mobility in China. 
 
 **Abstract:** 
 
