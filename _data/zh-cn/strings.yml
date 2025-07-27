@@ -18,8 +18,9 @@ bibliography:
 blog:
   navigation_title: blog
 categories:
-  fun: diversão
-  work: trabalho
+  Academics: Academics
+  Personal: Personal
+  Others: Others
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"
