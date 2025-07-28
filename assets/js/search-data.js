@@ -448,8 +448,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-education-39-s-role-in-intergenerational-persistence",
-          title: 'Education&amp;#39;s Role in Intergenerational Persistence',
+          section: "News",},{id: "projects-education-s-role-in-intergenerational-persistence",
+          title: 'Education’s Role in Intergenerational Persistence',
           description: "The Experiences of China",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/project_1/";
