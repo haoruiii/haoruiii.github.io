@@ -453,9 +453,9 @@ ninja.data = [{
           description: "The Experiences of China",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/project_1/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-educational-mobility-and-its-variation",
+          title: 'Educational Mobility and Its Variation',
+          description: "The Experiences of China",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/project_2/";
             },},{id: "projects-project-3-with-very-long-name",
