@@ -1,12 +1,12 @@
 ---
 page_id: projects
 layout: page
-title: projetos
+title: 项目
 permalink: /projects/
-description: Uma crescente coleção de seus projetos interessantes.
+description: 个人研究及其他项目
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Academics, Personal, Others]
 horizontal: false
 ---
 

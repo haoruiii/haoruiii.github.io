@@ -82,7 +82,7 @@ cv:
   work: Trabalho
 footer:
   copyright: Copyright
-  last_updated: "最新更新："
+  last_updated: "最新更新: "
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   基于<a href="https://jekyllrb.com/" target="_blank">Jekyll</a>及<a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>主题. 
   通过<a href="https://pages.github.com/" target="_blank">GitHub Pages</a>发布. 
