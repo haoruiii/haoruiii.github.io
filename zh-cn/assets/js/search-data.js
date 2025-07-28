@@ -460,9 +460,9 @@ ninja.data = [{
           description: "来自CGSS的一些结果",
           section: "Projetos",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_1/";
-            },},{id: "projects-projeto-2",
-          title: 'projeto 2',
-          description: "um projeto com imagem de fundo e comentários do giscus",
+            },},{id: "projects-当代中国的教育流动性及其变化",
+          title: '当代中国的教育流动性及其变化',
+          description: "关于年龄组、性别、户口和地域",
           section: "Projetos",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_2/";
             },},{id: "projects-projeto-3-com-um-nome-bem-longo",
