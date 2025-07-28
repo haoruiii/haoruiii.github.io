@@ -5,7 +5,8 @@ title: projeto 2
 description: um projeto com imagem de fundo e comentários do giscus
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: Academics
+related_publications: false
 giscus_comments: true
 ---
 
