@@ -1,83 +1,52 @@
 ---
 page_id: project_2
 layout: page
-title: projeto 2
-description: um projeto com imagem de fundo e comentários do giscus
-img: assets/img/3.jpg
+title: 当代中国的教育流动性及其变化
+description: 关于年龄组、性别、户口和地域
+img: assets/img/project_2/bg.jpg
 importance: 2
 category: Academics
 related_publications: false
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+2024年春学期主要需完成毕业论文的开题，我则借着必修的310 (研究方法) 课程对中国综合社会调查 (CGSS) 数据的清洗与处理进行练习。这个课程论文主要关注中国的代际教育流动性及其关于年龄组、性别、户口及地域的变化。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+本论文使用当时最新的三波CGSS数据 (2017、2018及2021)，共有13513有效样本。受访者的最高教育水平被转化为百分比排名 (percentile rank)，再计算rank-rank关联度以衡量流动性。关联度越高则流动性越低。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**统计结果:**
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading = "eager" path = "assets/img/project_2/cohort_gender.jpg" title = "当代中国教育流动性之趋势及其性别差异" class = "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    图1: 当代中国教育流动性之趋势及其性别差异
 </div>
+
+- 关联度在年龄组间总体保持稳定、变化范围不超过0.1 (最年轻之组别1999-2003除外)
+- 男女之间的关联度似乎没有显著差异，范围都在0.4-0.5之间 (最年轻之组别1999-2003除外)
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading = "eager" path = "assets/img/project_2/cohort_hukou.jpg" title = "当代中国教育流动性之趋势及其户口差异" class = "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    图2: 当代中国教育流动性之趋势及其户口差异
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- 关联度在年龄组间总体保持稳定、变化范围不超过0.1 (最年轻之组别1999-2003除外)
+- 城市户口持有人之关联度总体相对较高，则流动性较农村户口持有人低。
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading = "eager" path = "assets/img/project_2/region.jpg" title = "当代中国各地理区域之教育流动性" class = "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    图3: 当代中国各地理区域之教育流动性
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- 沿海地区（华东、华北、华南）的关联度较高、流动性降低。换言之，沿海地区的教育流动性总体上比内陆地区低。
