@@ -5,6 +5,7 @@ title: 试论当代中国的教育与流动性变迁
 description: 来自CGSS的一些结果
 img: assets/img/project_1/chn.jpg
 importance: 1
+# redirect: https://unsplash.com
 category: Academics
 related_publications: true
 giscus_comments: true

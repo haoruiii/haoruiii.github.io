@@ -1,12 +1,14 @@
 ---
 page_id: project_3
 layout: page
-title: projeto 3 com um nome bem longo
-description: um projeto que redireciona pra outro website
+title: project 3 with very long name
+description: a project that redirects to another website
 img: assets/img/7.jpg
+importance: 2
 redirect: https://unsplash.com
-importance: 3
-category: work
+category: Sample
+related_publications: false
+giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.

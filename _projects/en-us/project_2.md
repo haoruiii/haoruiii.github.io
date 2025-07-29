@@ -5,6 +5,7 @@ title: Educational Mobility and Its Variation
 description: The Experiences of China
 img: assets/img/project_2/bg.jpg
 importance: 2
+# redirect: https://unsplash.com
 category: Academics
 related_publications: false
 giscus_comments: true

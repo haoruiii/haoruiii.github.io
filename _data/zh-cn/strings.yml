@@ -18,9 +18,9 @@ bibliography:
 blog:
   navigation_title: blog
 categories:
-  Academics: 学术类
-  Personal: 个人类
-  Others: 其他类
+  Academics: 学术项目
+  Personal: 个人项目
+  Others: 其他项目
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"
