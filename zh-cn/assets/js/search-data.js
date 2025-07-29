@@ -465,26 +465,11 @@ ninja.data = [{
           description: "关于年龄组、性别、户口和地域",
           section: "Projetos",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_2/";
-            },},{id: "projects-projeto-3-com-um-nome-bem-longo",
-          title: 'projeto 3 com um nome bem longo',
-          description: "um projeto que redireciona pra outro website",
+            },},{id: "projects-project-3-with-very-long-name",
+          title: 'project 3 with very long name',
+          description: "a project that redirects to another website",
           section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_3/";
-            },},{id: "projects-projeto-4",
-          title: 'projeto 4',
-          description: "outro sem imagem",
-          section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_4/";
-            },},{id: "projects-projeto-5",
-          title: 'projeto 5',
-          description: "um projeto com imagem de fundo",
-          section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_5/";
-            },},{id: "projects-projeto-6",
-          title: 'projeto 6',
-          description: "um projeto sem imagem",
-          section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_6/";
+              window.location.href = "/zh-cn/projects/sample/";
             },},{
         id: 'social-email',
         title: 'Enviar um email',
