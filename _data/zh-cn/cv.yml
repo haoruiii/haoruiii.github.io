@@ -73,6 +73,16 @@
       year: "2022"
       description: $1,750
 
+- title: 学术会议
+  type: time_table
+  contents: 
+    - title: 中国社会学会学术年会
+      location: 中国成都
+      year: "2025"
+      description: 
+        - 口头汇报
+        - 论文标题<i>Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China</i>
+
 - title: 证书课程
   type: time_table
   contents:

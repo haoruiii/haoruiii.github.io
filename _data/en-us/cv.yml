@@ -79,6 +79,16 @@
       year: "2022"
       description: $1,750
 
+- title: Conference Presentations
+  type: time_table
+  contents: 
+    - title: Chinese Sociological Association
+      location: Chengdu, China
+      year: "2025"
+      description: 
+        - Oral Presentation
+        - for “Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China”
+
 - title: Training & Non-Degree
   type: time_table
   contents:
