@@ -18,9 +18,9 @@ bibliography:
 blog:
   navigation_title: blog
 categories:
-  Academics: Academics
-  Personal: Personal
-  Others: Others
+  Academics: 学术类
+  Personal: 个人类
+  Others: 其他类
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"
@@ -161,5 +161,5 @@ search:
     description: Muda o tema do site para o padrão do sistema
     title: Usa o tema padrão do sistema
   theme: Tema
-selected_publications: publicações selecionadas
+selected_publications: 代表性成果
 site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
