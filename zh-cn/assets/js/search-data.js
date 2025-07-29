@@ -465,11 +465,11 @@ ninja.data = [{
           description: "关于年龄组、性别、户口和地域",
           section: "Projetos",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_2/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-本科期间的其他研究经历",
+          title: '本科期间的其他研究经历',
+          description: "",
           section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/sample/";
+              window.location.href = "/zh-cn/projects/zh-cn/project_3/";
             },},{
         id: 'social-email',
         title: 'Enviar um email',

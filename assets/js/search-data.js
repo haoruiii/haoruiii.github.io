@@ -458,11 +458,11 @@ ninja.data = [{
           description: "The Experiences of China",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/project_2/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-undergraduate-research-experiences",
+          title: 'Undergraduate Research Experiences',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/sample/";
+              window.location.href = "/projects/en-us/project_3/";
             },},{
         id: 'social-email',
         title: 'Send an email',
