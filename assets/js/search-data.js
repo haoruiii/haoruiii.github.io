@@ -463,6 +463,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/project_3/";
+            },},{id: "projects-life-in-the-cities-and-villages",
+          title: 'Life in the Cities and Villages',
+          description: "A Workshop in Shenzhen, China",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/en-us/project_4/";
             },},{
         id: 'social-email',
         title: 'Send an email',
