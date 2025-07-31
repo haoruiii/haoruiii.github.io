@@ -17,7 +17,7 @@ We were fortunate to get to know, and even join, this community and everyone who
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" width = document.documentElement.clientWidth %}
+        {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" %}
     </div>
 </div>
 <div class="caption">
