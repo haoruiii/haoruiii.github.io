@@ -470,11 +470,11 @@ ninja.data = [{
           description: "",
           section: "Projetos",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_3/";
-            },},{id: "projects-life-in-the-cities-and-villages",
-          title: 'Life in the Cities and Villages',
-          description: "A Workshop in Shenzhen, China",
+            },},{id: "projects-城村烟火",
+          title: '城村烟火',
+          description: "记2023深圳高校联合工作坊",
           section: "Projetos",handler: () => {
-              window.location.href = "/zh-cn/projects/en-us/project_4/";
+              window.location.href = "/zh-cn/projects/zh-cn/project_4/";
             },},{
         id: 'social-email',
         title: 'Enviar um email',
