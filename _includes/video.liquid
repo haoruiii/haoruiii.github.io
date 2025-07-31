@@ -53,14 +53,15 @@
     />
 
   {% else %}
+  <div class="video-wrapper">  <!-- Added wrapper div -->
     <div class="ratio ratio-16x9">
       <iframe
         src="{{ include.path }}"
-        class="rounded z-depth-1"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        class="rounded z-depth-1 w-100"  <!-- Added w-100 -->
         allowfullscreen
       ></iframe>
     </div>
+  </div>
   {% endif %}
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
