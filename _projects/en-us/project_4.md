@@ -15,10 +15,12 @@ In July 2023, I joined a nine-day workshop in which members conducted field work
 
 We were fortunate to get to know, and even join, this community and everyone who had made it up. As a conclusive report, we organized a village exhibition of Dahe's uniqueness. I also made a video to record all our experiences during this workshop. 
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading = "eager" path="https://player.bilibili.com/player.html?isOutside=true&aid=532852282&bvid=BV1du411N79k&cid=1248628443&p=1" class="img-fluid rounded z-depth-1" height="100%" width="100%" %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      {% include video.liquid loading = "eager" path="https://player.bilibili.com/player.html?isOutside=true&aid=532852282&bvid=BV1du411N79k&cid=1248628443&p=1" class="img-fluid rounded z-depth-1" height="100%" width="100%" %}
     </div>
+  </div>
 </div>
 <div class="caption">
     A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.
