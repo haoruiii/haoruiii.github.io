@@ -16,7 +16,7 @@ In July 2023, I joined a nine-day workshop in which members conducted field work
 We were fortunate to get to know, and even join, this community and everyone who had made it up. As a conclusive report, we organized a village exhibition of Dahe's uniqueness. I also made a video (in Chinese) to record all our experiences during this workshop. 
 
 <div class="container">
-    {% include video.liquid path="https://www.bilibili.com/video/BV1du411N79k/" %}
+    {% include video.liquid path="https://player.bilibili.com/player.html?isOutside=true&aid=532852282&bvid=BV1du411N79k&cid=1248628443&p=1&high_quality=1&danmaku=0" %}
 </div>
 <div class="caption">
     To Observe, Record, and Tell the Story
