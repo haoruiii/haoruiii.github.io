@@ -16,14 +16,8 @@ In July 2023, I joined a nine-day workshop in which members conducted field work
 We were fortunate to get to know, and even join, this community and everyone who had made it up. As a conclusive report, we organized a village exhibition of Dahe's uniqueness. I also made a video to record all our experiences during this workshop. 
 
 <div class="container">
-    <iframe 
-        width="100%"
-        height="100%"
-        src="https://www.youtube.com/embed/P-WsMQMg-Hs?si=-zqai3UhM83EWCmO"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-    >
-    </iframe>
+    {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" %}
+</div>
+<div class="caption">
+    Your caption here
 </div>
