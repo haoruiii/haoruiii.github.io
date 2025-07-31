@@ -15,12 +15,10 @@ In July 2023, I joined a nine-day workshop in which members conducted field work
 
 We were fortunate to get to know, and even join, this community and everyone who had made it up. As a conclusive report, we organized a village exhibition of Dahe's uniqueness. I also made a video to record all our experiences during this workshop. 
 
-<div class="container-fluid px-0">
-  <div class="row g-0">
-    <div class="col-12">
-      {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid loading = "eager" path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" %}
     </div>
-  </div>
 </div>
 <div class="caption">
     A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.

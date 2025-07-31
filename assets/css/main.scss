@@ -25,22 +25,3 @@ $max-content-width: {{ site.max_width }};
   "flag-icons/flag-icons"
 ;
 
-// Remove maximum width constraints
-.container, .container-fluid {
-  max-width: 100% !important;
-}
-
-// Video wrapper styles
-.video-wrapper {
-  width: 100%;
-  overflow: hidden;
-  
-  iframe {
-    border: 0;
-  }
-}
-
-// Override Bootstrap aspect ratio if needed
-.ratio-16x9 {
-  --bs-aspect-ratio: 56.25%;  // 16:9 = 9/16 = 56.25%
-}
