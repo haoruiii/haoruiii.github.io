@@ -17,7 +17,7 @@ We were fortunate to get to know, and even join, this community and everyone who
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading = "eager" path="https://player.bilibili.com/player.html?isOutside=true&aid=532852282&bvid=BV1du411N79k&cid=1248628443&p=1" class="img-fluid rounded z-depth-1" width="100%" height="100%" %}
+        {% include video.liquid loading = "eager" path="https://player.bilibili.com/player.html?isOutside=true&aid=532852282&bvid=BV1du411N79k&cid=1248628443&p=1" class="img-fluid rounded z-depth-1" width="3840" height="2160" %}
     </div>
 </div>
 <div class="caption">
