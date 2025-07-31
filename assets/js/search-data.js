@@ -468,6 +468,16 @@ ninja.data = [{
           description: "A Workshop in Shenzhen, China",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/project_4/";
+            },},{id: "projects-6",
+          title: '6',
+          description: "记2023深圳高校联合工作坊",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/zh-cn/project_6/";
+            },},{id: "projects-7",
+          title: '7',
+          description: "记2023深圳高校联合工作坊",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/zh-cn/project_7/";
             },},{
         id: 'social-email',
         title: 'Send an email',

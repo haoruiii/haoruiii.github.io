@@ -475,6 +475,16 @@ ninja.data = [{
           description: "记2023深圳高校联合工作坊",
           section: "Projetos",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_4/";
+            },},{id: "projects-5",
+          title: '5',
+          description: "记2023深圳高校联合工作坊",
+          section: "Projetos",handler: () => {
+              window.location.href = "/zh-cn/projects/zh-cn/project_5/";
+            },},{id: "projects-7",
+          title: '7',
+          description: "记2023深圳高校联合工作坊",
+          section: "Projetos",handler: () => {
+              window.location.href = "/zh-cn/projects/zh-cn/project_7/";
             },},{
         id: 'social-email',
         title: 'Enviar um email',
