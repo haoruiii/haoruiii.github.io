@@ -436,6 +436,26 @@ ninja.data = [{
           title: 'The Godfather',
           description: "",
           section: "",handler: () => {
+              window.location.href = "/zh-cn/books/en-us/the_godfather%20copy%202/";
+            },},{id: "books-2",
+          title: '2',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/zh-cn/books/en-us/the_godfather%20copy%203/";
+            },},{id: "books-2",
+          title: '2',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/zh-cn/books/en-us/the_godfather%20copy%204/";
+            },},{id: "books-3",
+          title: '3',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/zh-cn/books/en-us/the_godfather%20copy/";
+            },},{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "",handler: () => {
               window.location.href = "/zh-cn/books/zh-cn/the_godfather/";
             },},{id: "news-um-anúncio-simples-em-uma-linha",
           title: 'Um anúncio simples em uma linha.',

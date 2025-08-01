@@ -436,6 +436,26 @@ ninja.data = [{
           title: 'The Godfather',
           description: "",
           section: "",handler: () => {
+              window.location.href = "/books/en-us/the_godfather%20copy%202/";
+            },},{id: "books-2",
+          title: '2',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/books/en-us/the_godfather%20copy%203/";
+            },},{id: "books-2",
+          title: '2',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/books/en-us/the_godfather%20copy%204/";
+            },},{id: "books-3",
+          title: '3',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/books/en-us/the_godfather%20copy/";
+            },},{id: "books-4",
+          title: '4',
+          description: "",
+          section: "",handler: () => {
               window.location.href = "/books/en-us/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
