@@ -6,7 +6,7 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: 阅读
+  - title: 书架
     permalink: /books/
   - title: divider
   - title: 简讯
