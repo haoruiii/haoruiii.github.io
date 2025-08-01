@@ -55,8 +55,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/teaching/";
           },
-        },{id: "dropdown-阅读",
-              title: "阅读",
+        },{id: "dropdown-书架",
+              title: "书架",
               description: "",
               section: "Outras opções",
               handler: () => {
