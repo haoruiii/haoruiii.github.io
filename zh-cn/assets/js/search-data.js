@@ -41,8 +41,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/projects/";
           },
-        },{id: "nav-blog",
-          title: "blog",
+        },{id: "nav-博客",
+          title: "博客",
           description: "um tema simples para acadêmicos",
           section: "Menu de navegação",
           handler: () => {
