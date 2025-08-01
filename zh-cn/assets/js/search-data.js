@@ -55,26 +55,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/teaching/";
           },
-        },{id: "dropdown-publicações",
-              title: "publicações",
+        },{id: "dropdown-阅读",
+              title: "阅读",
               description: "",
               section: "Outras opções",
               handler: () => {
-                window.location.href = "/zh-cn/publications/";
+                window.location.href = "/zh-cn/books/";
               },
-            },{id: "dropdown-projetos",
-              title: "projetos",
+            },{id: "dropdown-简讯",
+              title: "简讯",
               description: "",
               section: "Outras opções",
               handler: () => {
-                window.location.href = "/zh-cn/projects/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/zh-cn/blog/";
+                window.location.href = "/zh-cn/news/";
               },
             },{id: "post-a-post-with-plotly-js",
         
