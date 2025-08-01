@@ -49,8 +49,8 @@ ninja.data = [{
             window.location.href = "/blog/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "Teaching",
+          description: "",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/teaching/";
@@ -472,17 +472,17 @@ ninja.data = [{
           title: '画笔下的回忆',
           description: "南京市科利华中学原创心理剧",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/zh-cn/project_5/";
+              window.location.href = "/projects/en-us/project_5/";
             },},{id: "projects-致青春",
           title: '致青春',
           description: "NFLS 2021届高三留念视频",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/zh-cn/project_6/";
+              window.location.href = "/projects/en-us/project_6/";
             },},{id: "projects-再见",
           title: '再见',
           description: "NFLS 2021届高三毕业视频",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/zh-cn/project_7/";
+              window.location.href = "/projects/en-us/project_7/";
             },},{
         id: 'social-email',
         title: 'Send an email',

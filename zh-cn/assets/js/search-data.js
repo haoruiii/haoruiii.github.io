@@ -48,9 +48,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/blog/";
           },
-        },{id: "nav-ensino",
-          title: "ensino",
-          description: "Materiais de cursos que você ministrou. Substitua esse texto com sua descrição.",
+        },{id: "nav-教学",
+          title: "教学",
+          description: "",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/zh-cn/teaching/";
