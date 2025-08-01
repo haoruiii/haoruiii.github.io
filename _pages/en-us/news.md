@@ -1,5 +1,5 @@
 ---
-page_id: news
+page_id: News
 layout: page
 title: news
 permalink: /news/
