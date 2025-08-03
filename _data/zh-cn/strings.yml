@@ -124,8 +124,8 @@ newsletter:
   subscribe_to_receive: "Subscribe to be notified of future articles:"
   too_many_signups: "Too many signups, please try again in a little while"
   wait: "Please wait..."
-no_news: No news so far...
-no_posts: "No posts so far..."
+no_news: 敬请期待...
+no_posts: "敬请期待..."
 pagination:
   page: page
 post:
