@@ -140,7 +140,7 @@ search:
   dark_theme:
     description: 将页面主题切换至深色
     title: 深色模式
-  dropdown: 下拉菜单
+  dropdown: 其他
   email: 发邮件
   footer:
     close: 关闭
@@ -151,7 +151,7 @@ search:
   light_theme:
     description: 将页面主题切换至浅色
     title: 浅色模式
-  navigation: 导航菜单
+  navigation: 页面
   news: 简讯
   placeholder: 键入以搜索
   posts: 博客
