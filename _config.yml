@@ -256,12 +256,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags_by_lang: # these tags will be displayed on the front page of your blog
-  en-us: ["formatting", "images", "links", "math", "code", "blockquotes"] 
-  zh-cn: ["中文1", "中文2"]
-display_categories_by_lang: # these categories will be displayed on the front page of your blog
-  en-us: ["external-services"] 
-  zh-cn: ["中文3"]
+display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
