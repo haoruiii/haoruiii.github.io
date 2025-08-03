@@ -16,82 +16,60 @@ const ninja = document.querySelector('ninja-keys');
 ninja.data = [{
     id: "nav-个人简介",
     title: "个人简介",
-    section: "导航菜单",
+    section: "页面",
     handler: () => {
       window.location.href = "/zh-cn/";
     },
   },{id: "nav-简历",
           title: "简历",
           description: "",
-          section: "导航菜单",
+          section: "页面",
           handler: () => {
             window.location.href = "/zh-cn/cv/";
           },
         },{id: "nav-发表",
           title: "发表",
           description: "个人发表及工作论文（倒序）",
-          section: "导航菜单",
+          section: "页面",
           handler: () => {
             window.location.href = "/zh-cn/publications/";
           },
         },{id: "nav-项目",
           title: "项目",
           description: "个人研究及其他项目",
-          section: "导航菜单",
+          section: "页面",
           handler: () => {
             window.location.href = "/zh-cn/projects/";
           },
         },{id: "nav-博客",
           title: "博客",
           description: "um tema simples para acadêmicos",
-          section: "导航菜单",
+          section: "页面",
           handler: () => {
             window.location.href = "/zh-cn/blog/";
           },
         },{id: "nav-教学",
           title: "教学",
           description: "",
-          section: "导航菜单",
+          section: "页面",
           handler: () => {
             window.location.href = "/zh-cn/teaching/";
           },
         },{id: "dropdown-书架",
               title: "书架",
               description: "",
-              section: "下拉菜单",
+              section: "其他",
               handler: () => {
                 window.location.href = "/zh-cn/books/";
               },
             },{id: "dropdown-简讯",
               title: "简讯",
               description: "",
-              section: "下拉菜单",
+              section: "其他",
               handler: () => {
                 window.location.href = "/zh-cn/news/";
               },
-            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "博客",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "博客",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "books-the-godfather",
+            },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "",handler: () => {
