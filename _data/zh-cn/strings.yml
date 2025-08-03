@@ -138,28 +138,28 @@ related_posts:
   title: Enjoy Reading This Article?
 search:
   dark_theme:
-    description: 将页面切换至深色模式
+    description: 将页面主题切换至深色
     title: 深色模式
   dropdown: 下拉菜单
   email: 发邮件
   footer:
     close: 关闭
     navigate: 导航
-    parent: 上一级页面
+    parent: 回到上一级页面
     select: 选择
   languages: 语言
   light_theme:
-    description: 将页面切换至浅色模式
+    description: 将页面主题切换至浅色
     title: 浅色模式
   navigation: 导航菜单
   news: 简讯
-  placeholder: Type to start searching
-  posts: Posts
-  projects: Projects
-  socials: Socials
+  placeholder: 键入以搜索
+  posts: 博客
+  projects: 课题
+  socials: 社交媒体
   system_theme:
-    description: Change the theme of the site to System Default
-    title: Use system default theme
-  theme: Theme
+    description: 将页面主题切换至系统默认
+    title: 系统默认
+  theme: 页面主题
 selected_publications: 代表性成果
-site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+site_description: 彭浩瑞的个人网站，基于[*folio](https://github.com/bogoli/-folio).

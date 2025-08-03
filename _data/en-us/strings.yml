@@ -142,8 +142,6 @@ search:
     title: Change theme to dark
   dropdown: Other Pages
   email: Send an email
-  red_note: Red Note
-  bilibili_url: Bilibili
   footer:
     close: to close
     navigate: to navigate
