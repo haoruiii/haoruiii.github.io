@@ -82,7 +82,7 @@ cv:
   work: Trabalho
 footer:
   copyright: Copyright
-  last_updated: "最新更新: "
+  last_updated: "最近更新: "
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   基于<a href="https://jekyllrb.com/" target="_blank">Jekyll</a>及<a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>主题. 
   通过<a href="https://pages.github.com/" target="_blank">GitHub Pages</a>发布. 
@@ -90,31 +90,31 @@ footer_text: > # the ">" symbol means to ignore newlines until "titles:"
 latest_posts: últimas postagens
 months:
   long:
-    january: 一
-    february: 二
-    march: 三
-    april: 四
-    may: 五
-    june: 六
-    july: 七
-    august: 八
-    september: 九
-    october: 十
-    november: 十一
-    december: 十二
+    january: "1"
+    february: "2"
+    march: "3"
+    april: "4"
+    may: "5"
+    june: "6"
+    july: "7"
+    august: "8"
+    september: "9"
+    october: "10"
+    november: "11"
+    december: "12"
   short:
-    january: 一
-    february: 二
-    march: 三
-    april: 四
-    may: 五
-    june: 六
-    july: 七
-    august: 八
-    september: 九
-    october: 十
-    november: 十一
-    december: 十二
+    january: "1"
+    february: "2"
+    march: "3"
+    april: "4"
+    may: "5"
+    june: "6"
+    july: "7"
+    august: "8"
+    september: "9"
+    october: "10"
+    november: "11"
+    december: "12"
 news: novidades
 newsletter:
   back: Voltar

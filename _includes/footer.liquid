@@ -10,7 +10,20 @@
   {% endif %}
   {% if site.last_updated %}
     {{- site.data[site.active_lang].strings.footer.last_updated }}
-    {{ 'now' | date: '%B %d, %Y' }}.
+    {% assign year = 'now' | date: "%Y" %}
+    {% assign month = 'now' | date: "%B" %}
+    {% assign day = 'now' | date: "%-d" %}
+    {%- if site.active_lang == 'en-us' -%}
+      {{ month }} {{ day }}, {{ year }}
+    {%- elsif site.active_lang == 'fr-ca' -%}
+      {{ day }} {{ month }}, {{ year }}
+    {%- elsif site.active_lang == 'pt-br' -%}
+      {{ day }} de {{ month }}, {{ year }}
+    {%- elsif site.active_lang == 'zh-cn' -%}
+      {{ year }}年{{ 'now' | date: "%-m" }}月{{ day }}日
+    {%- else -%}
+      {{ day }} {{ month }} {{ year }}
+    {%- endif -%}
   {% endif %}
 {% endcapture %}
 
