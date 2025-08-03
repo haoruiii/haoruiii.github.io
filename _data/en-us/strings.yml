@@ -140,8 +140,10 @@ search:
   dark_theme:
     description: Change the theme of the site to Dark
     title: Change theme to dark
-  dropdown: Dropdown
+  dropdown: Other Pages
   email: Send an email
+  red_note: Red Note
+  bilibili_url: Bilibili
   footer:
     close: to close
     navigate: to navigate
@@ -151,10 +153,10 @@ search:
   light_theme:
     description: Change the theme of the site to Light
     title: Change theme to light
-  navigation: Navigation menu
+  navigation: Pages
   news: News
   placeholder: Type to start searching
-  posts: Posts
+  posts: Blogs
   projects: Projects
   socials: Socials
   system_theme:
@@ -162,4 +164,4 @@ search:
     title: Use system default theme
   theme: Theme
 selected_publications: Selected Publications
-site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+site_description: Haorui Peng's Personal Website, based on [*folio](https://github.com/bogoli/-folio) design.
