@@ -16,56 +16,56 @@ const ninja = document.querySelector('ninja-keys');
 ninja.data = [{
     id: "nav-个人简介",
     title: "个人简介",
-    section: "Menu de navegação",
+    section: "导航菜单",
     handler: () => {
       window.location.href = "/zh-cn/";
     },
   },{id: "nav-简历",
           title: "简历",
           description: "",
-          section: "Menu de navegação",
+          section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/cv/";
           },
         },{id: "nav-发表",
           title: "发表",
           description: "个人发表及工作论文（倒序）",
-          section: "Menu de navegação",
+          section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/publications/";
           },
         },{id: "nav-项目",
           title: "项目",
           description: "个人研究及其他项目",
-          section: "Menu de navegação",
+          section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/projects/";
           },
         },{id: "nav-博客",
           title: "博客",
           description: "um tema simples para acadêmicos",
-          section: "Menu de navegação",
+          section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/blog/";
           },
         },{id: "nav-教学",
           title: "教学",
           description: "",
-          section: "Menu de navegação",
+          section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/teaching/";
           },
         },{id: "dropdown-书架",
               title: "书架",
               description: "",
-              section: "Outras opções",
+              section: "下拉菜单",
               handler: () => {
                 window.location.href = "/zh-cn/books/";
               },
             },{id: "dropdown-简讯",
               title: "简讯",
               description: "",
-              section: "Outras opções",
+              section: "下拉菜单",
               handler: () => {
                 window.location.href = "/zh-cn/news/";
               },
@@ -74,7 +74,7 @@ ninja.data = [{
           title: "a post with plotly.js",
         
         description: "this is what included plotly.js code could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2025/plotly/";
@@ -85,7 +85,7 @@ ninja.data = [{
           title: "a post with image galleries",
         
         description: "this is what included image galleries could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/photo-gallery/";
@@ -96,7 +96,7 @@ ninja.data = [{
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
         description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
@@ -107,7 +107,7 @@ ninja.data = [{
           title: "a post with tabs",
         
         description: "this is what included tabs in a post could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/tabs/";
@@ -118,7 +118,7 @@ ninja.data = [{
           title: "a post with typograms",
         
         description: "this is what included typograms code could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/typograms/";
@@ -129,7 +129,7 @@ ninja.data = [{
           title: "a post that can be cited",
         
         description: "this is what a post that can be cited looks like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/post-citation/";
@@ -140,7 +140,7 @@ ninja.data = [{
           title: "a post with pseudo code",
         
         description: "this is what included pseudo code could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/pseudocode/";
@@ -151,7 +151,7 @@ ninja.data = [{
           title: "a post with code diff",
         
         description: "this is how you can display code diffs",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/code-diff/";
@@ -162,7 +162,7 @@ ninja.data = [{
           title: "a post with advanced image components",
         
         description: "this is what advanced image components could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/advanced-images/";
@@ -173,7 +173,7 @@ ninja.data = [{
           title: "a post with vega lite",
         
         description: "this is what included vega lite code could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/vega-lite/";
@@ -184,7 +184,7 @@ ninja.data = [{
           title: "a post with geojson",
         
         description: "this is what included geojson code could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/geojson-map/";
@@ -195,7 +195,7 @@ ninja.data = [{
           title: "a post with echarts",
         
         description: "this is what included echarts code could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/echarts/";
@@ -206,7 +206,7 @@ ninja.data = [{
           title: "a post with chart.js",
         
         description: "this is what included chart.js code could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2024/chartjs/";
@@ -217,7 +217,7 @@ ninja.data = [{
           title: "a post with TikZJax",
         
         description: "this is what included TikZ code could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/tikzjax/";
@@ -228,7 +228,7 @@ ninja.data = [{
           title: "a post with bibliography",
         
         description: "an example of a blog post with bibliography",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/post-bibliography/";
@@ -239,7 +239,7 @@ ninja.data = [{
           title: "a post with jupyter notebook",
         
         description: "an example of a blog post with jupyter notebook",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/jupyter-notebook/";
@@ -250,7 +250,7 @@ ninja.data = [{
           title: "a post with custom blockquotes",
         
         description: "an example of a blog post with custom blockquotes",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/custom-blockquotes/";
@@ -261,7 +261,7 @@ ninja.data = [{
           title: "a post with table of contents on a sidebar",
         
         description: "an example of a blog post with table of contents on a sidebar",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/sidebar-table-of-contents/";
@@ -272,7 +272,7 @@ ninja.data = [{
           title: "a post with audios",
         
         description: "this is what included audios could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/audios/";
@@ -283,7 +283,7 @@ ninja.data = [{
           title: "a post with videos",
         
         description: "this is what included videos could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/videos/";
@@ -294,7 +294,7 @@ ninja.data = [{
           title: "displaying beautiful tables with Bootstrap Tables",
         
         description: "an example of how to use Bootstrap Tables",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/tables/";
@@ -305,7 +305,7 @@ ninja.data = [{
           title: "a post with table of contents",
         
         description: "an example of a blog post with table of contents",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2023/table-of-contents/";
@@ -316,7 +316,7 @@ ninja.data = [{
           title: "a post with giscus comments",
         
         description: "an example of a blog post with giscus comments",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2022/giscus-comments/";
@@ -327,7 +327,7 @@ ninja.data = [{
           title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
         description: "",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
@@ -338,7 +338,7 @@ ninja.data = [{
           title: "a post with redirect",
         
         description: "you can also redirect to assets like pdf",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/assets/pdf/pt-br/example_pdf.pdf";
@@ -349,7 +349,7 @@ ninja.data = [{
           title: "a post with diagrams",
         
         description: "an example of a blog post with diagrams",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2021/diagrams/";
@@ -360,7 +360,7 @@ ninja.data = [{
           title: "a post with twitter",
         
         description: "an example of a blog post with twitter",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2020/twitter/";
@@ -371,7 +371,7 @@ ninja.data = [{
           title: "a distill-style blog post",
         
         description: "an example of a distill-style blog post and main elements",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2018/distill/";
@@ -382,7 +382,7 @@ ninja.data = [{
           title: "a post with disqus comments",
         
         description: "an example of a blog post with disqus comments",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2015/disqus-comments/";
@@ -393,7 +393,7 @@ ninja.data = [{
           title: "a post with math",
         
         description: "an example of a blog post with some math",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2015/math/";
@@ -404,7 +404,7 @@ ninja.data = [{
           title: "uma postagem com código",
         
         description: "um exemplo de uma postagem em um blog com código",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2015/code/";
@@ -415,7 +415,7 @@ ninja.data = [{
           title: "a post with images",
         
         description: "this is what included images could look like",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2015/images/";
@@ -426,7 +426,7 @@ ninja.data = [{
           title: "a post with formatting and links",
         
         description: "march &amp; april, looking forward to summer",
-        section: "Postagens",
+        section: "Posts",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2015/formatting-and-links/";
@@ -460,114 +460,114 @@ ninja.data = [{
             },},{id: "news-um-anúncio-simples-em-uma-linha",
           title: 'Um anúncio simples em uma linha.',
           description: "",
-          section: "Novidades",},{id: "news-um-anúncio-longo-com-detalhes",
+          section: "简讯",},{id: "news-um-anúncio-longo-com-detalhes",
           title: 'Um anúncio longo com detalhes',
           description: "",
-          section: "Novidades",handler: () => {
+          section: "简讯",handler: () => {
               window.location.href = "/zh-cn/news/zh-cn/announcement_2/";
             },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
           title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "Novidades",},{id: "projects-试论当代中国的教育与流动性变迁",
+          section: "简讯",},{id: "projects-试论当代中国的教育与流动性变迁",
           title: '试论当代中国的教育与流动性变迁',
           description: "来自CGSS的一些结果",
-          section: "Projetos",handler: () => {
+          section: "Projects",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_1/";
             },},{id: "projects-当代中国的教育流动性及其变化",
           title: '当代中国的教育流动性及其变化',
           description: "关于年龄组、性别、户口和地域",
-          section: "Projetos",handler: () => {
+          section: "Projects",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_2/";
             },},{id: "projects-本科期间的其他研究经历",
           title: '本科期间的其他研究经历',
           description: "",
-          section: "Projetos",handler: () => {
+          section: "Projects",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_3/";
             },},{id: "projects-城村烟火",
           title: '城村烟火',
           description: "记2023深圳高校联合工作坊",
-          section: "Projetos",handler: () => {
+          section: "Projects",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_4/";
             },},{id: "projects-画笔下的回忆",
           title: '画笔下的回忆',
           description: "南京市科利华中学原创心理剧",
-          section: "Projetos",handler: () => {
+          section: "Projects",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_5/";
             },},{id: "projects-致青春",
           title: '致青春',
           description: "NFLS 2021届高三留念视频",
-          section: "Projetos",handler: () => {
+          section: "Projects",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_6/";
             },},{id: "projects-再见",
           title: '再见',
           description: "NFLS 2021届高三毕业视频",
-          section: "Projetos",handler: () => {
+          section: "Projects",handler: () => {
               window.location.href = "/zh-cn/projects/zh-cn/project_7/";
             },},{
         id: 'social-email',
-        title: 'Enviar um email',
-        section: 'Redes sociais',
+        title: '发邮件',
+        section: 'Socials',
         handler: () => {
           window.open("mailto:%68%61%6F%72%75%69%69%69@%75%6D%69%63%68.%65%64%75", "_blank");
         },
       },{
         id: 'social-bluesky',
         title: 'Bluesky',
-        section: 'Redes sociais',
+        section: 'Socials',
         handler: () => {
           window.open("https://bsky.app/profile/haoruiii.bsky.social", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
-        section: 'Redes sociais',
+        section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/haoruiii", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Redes sociais',
+        id: 'social-red_note',
+        title: 'Red_note',
+        section: 'Socials',
         handler: () => {
           window.open("https://www.xiaohongshu.com/user/profile/61309a24000000000201b7dd", "_blank");
         },
       },{
         id: 'social-bilibili_url',
         title: 'Bilibili_url',
-        section: 'Redes sociais',
+        section: 'Socials',
         handler: () => {
           window.open("", "_blank");
         },
       },{
           id: 'lang-en-us',
           title: 'en-us',
-          section: 'Idiomas',
+          section: '语言',
           handler: () => {
             window.location.href = "" + updatedUrl;
           },
         },{
       id: 'light-theme',
-      title: 'Muda o tema para claro',
-      description: 'Muda o tema do site para claro',
-      section: 'Tema',
+      title: '浅色模式',
+      description: '将页面切换至浅色模式',
+      section: 'Theme',
       handler: () => {
         setThemeSetting("light");
       },
     },
     {
       id: 'dark-theme',
-      title: 'Muda o tema para escuro',
-      description: 'Muda o tema do site para escuro',
-      section: 'Tema',
+      title: '深色模式',
+      description: '将页面切换至深色模式',
+      section: 'Theme',
       handler: () => {
         setThemeSetting("dark");
       },
     },
     {
       id: 'system-theme',
-      title: 'Usa o tema padrão do sistema',
-      description: 'Muda o tema do site para o padrão do sistema',
-      section: 'Tema',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
       handler: () => {
         setThemeSetting("system");
       },
