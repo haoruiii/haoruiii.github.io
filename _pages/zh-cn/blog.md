@@ -3,8 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: 博客
-blog_name: al-folio em português brasileiro
-description: um tema simples para acadêmicos
+blog_name: 愿此行，终抵群星
+description: 一个读博日记
 nav: true
 nav_order: 4
 pagination:

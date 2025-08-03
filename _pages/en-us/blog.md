@@ -3,8 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: Blog
-blog_name: al-folio in english
-description: a simple whitespace theme for academics
+blog_name: The World I See & The Story I Tell
+description: my experiences in grad school and more
 nav: true
 nav_order: 4
 pagination:
