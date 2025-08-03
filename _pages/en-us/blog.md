@@ -32,31 +32,18 @@ pagination:
   </div>
   {% endif %}
 
-{% assign lang = site.lang | default: "en-us" %}
-{% assign display_tags = site.display_tags_by_lang[lang] | default: site.display_tags_by_lang["en"] %}
-{% assign display_categories = site.display_categories_by_lang[lang] | default: site.display_categories_by_lang["en"] %}
+{% assign lang = page.lang | default: site.lang | default: "en-us" %}
+{% assign display_tags = site.display_tags_by_lang[lang] | default: site.display_tags_by_lang["en-us"] %}
+{% assign display_categories = site.display_categories_by_lang[lang] | default: site.display_categories_by_lang["en-us"] %}
 
 {% if display_tags.size > 0 or display_categories.size > 0 %}
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in display_tags %}
-        <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
+        <!-- ... existing tag code ... -->
       {% endfor %}
-      {% if display_categories.size > 0 and display_tags.size > 0 %}
-        <p>&bull;</p>
-      {% endif %}
       {% for category in display_categories %}
-        <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
+        <!-- ... existing category code ... -->
       {% endfor %}
     </ul>
   </div>
