@@ -43,7 +43,7 @@ ninja.data = [{
           },
         },{id: "nav-博客",
           title: "博客",
-          description: "um tema simples para acadêmicos",
+          description: "一个读博日记",
           section: "页面",
           handler: () => {
             window.location.href = "/zh-cn/blog/";
@@ -69,32 +69,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/news/";
               },
-            },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/zh-cn/books/en-us/the_godfather%20copy%202/";
-            },},{id: "books-2",
-          title: '2',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/zh-cn/books/en-us/the_godfather%20copy%203/";
-            },},{id: "books-2",
-          title: '2',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/zh-cn/books/en-us/the_godfather%20copy%204/";
-            },},{id: "books-3",
-          title: '3',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/zh-cn/books/en-us/the_godfather%20copy/";
-            },},{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/zh-cn/books/zh-cn/the_godfather/";
-            },},{id: "projects-试论当代中国的教育与流动性变迁",
+            },{id: "projects-试论当代中国的教育与流动性变迁",
           title: '试论当代中国的教育与流动性变迁',
           description: "来自CGSS的一些结果",
           section: "课题",handler: () => {

@@ -43,7 +43,7 @@ ninja.data = [{
           },
         },{id: "nav-blog",
           title: "Blog",
-          description: "a simple whitespace theme for academics",
+          description: "my experiences in grad school and more",
           section: "Pages",
           handler: () => {
             window.location.href = "/blog/";
@@ -69,32 +69,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/news/";
               },
-            },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/books/en-us/the_godfather%20copy%202/";
-            },},{id: "books-2",
-          title: '2',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/books/en-us/the_godfather%20copy%203/";
-            },},{id: "books-2",
-          title: '2',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/books/en-us/the_godfather%20copy%204/";
-            },},{id: "books-3",
-          title: '3',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/books/en-us/the_godfather%20copy/";
-            },},{id: "books-4",
-          title: '4',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/books/en-us/the_godfather/";
-            },},{id: "projects-education-s-role-in-intergenerational-persistence",
+            },{id: "projects-education-s-role-in-intergenerational-persistence",
           title: 'Education’s Role in Intergenerational Persistence',
           description: "The Experiences of China",
           section: "Projects",handler: () => {
