@@ -3,7 +3,7 @@ page_id: project_2
 layout: page
 title: 当代中国的教育流动性及其变化
 description: 关于年龄组、性别、户口和地域
-img: assets/img/project_2/bg.jpg
+img: assets/img/project/project_2/bg.jpg
 importance: 2
 # redirect: https://unsplash.com
 category: Academics

@@ -3,7 +3,7 @@ page_id: project_2
 layout: page
 title: Educational Mobility and Its Variation
 description: The Experiences of China
-img: assets/img/project_2/bg.jpg
+img: assets/img/project/project_2/bg.jpg
 importance: 2
 # redirect: https://unsplash.com
 category: Academics

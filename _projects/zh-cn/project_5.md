@@ -3,7 +3,7 @@ page_id: project_5
 layout: page
 title: 画笔下的回忆
 description: 南京市科利华中学原创心理剧
-img: assets/img/project_5/bg.png
+img: assets/img/project/project_5/bg.png
 importance: 3
 # redirect: https://unsplash.com
 category: Personal

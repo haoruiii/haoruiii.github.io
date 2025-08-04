@@ -3,7 +3,7 @@ page_id: project_7
 layout: page
 title: 再见
 description: NFLS 2021届高三毕业视频
-img: assets/img/project_7/bg.png
+img: assets/img/project/project_7/bg.png
 importance: 1
 # redirect: https://unsplash.com
 category: Personal

@@ -3,7 +3,7 @@ page_id: project_4
 layout: page
 title: Life in the Cities and Villages
 description: A Workshop in Shenzhen, China
-img: assets/img/project_4/bg.jpg
+img: assets/img/project/project_4/bg.jpg
 importance: 4
 # redirect: https://unsplash.com
 category: Personal

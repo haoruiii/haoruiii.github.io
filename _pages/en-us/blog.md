@@ -3,7 +3,7 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: Blog
-blog_name: The World I See & The Story I Tell
+blog_name: To See the World and Tell the Story
 description: my experiences in grad school and more
 nav: true
 nav_order: 4

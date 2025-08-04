@@ -3,7 +3,7 @@ page_id: project_1
 layout: page
 title: Education’s Role in Intergenerational Persistence
 description: The Experiences of China
-img: assets/img/project_1/eng.jpg
+img: assets/img/project/project_1/eng.jpg
 importance: 1
 # redirect: https://unsplash.com
 category: Academics
