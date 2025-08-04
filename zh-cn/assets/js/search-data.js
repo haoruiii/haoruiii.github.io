@@ -69,26 +69,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/news/";
               },
-            },{id: "post-one-day-in-chongqing",
+            },{id: "post-向山去",
         
-          title: "One Day in Chongqing",
+          title: "向山去",
         
-        description: "Before Rainstorm",
+        description: "重庆·暴雨之前",
         section: "博客",
         handler: () => {
           
             window.location.href = "/zh-cn/blog/2025/Chongqing/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "博客",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blog/2015/formatting-and-links/";
           
         },
       },{id: "news-2025中国社会学会学术年会",
