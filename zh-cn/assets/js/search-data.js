@@ -69,7 +69,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/news/";
               },
-            },{id: "post-a-post-with-formatting-and-links",
+            },{id: "post-one-day-in-chongqing",
+        
+          title: "One Day in Chongqing",
+        
+        description: "Before Rainstorm",
+        section: "博客",
+        handler: () => {
+          
+            window.location.href = "/zh-cn/blog/2025/Chongqing/";
+          
+        },
+      },{id: "post-a-post-with-formatting-and-links",
         
           title: "a post with formatting and links",
         
