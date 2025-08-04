@@ -69,7 +69,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/news/";
               },
-            },{id: "news-2025中国社会学会学术年会",
+            },{id: "post-a-post-with-formatting-and-links",
+        
+          title: "a post with formatting and links",
+        
+        description: "march &amp; april, looking forward to summer",
+        section: "博客",
+        handler: () => {
+          
+            window.location.href = "/zh-cn/blog/2015/formatting-and-links/";
+          
+        },
+      },{id: "news-2025中国社会学会学术年会",
           title: '2025中国社会学会学术年会',
           description: "",
           section: "简讯",handler: () => {

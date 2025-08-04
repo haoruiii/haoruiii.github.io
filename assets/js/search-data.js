@@ -69,7 +69,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/news/";
               },
-            },{id: "news-2025-csa-annual-meeting",
+            },{id: "post-a-post-with-formatting-and-links",
+        
+          title: "a post with formatting and links",
+        
+        description: "march &amp; april, looking forward to summer",
+        section: "Blogs",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/formatting-and-links/";
+          
+        },
+      },{id: "news-2025-csa-annual-meeting",
           title: '2025 CSA Annual Meeting',
           description: "",
           section: "News",handler: () => {
