@@ -69,7 +69,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/news/";
               },
-            },{id: "projects-education-s-role-in-intergenerational-persistence",
+            },{id: "news-2025-csa-annual-meeting",
+          title: '2025 CSA Annual Meeting',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/en-us/2025-07-06_2025CSA/";
+            },},{id: "projects-education-s-role-in-intergenerational-persistence",
           title: 'Education’s Role in Intergenerational Persistence',
           description: "The Experiences of China",
           section: "Projects",handler: () => {
