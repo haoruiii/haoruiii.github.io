@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: 个人简介
 permalink: /
-subtitle: 美国密歇根大学社会学系，博士新生
+subtitle: 美国密歇根大学社会学系，博士生
 
 profile:
   align: right

@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am now an incoming Ph.D. student in the [Department of Sociology at the University of Michigan](https://lsa.umich.edu/soc). I will also be a student affiliate of the [Lieberthal-Rogel Center for Chinese Studies (LRCCS)](https://ii.umich.edu/lrccs) and the [Stone Center for Inequality Dynamics (CID)](https://inequality.umich.edu). 
+I am now a first-year Ph.D. student in the [Department of Sociology at the University of Michigan](https://lsa.umich.edu/soc). I am also a Student Associate of the [Stone Center for Inequality Dynamics (CID)](https://inequality.umich.edu), a Graduate Trainee of the [Population Studies Center (PSC)](https://psc.isr.umich.edu/training/predoctoral/), and a Doctoral Fellow of the [Lieberthal-Rogel Center for Chinese Studies (LRCCS)](https://ii.umich.edu/lrccs). 
 
 My research interests lie in the domain of `social stratification and mobility`. Using `quantitative methods`, I have conducted research to study the role of `education` in mobility, paying attention to the experiences of `contemporary China`. During my graduate studies, I am thinking of trying additional methods, such as comparative and historical approaches, and expanding the social contexts of interest. 
 
