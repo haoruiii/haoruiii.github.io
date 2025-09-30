@@ -21,10 +21,6 @@ My first stop was the Chaotianmen Square, located at the confluence of the Yangt
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/blog/2025-07-08_Chongqing/IMG_3048.heic" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/blog/2025-07-08_Chongqing/IMG_3052.heic" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/blog/2025-07-08_Chongqing/IMG_3053.heic" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <!-- 
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/blog/2025-07-08_Chongqing/IMG_3061.heic" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/blog/2025-07-08_Chongqing/IMG_3062.heic" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  -->
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/blog/2025-07-08_Chongqing/IMG_3068.heic" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/blog/2025-07-08_Chongqing/IMG_3069.heic" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/blog/2025-07-08_Chongqing/IMG_3074.heic" class="img-fluid rounded z-depth-1" %}</swiper-slide>
