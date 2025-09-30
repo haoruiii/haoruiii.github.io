@@ -85,7 +85,10 @@ ninja.data = [{
           description: "",
           section: "简讯",handler: () => {
               window.location.href = "/zh-cn/news/zh-cn/2025-07-06_2025CSA/";
-            },},{id: "projects-试论当代中国的教育与流动性变迁",
+            },},{id: "news-今日正式迎来读博生涯的第一天",
+          title: '今日正式迎来读博生涯的第一天！',
+          description: "",
+          section: "简讯",},{id: "projects-试论当代中国的教育与流动性变迁",
           title: '试论当代中国的教育与流动性变迁',
           description: "来自CGSS的一些结果",
           section: "课题",handler: () => {

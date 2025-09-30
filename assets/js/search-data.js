@@ -43,7 +43,7 @@ ninja.data = [{
           },
         },{id: "nav-blog",
           title: "Blog",
-          description: "my experiences in grad school and more",
+          description: "grad school and more",
           section: "Pages",
           handler: () => {
             window.location.href = "/blog/";
@@ -85,7 +85,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/en-us/2025-07-06_2025CSA/";
-            },},{id: "projects-education-s-role-in-intergenerational-persistence",
+            },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
+          title: 'It is officially the first day of my graduate career!',
+          description: "",
+          section: "News",},{id: "projects-education-s-role-in-intergenerational-persistence",
           title: 'Education’s Role in Intergenerational Persistence',
           description: "The Experiences of China",
           section: "Projects",handler: () => {
