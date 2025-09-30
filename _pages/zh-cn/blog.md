@@ -19,6 +19,8 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
+<!-- For blog tags, see -config.yml -> display_tags -->
+
 <div class="post">
 
 {% assign blog_name_size = page.blog_name | size %}

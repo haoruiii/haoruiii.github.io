@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: Blog
 blog_name: To See the World and Tell the Story
-description: my experiences in grad school and more
+description: grad school and more
 nav: true
 nav_order: 4
 pagination:
@@ -18,6 +18,8 @@ pagination:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
 ---
+
+<!-- For blog tags, see -config.yml -> display_tags -->
 
 <div class="post">
 
