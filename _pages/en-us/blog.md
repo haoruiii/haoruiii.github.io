@@ -3,7 +3,7 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: Blog
-blog_name: To See the World and Tell the Story
+blog_name: Per Aspera Ad Astra
 description: grad school and more
 nav: true
 nav_order: 4
