@@ -69,7 +69,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/news/";
               },
-            },{id: "post-one-day-in-chongqing",
+            },{id: "post-愿你的每一条路都繁花似锦",
+        
+          title: "愿你的每一条路都繁花似锦",
+        
+        description: "又是一年放榜时",
+        section: "Blogs",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/best-wishes/";
+          
+        },
+      },{id: "post-one-day-in-chongqing",
         
           title: "One Day in Chongqing",
         

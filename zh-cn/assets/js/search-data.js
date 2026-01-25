@@ -69,7 +69,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/news/";
               },
-            },{id: "post-向山去",
+            },{id: "post-愿你的每一条路都繁花似锦",
+        
+          title: "愿你的每一条路都繁花似锦",
+        
+        description: "又是一年放榜时",
+        section: "博客",
+        handler: () => {
+          
+            window.location.href = "/zh-cn/blog/2025/best-wishes/";
+          
+        },
+      },{id: "post-向山去",
         
           title: "向山去",
         
