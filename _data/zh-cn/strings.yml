@@ -129,13 +129,13 @@ no_posts: "敬请期待..."
 pagination:
   page: page
 post:
-  created_in: Created in
+  created_in: 发布日期
   created_by: by
-  last_updated: last updated in
+  last_updated: 最近编辑
 references: References
 related_posts:
-  description: "Here are some more articles you might like to read next:"
-  title: Enjoy Reading This Article?
+  description: "up还有以下博客您或许感兴趣："
+  title: 喜欢本文？
 search:
   dark_theme:
     description: 将页面主题切换至深色
