@@ -5,36 +5,42 @@
     src: url('../assets/fonts/LibertinusSerif-Regular.woff2') format('woff2');
     font-weight: 400; /* normal */
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Libertinus Serif';
     src: url('../assets/fonts/LibertinusSerif-Italic.woff2') format('woff2');
     font-weight: 400; /* normal */
     font-style: italic;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Libertinus Serif';
     src: url('../assets/fonts/LibertinusSerif-Semibold.woff2') format('woff2');
     font-weight: 600; /* semibold */
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Libertinus Serif';
     src: url('../assets/fonts/LibertinusSerif-SemiboldItalic.woff2') format('woff2');
     font-weight: 600; /* semibold */
     font-style: italic;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Libertinus Serif';
     src: url('../assets/fonts/LibertinusSerif-Bold.woff2') format('woff2');
     font-weight: 700; /* bold */
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Libertinus Serif';
     src: url('../assets/fonts/LibertinusSerif-BoldItalic.woff2') format('woff2');
     font-weight: 700; /* bold */
     font-style: italic;
+    font-display: swap;
 }
 
 /* Libertinus Math Font */
@@ -43,4 +49,5 @@
     src: url('../assets/fonts/LibertinusMath-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
