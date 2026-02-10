@@ -3,6 +3,9 @@
 ---
 @charset "utf-8";
 
+// Import your fonts first
+@import "fonts";
+
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
