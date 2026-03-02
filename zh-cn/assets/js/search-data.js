@@ -69,7 +69,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/news/";
               },
-            },{id: "post-愿你的每一条路都繁花似锦",
+            },{id: "post-夕阳下的决定",
+        
+          title: "夕阳下的决定",
+        
+        description: "关于哈佛、关于密歇根",
+        section: "博客",
+        handler: () => {
+          
+            window.location.href = "/zh-cn/blog/2026/about-Michigan/";
+          
+        },
+      },{id: "post-愿你的每一条路都繁花似锦",
         
           title: "愿你的每一条路都繁花似锦",
         
