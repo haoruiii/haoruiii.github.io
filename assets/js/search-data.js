@@ -69,9 +69,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/news/";
               },
-            },{id: "post-夕阳下的决定",
+            },{id: "post-我仍记得那天的夕阳",
         
-          title: "夕阳下的决定",
+          title: "我仍记得那天的夕阳",
         
         description: "关于哈佛、关于密歇根",
         section: "Blogs",
