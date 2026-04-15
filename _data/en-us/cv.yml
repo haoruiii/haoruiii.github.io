@@ -70,6 +70,10 @@
 - title: Scholarships and Grants
   type: time_table
   contents: 
+    - title: Rackham Conference Travel Grant
+      institution: Rackham Graduate School, University of Michigan
+      year: "2025-2026"
+      description: $900
     - title: LRCCS Doctoral Fellowship
       institution: <a href = 'https://ii.umich.edu/lrccs/about-us.html'>Lieberthal-Rogel Center for Chinese Studies</a>, University of Michigan
       year: "2025-2030"

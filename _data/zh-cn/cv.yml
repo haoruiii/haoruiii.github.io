@@ -64,6 +64,10 @@
 - title: 奖学金
   type: time_table
   contents: 
+    - title: Rackham会议旅行资金
+      institution: 密歇根大学Rackham研究生院
+      year: "2025-2026"
+      description: $900
     - title: LRCCS博士奖学金
       institution: 密歇根大学<a href = 'https://ii.umich.edu/lrccs/about-us.html'>李侃如－罗睿驰中国研究中心 (LRCCS)</a>
       year: "2025-2030"
