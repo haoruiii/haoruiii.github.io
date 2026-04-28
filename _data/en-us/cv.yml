@@ -86,12 +86,26 @@
 - title: Conference Presentations
   type: time_table
   contents: 
-    - title: Chinese Sociological Association
-      location: Chengdu, China
+    - title: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China
+      year: "2026"
+      description: 
+        - Roundtable, Annual Meeting of the American Sociological Association, New York City, New York, USA
+        - Paper Presentation, Annual Conference of the International Chinese Sociological Association, New York City, New York, USA
+        - Oral Presentation, Summer Meeting of the RC28 Social Stratification, International Sociological Association, New York City, New York, USA
+        - Poster Presentation, Annual Meeting of the Population Association of America, St. Louis, Missouri, USA
+    - title: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China
       year: "2025"
       description: 
-        - Oral Presentation
-        - for “Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China”
+        - Oral Presentation, Annual Meeting of the Chinese Sociological Association, Chengdu, Sichuan, China
+
+- title: Affiliations
+  type: list
+  contents:
+    - RC 28 Social Stratification, International Sociological Association
+    - Population Association of America (PAA)
+    - International Chinese Sociological Association (ICSA)
+    - American Sociological Association (ASA)
+
 
 - title: Training & Non-Degree
   type: time_table

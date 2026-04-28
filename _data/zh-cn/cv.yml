@@ -80,12 +80,25 @@
 - title: 学术会议
   type: time_table
   contents: 
-    - title: 中国社会学会学术年会
-      location: 中国成都
+    - title: <i>Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China</i>
+      year: "2026"
+      description: 
+        - 美国社会学会年会（美国纽约州纽约市）
+        - 国际华人社会学会年会（美国纽约州纽约市）
+        - 国际社会学会社会分层与流动委员会 (RC28) 夏季会议（美国纽约州纽约市）
+        - 美国人口学会年会（美国密苏里州圣路易斯市）
+    - title: <i>Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China</i>
       year: "2025"
       description: 
-        - 口头汇报
-        - 论文标题 <i>Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China</i>
+        - 中国社会学会学术年会（四川成都）
+
+- title: 会员身份
+  type: list
+  contents:
+    - 国际社会学会分层与流动委员会 (RC28)
+    - 美国人口学会 (PAA)
+    - 国际华人社会学会 (ICSA)
+    - 美国社会学会 (ASA)
 
 - title: 证书课程
   type: time_table
