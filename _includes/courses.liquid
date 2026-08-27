@@ -1,4 +1,4 @@
-{% if site.teachings != blank %}
+{% if site.teachings %}
   <div class="courses">
     {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
 
