@@ -149,7 +149,7 @@ ninja.data = [{
           title: 'GSI: Sociological Research Methods',
           description: "This course explores the basic methods of sociological research. Students will examine the relationship between social theory and research, the research process, choosing a sample, conditions for inferring causation, and methods of data collection, along with the applications and ethics of sociological research.",
           section: "",handler: () => {
-              window.location.href = "/zh-cn/teachings/en-us/data-science-fundamentals/";
+              window.location.href = "/zh-cn/teachings/en-us/fa26-soc-310/";
             },},{
         id: 'social-email',
         title: '发邮件',
