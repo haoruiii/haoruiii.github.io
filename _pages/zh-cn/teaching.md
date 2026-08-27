@@ -8,4 +8,4 @@ nav: true
 nav_order: 5
 ---
 
-敬请期待...
+{% include courses.liquid %}
