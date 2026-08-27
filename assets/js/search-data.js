@@ -145,6 +145,11 @@ ninja.data = [{
           description: "NFLS 2021届高三毕业视频",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/project_7/";
+            },},{id: "teachings-gsi-sociological-research-methods",
+          title: 'GSI: Sociological Research Methods',
+          description: "This course explores the basic methods of sociological research. Students will examine the relationship between social theory and research, the research process, choosing a sample, conditions for inferring causation, and methods of data collection, along with the applications and ethics of sociological research.",
+          section: "",handler: () => {
+              window.location.href = "/teachings/en-us/data-science-fundamentals/";
             },},{
         id: 'social-email',
         title: 'Send an email',
