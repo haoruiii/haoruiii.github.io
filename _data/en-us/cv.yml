@@ -47,7 +47,7 @@
         - title: Presented annually to the author of the best senior thesis in Sociology
           contents: 
             - "Title: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China"
-            - "Advisor: Alexandra A. Killewald"
+            - "Advisor: <a href = 'https://inequality.umich.edu/affiliate/alexandra-sasha-killewald/'>Alexandra A. Killewald</a>"
     - title: "Nominee, <a href = 'https://lsa.umich.edu/honors/current-students/honors-awards---grants/honors-scholarships-and-awards.html'>Marshall Sahlins Social Science Award</a>"
       institution: University of Michigan
       location: Ann Arbor, MI
@@ -72,6 +72,10 @@
   contents: 
     - title: Rackham Conference Travel Grant
       institution: Rackham Graduate School, University of Michigan
+      year: "2026-2027"
+      description: $900
+    - title: Rackham Conference Travel Grant
+      institution: Rackham Graduate School, University of Michigan
       year: "2025-2026"
       description: $900
     - title: LRCCS Doctoral Fellowship
@@ -86,22 +90,35 @@
 - title: Conference Presentations
   type: time_table
   contents: 
-    - title: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China
-      year: "2026"
+    - title: Annual Meeting of the ASA
       description: 
-        - Roundtable, Annual Meeting of the American Sociological Association, New York City, New York, USA
-        - Paper Presentation, Annual Conference of the International Chinese Sociological Association, New York City, New York, USA
-        - Oral Presentation, Summer Meeting of the RC28 Social Stratification, International Sociological Association, New York City, New York, USA
-        - Poster Presentation, Annual Meeting of the Population Association of America, St. Louis, Missouri, USA
-    - title: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China
-      year: "2025"
+        - Roundtable
+      location: New York City, NY
+      year: "Aug. 2026"
+    - title: Annual Conference of the International Chinese Sociological Association (ICSA)
+      location: New York City, NY
+      year: "Aug. 2026"
+    - title: RC28 Summer Meeting at NYU
+      location: New York City, NY
+      year: "Aug. 2026"
+    - title: Annual Conference of the Chinese Sociological Association
       description: 
-        - Oral Presentation, Annual Meeting of the Chinese Sociological Association, Chengdu, Sichuan, China
+        - Poster Presentation
+      location: Xi'an, China
+      year: "July 2026"
+    - title: Annual Meeting of the PAA
+      description: 
+        - Poster Presentation
+      location: St. Louis, MO
+      year: "May 2026"
+    - title: Annual Conference of the Chinese Sociological Association
+      location: Chengdu, China
+      year: "July 2025"
 
 - title: Affiliations
   type: list
   contents:
-    - RC 28 Social Stratification, International Sociological Association
+    - RC28 Social Stratification, International Sociological Association
     - Population Association of America (PAA)
     - International Chinese Sociological Association (ICSA)
     - American Sociological Association (ASA)

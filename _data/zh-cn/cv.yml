@@ -47,7 +47,7 @@
         - title: 最佳毕业论文（社会学）
           contents: 
             - "题目: Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China"
-            - "导师: Alexandra A. Killewald"
+            - "导师: <a href = 'https://inequality.umich.edu/affiliate/alexandra-sasha-killewald/'>Alexandra A. Killewald</a>"
     - title: "提名, <a href = 'https://lsa.umich.edu/honors/current-students/honors-awards---grants/honors-scholarships-and-awards.html'>Marshall Sahlins Social Science Award</a>"
       institution: 密歇根大学
       location: 美国安娜堡
@@ -66,6 +66,10 @@
   contents: 
     - title: Rackham会议旅行资金
       institution: 密歇根大学Rackham研究生院
+      year: "2026-2027"
+      description: $900
+    - title: Rackham会议旅行资金
+      institution: 密歇根大学Rackham研究生院
       year: "2025-2026"
       description: $900
     - title: LRCCS博士奖学金
@@ -80,17 +84,30 @@
 - title: 学术会议
   type: time_table
   contents: 
-    - title: <i>Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China</i>
-      year: "2026"
+    - title: 美国社会学学会年会
       description: 
-        - 美国社会学会年会（美国纽约州纽约市）
-        - 国际华人社会学会年会（美国纽约州纽约市）
-        - 国际社会学会社会分层与流动委员会 (RC28) 夏季会议（美国纽约州纽约市）
-        - 美国人口学会年会（美国密苏里州圣路易斯市）
-    - title: <i>Educational Trends, 1999 Higher Education Expansion, and Relative Intergenerational Occupation Persistence in Postsocialist China</i>
-      year: "2025"
+        - Roundtable
+      location: 美国纽约
+      year: "2026.08"
+    - title: 国际华人社会学会年会
+      location: 美国纽约
+      year: "2026.08"
+    - title: RC28夏季会议
+      location: 美国纽约
+      year: "2026.08"
+    - title: 中国社会学会学术年会
       description: 
-        - 中国社会学会学术年会（四川成都）
+        - 书面发言
+      location: 陕西西安
+      year: "2026.07"
+    - title: 美国人口学会年会
+      description: 
+        - Poster Presentation
+      location: 美国密苏里州圣路易斯
+      year: "2026.05"
+    - title: 中国社会学会学术年会
+      location: 四川成都
+      year: "2025.07"
 
 - title: 会员身份
   type: list
