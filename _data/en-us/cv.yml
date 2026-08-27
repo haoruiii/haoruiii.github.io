@@ -92,27 +92,30 @@
   contents: 
     - title: Annual Meeting of the ASA
       description: 
+        - New York City, NY, USA
         - Roundtable
-      location: New York City, NY
       year: "Aug. 2026"
     - title: Annual Conference of the International Chinese Sociological Association (ICSA)
-      location: New York City, NY
+      description: 
+        - New York City, NY, USA
       year: "Aug. 2026"
     - title: RC28 Summer Meeting at NYU
-      location: New York City, NY
+      description: 
+        - New York City, NY, USA
       year: "Aug. 2026"
     - title: Annual Conference of the Chinese Sociological Association
       description: 
+        - Xi'an, Shaanxi, China
         - Poster Presentation
-      location: Xi'an, China
       year: "July 2026"
     - title: Annual Meeting of the PAA
       description: 
+        - St. Louis, MO, USA
         - Poster Presentation
-      location: St. Louis, MO
       year: "May 2026"
     - title: Annual Conference of the Chinese Sociological Association
-      location: Chengdu, China
+      description: 
+        - Chengdu, Sichuan, China
       year: "July 2025"
 
 - title: Affiliations

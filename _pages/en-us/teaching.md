@@ -8,4 +8,4 @@ nav: true
 nav_order: 5
 ---
 
-To be updated...
+{% include courses.liquid %}
