@@ -145,6 +145,16 @@ ninja.data = [{
           description: "NFLS 2021届高三毕业视频",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/project_7/";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "",handler: () => {
+              window.location.href = "/teachings/en-us/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "",handler: () => {
+              window.location.href = "/teachings/en-us/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'Send an email',
