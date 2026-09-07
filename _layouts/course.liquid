@@ -2,6 +2,7 @@
 layout: page
 ---
 <div class="course">
+  <!-- Instructor / term / location / time block (unchanged) -->
   {% if page.instructor or page.term or page.location or page.time %}
     <div class="course-info">
       {% if page.instructor %}
@@ -22,7 +23,13 @@ layout: page
     </div>
   {% endif %}
 
-  {{ content }}
+  <!-- Split content on the marker -->
+  {% assign parts = content | split: '<!-- schedule -->' %}
+
+  <!-- Render content BEFORE the marker -->
+  {{ parts[0] }}
+
+  <!-- Insert the schedule table (if it exists) -->
 
   {% if page.schedule %}
     <h2>Schedule</h2>
@@ -71,5 +78,10 @@ layout: page
         {% endfor %}
       </tbody>
     </table>
+  {% endif %}
+
+  <!-- Render content AFTER the marker (if any) -->
+  {% if parts[1] %}
+    {{ parts[1] }}
   {% endif %}
 </div>
