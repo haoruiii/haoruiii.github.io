@@ -109,6 +109,23 @@
       location: 成都
       year: "2025.07"
 
+- title: 教学经历
+  type: map
+  contents:
+    - name: 2026学年第一学期
+      institution: 密歇根大学
+      value: 社会学310 - <a href = '{{ site.baseurl }}/teachings/en-us/fa26-soc-310/'>社会学研究方法</a>，助教
+
+- title: Professional Activities
+  type: time_table
+  contents: 
+    - title: Coordinator, China Reading Group, LRCCS
+      institution: 密歇根大学
+      year: "2026-"
+    - title: Coordinator, Inequality and Social Demography (ISD) Workshop
+      institution: 密歇根大学
+      year: "2026-2027"
+
 - title: 会员身份
   type: list
   contents:

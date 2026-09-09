@@ -118,6 +118,23 @@
         - Chengdu, Sichuan, China
       year: "July 2025"
 
+- title: Teaching Experiences
+  type: map
+  contents:
+    - name: Fall 2026
+      institution: University of Michigan
+      value: Sociology 310 - <a href = '{{ site.baseurl }}/teachings/en-us/fa26-soc-310/'>Sociological Research Methods</a>, GSI to Andrei Boutyline
+
+- title: Professional Activities
+  type: time_table
+  contents: 
+    - title: Coordinator, China Reading Group, LRCCS
+      institution: University of Michigan
+      year: "2026-"
+    - title: Coordinator, Inequality and Social Demography (ISD) Workshop
+      institution: University of Michigan
+      year: "2026-2027"
+
 - title: Affiliations
   type: list
   contents:
@@ -125,7 +142,6 @@
     - Population Association of America (PAA)
     - International Chinese Sociological Association (ICSA)
     - American Sociological Association (ASA)
-
 
 - title: Training & Non-Degree
   type: time_table
