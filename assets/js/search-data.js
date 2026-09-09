@@ -91,11 +91,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/best-wishes/";
           
         },
-      },{id: "post-one-day-in-chongqing",
+      },{id: "post-向山去",
         
-          title: "One Day in Chongqing",
+          title: "向山去",
         
-        description: "Before Rainstorm",
+        description: "重庆·暴雨之前",
         section: "Blogs",
         handler: () => {
           

@@ -102,13 +102,13 @@ ninja.data = [{
             window.location.href = "/zh-cn/blog/2025/Chongqing/";
           
         },
-      },{id: "news-2025中国社会学会学术年会",
-          title: '2025中国社会学会学术年会',
+      },{id: "news-2025-csa-annual-meeting",
+          title: '2025 CSA Annual Meeting',
           description: "",
           section: "简讯",handler: () => {
-              window.location.href = "/zh-cn/news/zh-cn/2025-07-06_2025CSA/";
-            },},{id: "news-今日正式迎来读博生涯的第一天",
-          title: '今日正式迎来读博生涯的第一天！',
+              window.location.href = "/zh-cn/news/en-us/2025-07-06_2025CSA/";
+            },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
+          title: 'It is officially the first day of my graduate career!',
           description: "",
           section: "简讯",},{id: "projects-试论当代中国的教育与流动性变迁",
           title: '试论当代中国的教育与流动性变迁',
