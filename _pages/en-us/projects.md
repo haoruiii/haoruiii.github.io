@@ -6,7 +6,7 @@ permalink: /projects/
 description: A growing collection of my academic and personal projects.
 nav: true
 nav_order: 3
-display_categories: [Academics, Personal, Others]
+display_categories: [Academics, Teaching, Personal, Others]
 horizontal: false
 ---
 
