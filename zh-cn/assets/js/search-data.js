@@ -110,7 +110,12 @@ ninja.data = [{
             },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
           title: 'It is officially the first day of my graduate career!',
           description: "",
-          section: "简讯",},{id: "projects-试论当代中国的教育与流动性变迁",
+          section: "简讯",},{id: "projects-gsi-sociological-research-methods",
+          title: 'GSI: Sociological Research Methods',
+          description: "thoughts and lesson plans",
+          section: "课题",handler: () => {
+              window.location.href = "/zh-cn/projects/en-us/gsi_fa26-soc-310/";
+            },},{id: "projects-试论当代中国的教育与流动性变迁",
           title: '试论当代中国的教育与流动性变迁',
           description: "来自CGSS的一些结果",
           section: "课题",handler: () => {

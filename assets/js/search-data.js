@@ -110,7 +110,12 @@ ninja.data = [{
             },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
           title: 'It is officially the first day of my graduate career!',
           description: "",
-          section: "News",},{id: "projects-education-s-role-in-intergenerational-persistence",
+          section: "News",},{id: "projects-gsi-sociological-research-methods",
+          title: 'GSI: Sociological Research Methods',
+          description: "thoughts and lesson plans",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/en-us/gsi_fa26-soc-310/";
+            },},{id: "projects-education-s-role-in-intergenerational-persistence",
           title: 'Education’s Role in Intergenerational Persistence',
           description: "The Experiences of China",
           section: "Projects",handler: () => {
