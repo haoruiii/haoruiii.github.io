@@ -19,6 +19,7 @@ blog:
   navigation_title: blog
 categories:
   Academics: Academics
+  Teachings: Teachings
   Personal: Personal
   Others: Others
 citation:

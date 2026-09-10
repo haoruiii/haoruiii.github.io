@@ -19,6 +19,7 @@ blog:
   navigation_title: 博客
 categories:
   Academics: 学术项目
+  Teachings: 教学项目
   Personal: 个人项目
   Others: 其他项目
 citation:
