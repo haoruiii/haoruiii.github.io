@@ -6,7 +6,7 @@ permalink: /projects/
 description: 个人研究及其他项目
 nav: true
 nav_order: 3
-display_categories: [Academics, Personal, Others]
+display_categories: [Academics, Teachings, Personal, Others]
 horizontal: false
 ---
 

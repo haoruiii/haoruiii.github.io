@@ -1,11 +1,11 @@
 ---
 page_id: gsi_fa26-soc-310
 layout: page
-title: "GSI: Sociological Research Methods"
+title: "Sociological Research Methods (GSI)"
 description: thoughts and lesson plans
 img: assets/img/project/gsi_fa26-soc-310/bg.png
 importance: 1
-category: Teaching
+category: Teachings
 related_publications: false
 giscus_comments: true
 ---
@@ -16,4 +16,4 @@ The sessions are listed in a chronological order.
 
 ## September 14, Research Question
 
-
+---
