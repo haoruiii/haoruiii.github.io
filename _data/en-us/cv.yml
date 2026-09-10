@@ -123,7 +123,7 @@
   contents:
     - name: Fall 2026
       institution: University of Michigan
-      value: Sociology 310 - <a href = '{{ site.baseurl }}/teachings/en-us/fa26-soc-310/'>Sociological Research Methods</a>, GSI to Andrei Boutyline
+      value: Sociology 310 - <a href = '{% link _teachings/en-us/fa26-soc-310.md %}'>Sociological Research Methods</a>, GSI to Andrei Boutyline
 
 - title: Professional Activities
   type: time_table
