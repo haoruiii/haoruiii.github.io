@@ -110,8 +110,8 @@ ninja.data = [{
             },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
           title: 'It is officially the first day of my graduate career!',
           description: "",
-          section: "News",},{id: "projects-gsi-sociological-research-methods",
-          title: 'GSI: Sociological Research Methods',
+          section: "News",},{id: "projects-sociological-research-methods-gsi",
+          title: 'Sociological Research Methods (GSI)',
           description: "thoughts and lesson plans",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/gsi_fa26-soc-310/";
