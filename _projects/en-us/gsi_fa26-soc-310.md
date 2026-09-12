@@ -20,19 +20,19 @@ The sessions are listed in a chronological order.
 
 ## September 14, Research Question
 
-### Context
+#### Context
 
 
 
-### Students’ Current Status
+#### Students’ Current Status
 
-### ZPD
+#### ZPD
 
-### Teaching Goals
+#### Teaching Goals
 
-### Focus & Students’ Challenges
+#### Focus & Students’ Challenges
 
-### Design
+#### Design
 
 ---
 
