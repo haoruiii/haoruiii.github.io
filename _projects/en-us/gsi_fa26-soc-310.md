@@ -6,7 +6,7 @@ description: thoughts and lesson plans
 img: assets/img/project/gsi_fa26-soc-310/bg.png
 importance: 1
 category: Teachings
-related_publications: true
+related_publications: false
 giscus_comments: true
 toc: 
   sidebar: left
@@ -31,10 +31,7 @@ The sessions are listed in a chronological order.
 In the lectures before this section, students have learned
 
 1. Structure / Elements of Research Questions
-  - A research question involves: 
-    - a specific population
-    - two or more factors
-    - a (causal) relationship between the factors
+  - A research question involves i). a specific population, ii). two or more factors, and iii). a (causal) relationship between the factors
   - *Reflection: The ideas here may not always be the case, but I think they make sense given it's a mandatory methods class for undergraduate sociology majors.*
 2. Conceptualization
   - *Reflection: Students seem to more or less mix up conceptualization and operationalization.*
