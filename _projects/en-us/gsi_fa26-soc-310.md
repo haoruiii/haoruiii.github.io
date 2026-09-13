@@ -22,7 +22,9 @@ The sessions are listed in a chronological order.
 
 #### Context
 
-
+- This is the first discussion section for the students in the semester. 
+- Students have been assigned into groups of 4 or 5, based primarily on their topic(s) of interest. 
+- Their main goal for this week is to complete Assignment #1, whose main part is an essay describing the context of their project, clearly and precisely stating their research question, and conceptualizing necessary terms. 
 
 #### Students’ Current Status
 
