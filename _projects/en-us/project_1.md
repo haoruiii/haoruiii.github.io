@@ -11,7 +11,7 @@ related_publications: true
 giscus_comments: true
 ---
 
-My thesis {% cite RN1063 %} focuses on the role of education in the cross-cohort changes of social mobility in China. 
+My thesis {% cite senior_thesis %} focuses on the role of education in the cross-cohort changes of social mobility in China. 
 
 **Abstract:** 
 

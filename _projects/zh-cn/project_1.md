@@ -11,7 +11,7 @@ related_publications: true
 giscus_comments: true
 ---
 
-本文 {% cite RN1063 %} 主要关注教育在当代中国流动性变迁中的作用。
+本文 {% cite senior_thesis %} 主要关注教育在当代中国流动性变迁中的作用。
 
 **摘要:** 
 
