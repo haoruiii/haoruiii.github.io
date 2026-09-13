@@ -80,7 +80,7 @@ When leaving my classroom, I expect that students are able to
 
 #### Design
 
-Given my personal interest, I would like to use {% reference bloome_et_al-ASR --file _bibliography/external_refs.bib %} as an extra example. 
+Given my personal interest, I would like to use {% reference bloome_et_al-ASR --file _bibliography/external.bib %} as an extra example. 
 
 I plan to do the following: 
 
@@ -98,7 +98,7 @@ Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-so
 
 #### Article(s) Mentioned
 
-{% bibliography --cited --file _bibliography/external_refs.bib %}
+{% bibliography --cited --file _bibliography/external.bib %}
 
 ---
 
