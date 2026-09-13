@@ -6,7 +6,7 @@ description: thoughts and lesson plans
 img: assets/img/project/gsi_fa26-soc-310/bg.png
 importance: 1
 category: Teachings
-related_publications: false
+related_publications: true
 giscus_comments: true
 toc: 
   sidebar: left
@@ -24,11 +24,44 @@ The sessions are listed in a chronological order.
 
 - This is the first discussion section for the students in the semester. 
 - Students have been assigned into groups of 4 or 5, based primarily on their topic(s) of interest. 
-- Their main goal for this week is to complete Assignment #1, whose main part is an essay describing the context of their project, clearly and precisely stating their research question, and conceptualizing necessary terms. 
+- Their main goal for this week is to complete **Assignment #1**, whose main part is an essay describing the context of their project, clearly and precisely stating their research question, and conceptualizing necessary terms. 
 
 #### Students’ Current Status
 
+In the lectures before this section, students have learned
+
+1. Structure / Elements of Research Questions
+  - A research question involves: 
+    - a specific population
+    - two or more factors
+    - a (causal) relationship between the factors
+  - *Reflection: The ideas here may not always be the case, but I think they make sense given it's a mandatory methods class for undergraduate sociology majors.*
+2. Conceptualization
+  - *Reflection: Students seem to more or less mix up conceptualization and operationalization.*
+3. Characteristics of Good (310) Research Questions
+  - *Reflection: This part seems clear for student so far, and I need to see their specific responses to provide further feedback.*
+
+In the Assignment #1 instructions, students are told
+
+1. how to use Google Scholar to search papers (quotation marks and boolean connectors)
+  - *Reflection: Students may not know exactly how these functions work.*
+2. the existence of *Annual Review of Sociology*
+  - *Reflection: Students are not provided further details on how to search within this journal.*
+
+When coming to sections, students will
+
+1. have made up a beginning idea about their research question
+2. each has written a summary for the one article of their choice, which is one of the many in their literature review
+
 #### ZPD
+
+If I, as a more knowledgeable other (MKO), assist the students, they should be able to
+
+- master the elements and good characteristics of research questions, therefore applying them to create their own projects
+- differentiate conceptualization from operationalization
+- know and employ Google Scholar searching techniques
+- know and use additional resources for paper searching and citation
+- set up their research question to an appropriate scale
 
 #### Teaching Goals
 
