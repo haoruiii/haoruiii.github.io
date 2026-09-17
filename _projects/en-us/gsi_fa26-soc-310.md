@@ -12,7 +12,7 @@ toc:
   sidebar: left
 ---
 
-In Fall 2026, I worked as the Gradute Student Instructor (GSI) in **Sociology 310 - [Sociological Research Methods](https://haoruiii.github.io/teachings/en-us/fa26-soc-310/)** for Andrei Boutyline, leading two discussion sections. Here, I would like to record my thoughts and lesson plans for each discussion. 
+In Fall 2026, I worked as the Graduate Student Instructor (GSI) in **Sociology 310 - [Sociological Research Methods](https://haoruiii.github.io/teachings/en-us/fa26-soc-310/)** for Andrei Boutyline, leading two discussion sections. Here, I would like to record my thoughts and lesson plans for each discussion. 
 
 The sessions are listed in a chronological order. 
 
@@ -90,9 +90,68 @@ I plan to do the following:
   - top & flagship journals, including *AJS*, *ASR*, *Social Forces*
   - library guide and sociology librarian
   - Zotero / EndNote
+5. have students work in groups on their Assignment #1
+6. check-out form
 
 Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk2_0911.pdf). 
 
 ---
 
 ## September 21
+
+#### Context
+
+- Students have received feedback on their Assignment #1, on which they will rely to revise their (statements on) research question and conceptualization as the first part of their Assignment #2. 
+- Their main goal for this week is to complete **Assignment #2a**, for which they’ll work individually on identifying explanatory and responses variables in their group’s research question, as well as potential mediators, moderators, and confounders. 
+- Assignment #2a will be a significant preparation of Assignment #2b, which is to work in groups to develop hypotheses for their final project. 
+
+#### Students’ Current Status
+
+In the lectures before this section, students have encountered
+
+1. Definitions of Independent (Explanatory) and Dependent (Response) Variables
+	- *Reflection: It seems that students are clear on these.* 
+2. Definitions and Examples of Mediators, Moderators, and Confounders
+	- definitions in the form of a statement
+	- questions we may ask when needing to find them
+	- *Reflection: The examples, with which students use to practice identifying variables, may be simpler / more straightforward than the research questions on which they’re working.*
+3. Diagrams that reflects the role(s) of variables and their relationships
+	- *Reflection: It seems that students are clear on these.* 
+
+#### ZPD
+
+If I, as a more knowledgeable other (MKO), assist the students, they should be able to
+
+- master the definitions of mediators, moderators, and confounders, therefore applying them to identify the role(s) of each variable relevant to their research question
+- identify potential mediators, moderators, and confounders for their research question via brainstorm and, more importantly, literature review
+- set up their hypotheses for their research question that assume clearly relationships between variables, mainly in words (with the assistance of diagrams)
+
+#### Teaching Goals
+
+When leaving my classroom, I expect that my students are able to 
+
+- identify different roles of variables when given a research question, both those stated in the RQ and other potential ones
+- develop hypothesis for a research question on their own, getting ready for their Assignment #2a
+
+#### Focus & Students’ Challenges
+
+- To come up with potential mediators, moderators, and confounders when given a research question and/or claim
+
+#### Design
+
+I plan to do the following: 
+
+1. provide feedback on students Assignment #1
+2. lecture on differentiating mediators, moderators, and confounders
+	- mediators similar to a “bridge” or a “chain”
+	- moderators similar to a “switch”
+	- confounders similar to a “puppet master
+3. lecture on identifying potential mediators, moderators, and confounders
+	- use the example claim “Improvements in people’s educational attainment increases their income in the future.”
+	- individual brainstorm + group discussion + class discussion
+4. have students work on their Assignment #2a
+5. check-out form
+
+Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk3_0918.pdf). 
+
+---
