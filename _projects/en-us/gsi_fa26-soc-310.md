@@ -145,7 +145,7 @@ I plan to do the following:
 2. lecture on differentiating mediators, moderators, and confounders
 	- mediators similar to a “bridge” or a “chain”
 	- moderators similar to a “switch”
-	- confounders similar to a “puppet master
+	- confounders similar to a “puppet master”
 3. lecture on identifying potential mediators, moderators, and confounders
 	- use the example claim “Improvements in people’s educational attainment increases their income in the future.”
 	- individual brainstorm + group discussion + class discussion
