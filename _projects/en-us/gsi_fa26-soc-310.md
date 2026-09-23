@@ -156,7 +156,7 @@ Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-so
 
 ---
 
-## September 25， Variables Cont.d
+## September 25, Variables Cont.d
 
 #### Context
 
