@@ -18,7 +18,7 @@ The sessions are listed in a chronological order.
 
 ---
 
-## September 14, Research Question
+## September 11, Research Question
 
 #### Context
 
@@ -97,7 +97,7 @@ Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-so
 
 ---
 
-## September 21
+## September 18， Variables
 
 #### Context
 
@@ -153,5 +153,56 @@ I plan to do the following:
 5. check-out form
 
 Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk3_0918.pdf). 
+
+---
+
+## September 25， Variables Cont.d
+
+#### Context
+
+- Last week I provided additional examples to illustrate the features of confounders, but my lecturing may not went 100% well on this part. Therefore, some more time is necessary in this lecture. 
+- Their main goal for this week is to complete **Assignment #2b**, for which they’ll work in groups to develop hypotheses for their project. They have each member’s Assignment #2a as starting points - they’ve already identified multiple mediators, moderators, and confounders. 
+
+#### Students’ Current Status
+
+Before coming this section, students have
+
+1. Encountered definitions of mediators, moderators, and confounders
+	- *Reflection: My mini lecturing did not remove all confusions, especially on confounders. More time is needed this time.* 
+2. Completed their Assignment #2a, which is to work individually on identifying mediators, moderators, and confounders for their groups’ research questions
+	- *Reflection: This should bring them good starting points for Assignment #2b.*
+
+#### ZPD
+
+If I, as a more knowledgeable other (MKO), assist the students, they should be able to
+
+- master the definitions of mediators, moderators, and confounders, therefore applying them to identify the role(s) of each variable relevant to their research question
+- identify potential mediators, moderators, and confounders for their research question via brainstorm and, more importantly, literature review
+- set up their hypotheses for their research question that assume clearly relationships between variables, mainly in words (with the assistance of diagrams)
+
+#### Teaching Goals
+
+When leaving my classroom, I expect that my students are able to 
+
+- identify different roles of variables when given a research question, both those stated in the RQ and other potential ones
+- develop hypothesis for a research question in groups, getting ready for their Assignment #2b (with Assignment #2a as starting points)
+
+#### Focus & Students’ Challenges
+
+- To come up with potential mediators, moderators, and confounders when given a research question and/or claim
+
+#### Design
+
+I plan to do the following: 
+
+1. clarify and correct what’s covered last time
+	- analogy and definition for mediators, moderators, and confounders
+	- the extra example provided, explaining where I made mistakes
+	- two things on which I was right
+2. a general Q&A for all questions regarding variables and their Assignment #2
+4. have students work on their Assignment #2b
+5. check-out form
+
+Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk4_0925.pdf). 
 
 ---
