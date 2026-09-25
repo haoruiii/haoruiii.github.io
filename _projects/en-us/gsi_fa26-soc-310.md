@@ -161,6 +161,7 @@ Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-so
 #### Context
 
 - Last week I provided additional examples to illustrate the features of confounders, but my lecturing may not went 100% well on this part. Therefore, some more time is necessary in this lecture. 
+- Students have completed their Assignment #2a. 
 - Their main goal for this week is to complete **Assignment #2b**, for which they’ll work in groups to develop hypotheses for their project. They have each member’s Assignment #2a as starting points - they’ve already identified multiple mediators, moderators, and confounders. 
 
 #### Students’ Current Status
@@ -170,12 +171,13 @@ Before coming this section, students have
 1. Encountered definitions of mediators, moderators, and confounders
 	- *Reflection: My mini lecturing did not remove all confusions, especially on confounders. More time is needed this time.* 
 2. Completed their Assignment #2a, which is to work individually on identifying mediators, moderators, and confounders for their groups’ research questions
-	- *Reflection: This should bring them good starting points for Assignment #2b.*
+	- *Reflection: 1). There are problems with their citation formatting for the majority of students. 2). This should bring them good starting points for Assignment #2b.*
 
 #### ZPD
 
 If I, as a more knowledgeable other (MKO), assist the students, they should be able to
 
+- apply the techniques to cite appropriately, especially building the bibliography page in proper formats
 - master the definitions of mediators, moderators, and confounders, therefore applying them to identify the role(s) of each variable relevant to their research question
 - identify potential mediators, moderators, and confounders for their research question via brainstorm and, more importantly, literature review
 - set up their hypotheses for their research question that assume clearly relationships between variables, mainly in words (with the assistance of diagrams)
@@ -184,6 +186,7 @@ If I, as a more knowledgeable other (MKO), assist the students, they should be a
 
 When leaving my classroom, I expect that my students are able to 
 
+- apply the techniques to cite appropriately, especially building the bibliography page in proper formats, in both Microsoft Word and Google Docs
 - identify different roles of variables when given a research question, both those stated in the RQ and other potential ones
 - develop hypothesis for a research question in groups, getting ready for their Assignment #2b (with Assignment #2a as starting points)
 
@@ -195,11 +198,15 @@ When leaving my classroom, I expect that my students are able to
 
 I plan to do the following: 
 
-1. clarify and correct what’s covered last time
+1. go over the formatting of bibliography pages
+	- ***titles*** bolded and italicized
+	- each citation are hanging indent
+	- steps in Microsoft World and Google Docs
+2. clarify and correct what’s covered last time
 	- analogy and definition for mediators, moderators, and confounders
 	- the extra example provided, explaining where I made mistakes
 	- two things on which I was right
-2. a general Q&A for all questions regarding variables and their Assignment #2
+3. a general Q&A for all questions regarding variables and their Assignment #2
 4. have students work on their Assignment #2b
 5. check-out form
 
