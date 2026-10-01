@@ -213,3 +213,79 @@ I plan to do the following:
 Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk4_0925.pdf). 
 
 ---
+
+## October 1, Asking People Questions
+
+#### Context
+
+- Students have completed their Assignment #2b, for which they identify relevant variables and develop hypotheses for their projects. 
+- Next week, students will begin their Assignment #3, which is to design their measurement instrument - either an interview guide or a survey. 
+- This week is designed to hold an intermediate, lecturing session, preparing students for their Assignment #3. 
+
+#### Students’ Current Status
+
+Before coming this section, students have
+
+1. Encountered broad ideas of self-reported data and the collection
+	- in-depth interviews v.s. surveys
+	- open-ended questions v.s. close-ended questions
+	- *Reflection: This part is clear and straightforward. Few further illustration is needed.* 
+2. Learned about Socially Desirability Bias (SDB)
+	- their impact, with examples
+	- ways to reduce SDB
+	- *Reflection: This needs some more discussion. For example, on the ideas of anonymity, they should know more details and how their projects shall be adjusted.*
+3. Been introduced techniques to make good surveys
+	- structures and necessary elements of surveys
+	- types of questions, and their order
+	- types of variables
+	- main rules for survey construction, including how to state questions and organize choices
+	- index and proxy
+	- *Reflection: It is necessary to go through this part again, providing some more suggestions if necessary. Some examples, such as large-scale surveys, may also be helpful.*
+4. Been taught ways to develop nice interviews
+	- structure
+	- strategies and principles of good interviews
+	- probes
+	- some examples
+	- *Reflection: Similarly, it is necessary to go through this part again, providing some more suggestions if necessary. Some examples, such as a prior student case, may also be helpful.*
+5. Completed their Assignment #2b, which is to identify their IV, DV, mediators, moderators, and confounders for their project. This also leads them to hypotheses. 
+	- *Reflection: They should have had beginning points for their Assignment #3, but may need instructions on how to dig deeper so that they can collect more comprehensive information.*
+
+#### ZPD
+
+If I, as a more knowledgeable other (MKO), assist the students, they should be able to
+
+- when given a survey / interview guide, point strengthes and identify potential problems
+- apply introduced techniques, strategies, and principles to improve the quality of their data collection
+- write and improve their measurement guides
+
+#### Teaching Goals
+
+When leaving my classroom, I expect that my students are able to 
+
+- remember the techniques, strategies, and principles of asking people questions
+- identify potential problems of given question statements, choice organizations, and interview guide frameworks
+- develop their own measurement instrucment to an acceptable degree (i.e., after one round of revision based on my feedback, they can really use it for data collection)
+
+#### Focus & Students’ Challenges
+
+- To get students ready for applying the techniques, strategies, and principles specifically to their projects
+
+#### Design
+
+I plan to do the following: 
+
+1. review the ideas on SDB and ways to reduce it
+	- to guarantee confidentiality & anonymity
+	- to be neutral
+	- to be indirect and “weaker” 
+2. go over survey techniques
+3. go over interview techniques
+4. if there is still time left, a practice in preparation for their Assignment #3
+	- choose (one of) the most complex concept(s)
+	- for surveys, think about index/proxy and associated questions for each dimension
+	- for interviews, think about major questions and potential probes for this theme
+5. check-out form
+
+Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk5_1002.pdf). 
+
+---
