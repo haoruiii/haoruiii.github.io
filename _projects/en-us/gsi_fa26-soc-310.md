@@ -214,7 +214,7 @@ Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-so
 
 ---
 
-## October 1, Asking People Questions
+## October 2, Asking People Questions
 
 #### Context
 
@@ -264,7 +264,7 @@ When leaving my classroom, I expect that my students are able to
 
 - remember the techniques, strategies, and principles of asking people questions
 - identify potential problems of given question statements, choice organizations, and interview guide frameworks
-- develop their own measurement instrucment to an acceptable degree (i.e., after one round of revision based on my feedback, they can really use it for data collection)
+- develop their own measurement instrument to an acceptable degree (i.e., after one round of revision based on my feedback, they can really use it for data collection)
 
 #### Focus & Students’ Challenges
 
@@ -289,3 +289,60 @@ I plan to do the following:
 Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk5_1002.pdf). 
 
 ---
+
+## October 9, Measurement Instruments
+
+#### Context
+
+- Students have received comments and feedback on their Assignment #2b, which is to identify relevant variables and develop hypotheses for their projects. 
+- This week, the main goal is to complete their **Assignment #3**, which is to design their measurement instrument - either an interview guide or a survey. 
+- In lecture, students have been introduced principles, strategies, and techniques for designing a survey and an interview guide
+
+#### Students’ Current Status
+
+Before coming this section, students have
+
+1. Encountered broad ideas of self-reported data and the collection
+2. Learned about Socially Desirability Bias (SDB)
+	- their impact, with examples
+	- ways to reduce SDB
+3. Been introduced techniques to make good surveys and interviews
+4. Received comments and feedback on their Assignment #2b, so that they should have already developed a list of concepts to measure
+	- *Reflection: What they may need further is to move from what to measure to **how to measure them**.*
+
+#### ZPD
+
+If I, as a more knowledgeable other (MKO), assist the students, they should be able to
+
+- specify how to measure each concept of their interest
+- write and improve their measurement guides
+
+#### Teaching Goals
+
+When leaving my classroom, I expect that my students are able to 
+
+- develop their own measurement instrucment to an acceptable degree (i.e., after one round of revision based on my feedback, they can really use it for data collection)
+- To get started, and hopefully finish most of, their Assignment #3
+
+#### Focus & Students’ Challenges
+
+- to specify how to measure, including to develop indexes and probes
+- to write down reasonable questions
+- to organize their questions in a reasonable order
+
+#### Design
+
+I plan to do the following: 
+
+1. respond to questions regarding last section’s contents, if any
+2. provide Assignment #2b comments & feedback
+	- common issues
+	- demonstrate full logica
+	- functions of references
+3. group work time on Assignment #3
+4. check-out form
+
+Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk6_1009.pdf). 
+
+---
+
