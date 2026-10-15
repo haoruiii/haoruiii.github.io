@@ -321,8 +321,8 @@ If I, as a more knowledgeable other (MKO), assist the students, they should be a
 
 When leaving my classroom, I expect that my students are able to 
 
-- develop their own measurement instrucment to an acceptable degree (i.e., after one round of revision based on my feedback, they can really use it for data collection)
-- To get started, and hopefully finish most of, their Assignment #3
+- develop their own measurement instrument to an acceptable degree (i.e., after one round of revision based on my feedback, they can really use it for data collection)
+- to get started, and hopefully finish most of, their Assignment #3
 
 #### Focus & Students’ Challenges
 
@@ -346,3 +346,58 @@ Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-so
 
 ---
 
+## October 16, Sampling Plan
+
+#### Context
+
+- This week, the main goal is to complete their **Assignment #4**, which is to settle down their sampling plan. 
+- In lecture, students have been introduced ideas around representativeness, probability and non-probability sampling, and sampling biases. 
+- In lecture, students have also had roughly 2 hours of group work time on this assignment. 
+
+#### Students’ Current Status
+
+Before coming this section, students have
+
+1. Encountered definitions and types of representativeness
+	- *Reflection: It may be interesting to introduce them the idea of survey weights.*
+2. Learned about Sampling Techniques
+	- probability sampling (simple random, interval, etc.)
+	- non-probability sampling (convenience, quota, snowball, etc.)
+	- *Reflection: It may be interesting to introduce them the idea of stratified and cluster sampling. Also, it is necessary to specify that using Prolific without quota is essentially developing convenience samples.*
+3. Been introduced multiple kinds of bias
+	- *Reflection: I should set up the framework for them and let them know which kinds of bias they’re aiming to minimize at this stage of developing a sampling plan.*
+
+#### ZPD
+
+If I, as a more knowledgeable other (MKO), assist the students, they should be able to
+
+- distinguish different sampling techniques, and discuss their advantages and disadvantages
+- evaluate what if the various sampling techniques are applied to their specific projects, therefore make their reasonable choice
+- wrap up their Assignment #4
+
+#### Teaching Goals
+
+When leaving my classroom, I expect that my students are able to 
+
+- develop their own sampling plan to an acceptable degree (i.e., the framework being clearly described, with its advantages and disadvantages explicitly stated)
+- finish most of their Assignment #4
+
+#### Focus & Students’ Challenges
+
+- to make a choice of their sampling technique
+- to clearly write down what they will obtain and lose from choosing their sampling technique
+
+#### Design
+
+I plan to do the following: 
+
+1. review ideas around bias, sampling techniques, and representativeness
+	- first, we have these kinds of bias to handle, some of which are mainly in this assignment
+	- second, we have these sampling techniques, each with their own advantages and disadvantages
+	- with these, your ultimate goal is to develop a representative sample
+2. group work time on Assignment #4
+3. check-out form
+
+Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk7_1016.pdf). 
+
+---
