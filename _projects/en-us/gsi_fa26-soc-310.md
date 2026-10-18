@@ -401,3 +401,52 @@ I plan to do the following:
 Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk7_1016.pdf). 
 
 ---
+
+## October 23, Data Collection Test
+
+#### Context
+
+- This week, the main goal is to complete their **Assignment #5a**, which is their pilot data collection. They are going to test how their surveys (and interviews) work. 
+- They have recieved feedback on Assignment #3, which is their measurement instrucment. 
+- They have also finished their sampling plan (Assingment #4), on which I have provided feedback as they worked in groups. 
+
+#### Students’ Current Status
+
+Before coming this section, students have
+
+1. been revising their surveys (and interview guides)
+	- *Reflection: It will be the focus of this section.*
+2. designed their sampling plan
+	- *Reflection: This should be clear so far.*
+
+#### ZPD
+
+If I, as a more knowledgeable other (MKO), assist the students, they should be able to
+
+- further practice principles and strategies on how to ask people questions, in surveys (and interviews)
+- avoid common errors on survey (and interview) questions, especially using double-barred questions and having vague terms
+- revise their surveys (and interview guides)
+
+#### Teaching Goals
+
+When leaving my classroom, I expect that my students are able to 
+
+- revise their surveys (and interview guides)
+- be ready to conduct their pilot data collection
+
+#### Focus & Students’ Challenges
+
+- to talk to each group on how they should revise their surveys (and interview guides), answering their potential questions
+
+#### Design
+
+I plan to do the following: 
+
+1. provide general feedback on Assignment #3
+2. group work time on Assignment #5a
+	- talk to each group on their surveys (and interview guides)
+3. check-out form
+
+Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk8_1023.pdf). 
+
+---
