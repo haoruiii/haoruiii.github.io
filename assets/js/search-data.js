@@ -1,13 +1,24 @@
 
-const currentUrl = window.location.href;
-const siteUrl = "https://haoruiii.pages.dev"; 
-let updatedUrl = currentUrl.replace("https://haoruiii.pages.dev", "");
-if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
-  const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
-  updatedUrl = currentUrl.replace(otherSiteUrl + "", "");
+// Get the current URL path without the domain
+let updatedUrl = window.location.pathname;
+
+// Remove the configured baseurl, if present
+const baseurl = "".replace(/\/$/, "");
+
+if (baseurl && (updatedUrl === baseurl || updatedUrl.startsWith(baseurl + "/"))) {
+  updatedUrl = updatedUrl.slice(baseurl.length) || "/";
 }
-if ("".length > 0) {
-  updatedUrl = updatedUrl.replace("/", "");
+
+// Remove the current language prefix
+const currentLang = "";
+
+if (currentLang && (updatedUrl === "/" + currentLang || updatedUrl.startsWith("/" + currentLang + "/"))) {
+  updatedUrl = updatedUrl.slice(currentLang.length + 1) || "/";
+}
+
+// Ensure the path begins with /
+if (!updatedUrl.startsWith("/")) {
+  updatedUrl = "/" + updatedUrl;
 }
 // get the ninja-keys element
 const ninja = document.querySelector('ninja-keys');
@@ -41,26 +52,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-博客",
-          title: "博客",
-          description: "一个读博日记",
-          section: "Pages",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "nav-blogs",
           title: "Blogs",
           description: "grad school and more",
           section: "Pages",
           handler: () => {
             window.location.href = "/blogs/index.html";
-          },
-        },{id: "nav-教学",
-          title: "教学",
-          description: "",
-          section: "Pages",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "nav-teachings",
           title: "Teachings",
@@ -91,7 +88,7 @@ ninja.data = [{
         section: "Blogs",
         handler: () => {
           
-            window.location.href = "/blog/2026/about-Michigan/";
+            window.location.href = "/blogs/2026/about-Michigan/";
           
         },
       },{id: "post-愿你的每一条路都繁花似锦",
@@ -102,7 +99,7 @@ ninja.data = [{
         section: "Blogs",
         handler: () => {
           
-            window.location.href = "/blog/2025/best-wishes/";
+            window.location.href = "/blogs/2025/best-wishes/";
           
         },
       },{id: "post-向山去",
@@ -113,7 +110,7 @@ ninja.data = [{
         section: "Blogs",
         handler: () => {
           
-            window.location.href = "/blog/2025/Chongqing/";
+            window.location.href = "/blogs/2025/Chongqing/";
           
         },
       },{id: "news-2025-csa-annual-meeting",
@@ -209,7 +206,7 @@ ninja.data = [{
           title: 'zh-cn',
           section: 'Languages',
           handler: () => {
-            window.location.href = "/zh-cn" + updatedUrl;
+            window.location.href = baseurl + "/zh-cn" + updatedUrl;
           },
         },{
       id: 'light-theme',
