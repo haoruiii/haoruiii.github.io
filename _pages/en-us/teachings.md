@@ -1,8 +1,8 @@
 ---
-page_id: teaching
+page_id: teachings
 layout: page
-permalink: /teaching/
-title: Teaching
+permalink: /teachings/
+title: Teachings
 description: 
 nav: true
 nav_order: 5

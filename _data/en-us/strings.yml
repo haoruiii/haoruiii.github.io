@@ -140,9 +140,12 @@ related_posts:
 search:
   dark_theme:
     description: Change the theme of the site to Dark
-    title: Change theme to dark
-  dropdown: Other Pages
+    title: change theme to dark
+  # dropdown: Other Pages
   email: Send an email
+  RedNote: Red Note
+  bilibili_url: bilibili
+  zh-cn: switch to Chinese
   footer:
     close: to close
     navigate: to navigate
@@ -151,16 +154,17 @@ search:
   languages: Languages
   light_theme:
     description: Change the theme of the site to Light
-    title: Change theme to light
+    title: change theme to light
   navigation: Pages
   news: News
-  placeholder: Type to start searching
+  placeholder: type to start searching
   posts: Blogs
   projects: Projects
   socials: Socials
+  teaching: Teachings
   system_theme:
     description: Change the theme of the site to System Default
-    title: Use system default theme
+    title: use system default theme
   theme: Theme
 selected_publications: Selected Publications
 site_description: Haorui Peng's Personal Website, based on [*folio](https://github.com/bogoli/-folio) design.

@@ -1,8 +1,8 @@
 ---
-page_id: blog
+page_id: blogs
 layout: default
-permalink: /blog/
-title: Blog
+permalink: /blogs/
+title: Blogs
 blog_name: Per Aspera Ad Astra
 description: grad school and more
 nav: true
