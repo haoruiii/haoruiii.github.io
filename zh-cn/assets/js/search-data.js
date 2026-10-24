@@ -188,22 +188,22 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/haoruiii", "_blank");
         },
       },{
-        id: 'social-RedNote',
-        title: 'Rednote',
+        id: 'social-rednote',
+        title: 'Red Note',
         section: '社交媒体',
         handler: () => {
           window.open("https://xhslink.cn/o/9L4s7c3YUDB", "_blank");
         },
       },{
-        id: 'social-bilibili_url',
-        title: 'Bilibili_url',
+        id: 'bilibili',
+        title: 'bilibili',
         section: '社交媒体',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://space.bilibili.com/148620914", "_blank");
         },
       },{
           id: 'lang-en-us',
-          title: 'en-us',
+          title: 'Switch to English',
           section: '语言',
           handler: () => {
             window.location.href = baseurl + updatedUrl;
