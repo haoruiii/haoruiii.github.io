@@ -1,11 +1,13 @@
+
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
 // Typography
 
-// English: Libertinus Serif; Chinese: Songti (宋体).
-// Ensure the corresponding web-font stylesheets are loaded in _includes/head.liquid.
+// English: Libertinus Serif
+// Chinese: Songti (宋体)
+
 $site-font:
   "Libertinus Serif",
   "Songti SC",
@@ -14,16 +16,29 @@ $site-font:
   "Noto Serif SC",
   serif;
 
+/* Use Semibold instead of Bold */
+
+strong,
+b {
+  font-weight: 600;
+}
+
+// Global typography
 body {
   font-family: $site-font;
 }
 
+// Headings
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  font-family: $site-font;
+}
+
+// Navigation and buttons
 .navbar,
 .navbar-brand,
 .nav-link,
@@ -35,6 +50,7 @@ select {
   font-family: $site-font;
 }
 
+// Existing text colors
 p,
 h1,
 h2,
@@ -49,6 +65,7 @@ span,
 strong {
   color: var(--global-text-color);
 }
+
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -229,7 +246,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: inherit;
+    font-family: $site-font;
 
     p {
       display: inline-block;
@@ -1490,24 +1507,4 @@ figure.cover {
 .highlight pre {
   white-space: pre-wrap; 
   word-break: break-word; 
-}
-
-// Typography overrides: use Libertinus Serif Semibold (600) wherever
-// the theme would normally display bold text.
-// These overrides are deliberately placed last to win over earlier theme rules.
-strong,
-b,
-.font-weight-bold,
-.font-weight-bolder,
-.fw-bold,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-th,
-.publications .title,
-.navbar .navbar-nav .nav-item.active > .nav-link {
-  font-weight: 600;
 }
