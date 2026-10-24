@@ -7,7 +7,8 @@
 :root {
   color-scheme: light;
   --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
+  // --global-code-bg-color: #{$code-bg-color-light};
+  --global-code-bg-color: #FFF1E7; 
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
   // --global-theme-color: #{$purple-color};
@@ -81,11 +82,14 @@
 html[data-theme="dark"] {
   color-scheme: dark;
   --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
+  // --global-code-bg-color: #{$code-bg-color-dark};
+  --global-code-bg-color: #33251F;
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  // --global-theme-color: #{$cyan-color};
+  // --global-hover-color: #{$cyan-color};
+  --global-theme-color: #FFA76D;
+  --global-hover-color: #FFA76D;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};

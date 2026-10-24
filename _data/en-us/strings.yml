@@ -146,7 +146,7 @@ search:
   footer:
     close: to close
     navigate: to navigate
-    parent: move to parent
+    parent: to move to parent
     select: to select
   languages: Languages
   light_theme:
