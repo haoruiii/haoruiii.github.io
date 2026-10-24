@@ -158,6 +158,7 @@ search:
   posts: 博客
   projects: 课题
   socials: 社交媒体
+  teachings: 教学
   system_theme:
     description: 将页面主题切换至系统默认
     title: 系统默认

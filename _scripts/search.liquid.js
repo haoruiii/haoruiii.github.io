@@ -337,7 +337,7 @@ ninja.data = [
         {
           id: 'lang-{{ l }}',
           {% if l == "zh-cn" %}
-            title: 'Switch to Chinese',
+            title: '切换为中文',
           {% elsif l == "en-us" %}
             title: 'Switch to English',
           {% else %}
@@ -351,7 +351,13 @@ ninja.data = [
       {%- else -%}
         {
           id: 'lang-{{ l }}',
-          title: '{{ l }}',
+          {% if l == "zh-cn" %}
+            title: '切换为中文',
+          {% elsif l == "en-us" %}
+            title: 'Switch to English',
+          {% else %}
+            title: 'Switch to {{ l }}',
+          {% endif %}
           section: '{{ site.data[site.active_lang].strings.search.languages }}',
           handler: () => {
             window.location.href = baseurl + "/{{ l }}" + updatedUrl;
@@ -390,3 +396,75 @@ ninja.data = [
     },
   {%- endif -%}
 ];
+
+
+/* Custom Command-K search ordering */
+const getSearchPriority = (item) => {
+  const id = item.id || "";
+
+  // 1. Papers and Publications
+  if (
+    id.startsWith("papers-") ||
+    id.startsWith("publications-") ||
+    id.startsWith("nav-publications")
+  ) {
+    return 1;
+  }
+
+  // 2. Teachings
+  if (
+    id.startsWith("teachings-") ||
+    id.startsWith("courses-") ||
+    id.startsWith("nav-teaching")
+  ) {
+    return 2;
+  }
+
+  // 3. Blogs
+  if (
+    id.startsWith("post-") ||
+    id.startsWith("nav-blog")
+  ) {
+    return 3;
+  }
+
+  // 4. News
+  if (
+    id.startsWith("news-") ||
+    id.startsWith("nav-news")
+  ) {
+    return 4;
+  }
+
+  // 5. Projects
+  if (
+    id.startsWith("projects-") ||
+    id.startsWith("nav-projects")
+  ) {
+    return 5;
+  }
+
+  // 6. Socials
+  if (id.startsWith("social-")) {
+    return 6;
+  }
+
+  // 7. Languages
+  if (id.startsWith("lang-")) {
+    return 7;
+  }
+
+  // 8. Theme
+  if (id.endsWith("-theme")) {
+    return 8;
+  }
+
+  // Any remaining items
+  return 9;
+};
+
+// Sort all items by category priority
+ninja.data = [...ninja.data].sort(
+  (a, b) => getSearchPriority(a) - getSearchPriority(b)
+);
+
