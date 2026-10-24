@@ -41,31 +41,45 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-blog",
-          title: "Blog",
-          description: "grad school and more",
+        },{id: "nav-博客",
+          title: "博客",
+          description: "一个读博日记",
           section: "Pages",
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-teaching",
-          title: "Teaching",
+        },{id: "nav-blogs",
+          title: "Blogs",
+          description: "grad school and more",
+          section: "Pages",
+          handler: () => {
+            window.location.href = "/blogs/index.html";
+          },
+        },{id: "nav-教学",
+          title: "教学",
           description: "",
           section: "Pages",
           handler: () => {
             window.location.href = "/teaching/";
           },
+        },{id: "nav-teachings",
+          title: "Teachings",
+          description: "",
+          section: "Pages",
+          handler: () => {
+            window.location.href = "/teachings/";
+          },
         },{id: "dropdown-bookshelf",
               title: "Bookshelf",
               description: "",
-              section: "Other Pages",
+              section: "",
               handler: () => {
                 window.location.href = "/books/";
               },
             },{id: "dropdown-news",
               title: "News",
               description: "",
-              section: "Other Pages",
+              section: "",
               handler: () => {
                 window.location.href = "/news/";
               },
@@ -181,7 +195,7 @@ ninja.data = [{
         title: 'Rednote',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.xiaohongshu.com/user/profile/61309a24000000000201b7dd", "_blank");
+          window.open("https://xhslink.cn/o/9L4s7c3YUDB", "_blank");
         },
       },{
         id: 'social-bilibili_url',
@@ -199,7 +213,7 @@ ninja.data = [{
           },
         },{
       id: 'light-theme',
-      title: 'Change theme to light',
+      title: 'change theme to light',
       description: 'Change the theme of the site to Light',
       section: 'Theme',
       handler: () => {
@@ -208,7 +222,7 @@ ninja.data = [{
     },
     {
       id: 'dark-theme',
-      title: 'Change theme to dark',
+      title: 'change theme to dark',
       description: 'Change the theme of the site to Dark',
       section: 'Theme',
       handler: () => {
@@ -217,7 +231,7 @@ ninja.data = [{
     },
     {
       id: 'system-theme',
-      title: 'Use system default theme',
+      title: 'use system default theme',
       description: 'Change the theme of the site to System Default',
       section: 'Theme',
       handler: () => {

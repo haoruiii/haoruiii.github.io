@@ -48,12 +48,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/blog/";
           },
+        },{id: "nav-blogs",
+          title: "Blogs",
+          description: "grad school and more",
+          section: "页面",
+          handler: () => {
+            window.location.href = "/zh-cn/blogs/index.html";
+          },
         },{id: "nav-教学",
           title: "教学",
           description: "",
           section: "页面",
           handler: () => {
             window.location.href = "/zh-cn/teaching/";
+          },
+        },{id: "nav-teachings",
+          title: "Teachings",
+          description: "",
+          section: "页面",
+          handler: () => {
+            window.location.href = "/zh-cn/teachings/";
           },
         },{id: "dropdown-书架",
               title: "书架",
@@ -181,7 +195,7 @@ ninja.data = [{
         title: 'Rednote',
         section: '社交媒体',
         handler: () => {
-          window.open("https://www.xiaohongshu.com/user/profile/61309a24000000000201b7dd", "_blank");
+          window.open("https://xhslink.cn/o/9L4s7c3YUDB", "_blank");
         },
       },{
         id: 'social-bilibili_url',
