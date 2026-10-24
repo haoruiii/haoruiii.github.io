@@ -142,7 +142,7 @@ search:
     description: Change the theme of the site to Dark
     title: change theme to dark
   # dropdown: Other Pages
-  email: send an email
+  email: email
   footer:
     close: to close
     navigate: to navigate

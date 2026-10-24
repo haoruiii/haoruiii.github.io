@@ -953,6 +953,28 @@ code {
   padding: 3px 3px;
 }
 
+/* Markdown hyperlink syntax highlighting — light mode */
+
+html:not([data-theme="dark"]) {
+
+  // Link text: [From Classroom to Career...]
+  .highlight.language-markdown .nv,
+  .highlight.language-md .nv,
+  .language-markdown .highlight .nv,
+  .language-md .highlight .nv {
+    color: #00274C !important;
+  }
+
+  // Link URL: (https://...)
+  .highlight.language-markdown .sx,
+  .highlight.language-md .sx,
+  .language-markdown .highlight .sx,
+  .language-md .highlight .sx {
+    color: #FFCB05 !important;
+  }
+
+}
+
 // Transitioning Themes
 html.transition,
 html.transition *,
