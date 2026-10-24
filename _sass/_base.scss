@@ -1,9 +1,49 @@
+
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
 // Typography
 
+// English: Libertinus Serif
+// Chinese: Songti (宋体)
+
+$site-font:
+  "Libertinus Serif",
+  "Songti SC",
+  "STSong",
+  "SimSun",
+  "Noto Serif SC",
+  serif;
+
+// Global typography
+body {
+  font-family: $site-font;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $site-font;
+}
+
+// Navigation and buttons
+.navbar,
+.navbar-brand,
+.nav-link,
+.dropdown-item,
+button,
+input,
+textarea,
+select {
+  font-family: $site-font;
+}
+
+// Existing text colors
 p,
 h1,
 h2,
@@ -18,6 +58,7 @@ span,
 strong {
   color: var(--global-text-color);
 }
+
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -198,7 +239,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: $site-font;
 
     p {
       display: inline-block;

@@ -24,11 +24,19 @@
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
+
+<!-- English: Libertinus Serif -->
 <link
-  defer
   rel="stylesheet"
-  type="text/css"
-  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
+  href="https://cdn.jsdelivr.net/npm/@fontsource/libertinus-serif@5/index.css"
+>
+
+<!-- Chinese: Songti-style fallback (Noto Serif SC) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap"
 >
 
 <!-- Code Syntax Highlighting -->
