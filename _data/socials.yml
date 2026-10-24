@@ -46,9 +46,9 @@ linkedin_username: haoruiii # your LinkedIn user name
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-RedNote: # can be any name here other than the ones already defined above
+rednote: # can be any name here other than the ones already defined above
   logo: assets/img/xiaohongshu.svg # can be png, svg, jpg
-  title: RedNote
+  title: Red Note
   url: https://xhslink.cn/o/9L4s7c3YUDB
 
 bilibili_url: https://space.bilibili.com/148620914 # your bilibili channel url

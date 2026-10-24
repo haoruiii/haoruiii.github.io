@@ -132,6 +132,10 @@ ninja.data = [
           {%- assign social_id = "social-acm" -%}
           {%- assign social_title = "ACM DL" -%}
           {%- capture social_url %}"https://dl.acm.org/profile/{{ social[1] }}/"{% endcapture -%}
+        {%- when "bilibili_url" -%}
+          {%- assign social_id = "bilibili" -%}
+          {%- assign social_title = "bilibili" -%}
+          {%- capture social_url %}"{{ social[1] }}"{% endcapture -%}
         {%- when "blogger_url" -%}
           {%- assign social_id = "social-blogger" -%}
           {%- assign social_title = "Blogger" -%}
@@ -309,7 +313,12 @@ ninja.data = [
           {%- capture social_url %}"https://www.zotero.org/{{ social[1] }}"{% endcapture -%}
         {%- else -%}
           {%- assign social_id = "social-" | append: social[0] -%}
-          {%- assign social_title = social[0] | capitalize -%}
+          {%- case social[0] -%}
+            {%- when "rednote" -%}
+              {%- assign social_title = "Red Note" -%}
+            {%- else -%}
+              {%- assign social_title = social[0] | capitalize -%}
+          {%- endcase -%}
           {%- capture social_url %}"{{ social[1].url }}"{% endcapture -%}
       {%- endcase -%}
       {
@@ -327,7 +336,7 @@ ninja.data = [
       {%- if l == site.default_lang -%}
         {
           id: 'lang-{{ l }}',
-          title: '{{ l }}',
+          title: '{% if l == "zh-cn" %}切换为中文{% elsif l == "en-us" %}Switch to English{% else %}Switch to {{ l }}{% endif %}',
           section: '{{ site.data[site.active_lang].strings.search.languages }}',
           handler: () => {
             window.location.href = baseurl + updatedUrl;

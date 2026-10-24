@@ -143,8 +143,6 @@ search:
     title: change theme to dark
   # dropdown: Other Pages
   email: Send an email
-  RedNote: Red Note
-  bilibili_url: bilibili
   zh-cn: switch to Chinese
   footer:
     close: to close
@@ -161,7 +159,7 @@ search:
   posts: Blogs
   projects: Projects
   socials: Socials
-  teaching: Teachings
+  teachings: Teachings
   system_theme:
     description: Change the theme of the site to System Default
     title: use system default theme
