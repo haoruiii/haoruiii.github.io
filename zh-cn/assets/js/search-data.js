@@ -69,14 +69,14 @@ ninja.data = [{
         },{id: "dropdown-书架",
               title: "书架",
               description: "",
-              section: "其他",
+              section: "",
               handler: () => {
                 window.location.href = "/zh-cn/books/";
               },
             },{id: "dropdown-简讯",
               title: "简讯",
               description: "",
-              section: "其他",
+              section: "",
               handler: () => {
                 window.location.href = "/zh-cn/news/";
               },
@@ -168,7 +168,7 @@ ninja.data = [{
               window.location.href = "/zh-cn/teachings/en-us/fa26-soc-310/";
             },},{
         id: 'social-email',
-        title: '发邮件',
+        title: '邮箱',
         section: '社交媒体',
         handler: () => {
           window.open("mailto:%68%61%6F%72%75%69%69%69@%75%6D%69%63%68.%65%64%75", "_blank");
@@ -182,21 +182,21 @@ ninja.data = [{
         },
       },{
         id: 'social-linkedin',
-        title: 'LinkedIn',
+        title: '领英',
         section: '社交媒体',
         handler: () => {
           window.open("https://www.linkedin.com/in/haoruiii", "_blank");
         },
       },{
         id: 'social-rednote',
-        title: 'Red Note',
+        title: '小红书',
         section: '社交媒体',
         handler: () => {
           window.open("https://xhslink.cn/o/9L4s7c3YUDB", "_blank");
         },
       },{
         id: 'bilibili',
-        title: 'bilibili',
+        title: '哔哩哔哩',
         section: '社交媒体',
         handler: () => {
           window.open("https://space.bilibili.com/148620914", "_blank");
@@ -252,56 +252,63 @@ const getSearchPriority = (item) => {
     return 1;
   }
 
-  // 2. Teachings
+  // 2. Dropdowns
+  if (
+    id.startsWith("dropdown-")
+  ) {
+    return 2;
+  }
+
+  // 3. Teachings
   if (
     id.startsWith("teachings-") ||
     id.startsWith("courses-") ||
     id.startsWith("nav-teaching")
   ) {
-    return 2;
+    return 3;
   }
 
-  // 3. Blogs
+  // 4. Blogs
   if (
     id.startsWith("post-") ||
     id.startsWith("nav-blog")
   ) {
-    return 3;
+    return 4;
   }
 
-  // 4. News
+  // 5. News
   if (
     id.startsWith("news-") ||
     id.startsWith("nav-news")
   ) {
-    return 4;
+    return 5;
   }
 
-  // 5. Projects
+  // 6. Projects
   if (
     id.startsWith("projects-") ||
     id.startsWith("nav-projects")
   ) {
-    return 5;
-  }
-
-  // 6. Socials
-  if (id.startsWith("social-")) {
     return 6;
   }
 
-  // 7. Languages
-  if (id.startsWith("lang-")) {
+  // 7. Socials
+  if (id.startsWith("social-")) {
     return 7;
   }
 
-  // 8. Theme
-  if (id.endsWith("-theme")) {
+  // 8. Languages
+  if (id.startsWith("lang-")) {
     return 8;
   }
 
+  // 9. Theme
+  if (id.endsWith("-theme")) {
+    return 9;
+  }
+
   // Any remaining items
-  return 9;
+  return 10;
 };
 
 // Sort all items by category priority

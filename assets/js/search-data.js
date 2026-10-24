@@ -252,56 +252,63 @@ const getSearchPriority = (item) => {
     return 1;
   }
 
-  // 2. Teachings
+  // 2. Dropdowns
+  if (
+    id.startsWith("dropdown-")
+  ) {
+    return 2;
+  }
+
+  // 3. Teachings
   if (
     id.startsWith("teachings-") ||
     id.startsWith("courses-") ||
     id.startsWith("nav-teaching")
   ) {
-    return 2;
+    return 3;
   }
 
-  // 3. Blogs
+  // 4. Blogs
   if (
     id.startsWith("post-") ||
     id.startsWith("nav-blog")
   ) {
-    return 3;
+    return 4;
   }
 
-  // 4. News
+  // 5. News
   if (
     id.startsWith("news-") ||
     id.startsWith("nav-news")
   ) {
-    return 4;
+    return 5;
   }
 
-  // 5. Projects
+  // 6. Projects
   if (
     id.startsWith("projects-") ||
     id.startsWith("nav-projects")
   ) {
-    return 5;
-  }
-
-  // 6. Socials
-  if (id.startsWith("social-")) {
     return 6;
   }
 
-  // 7. Languages
-  if (id.startsWith("lang-")) {
+  // 7. Socials
+  if (id.startsWith("social-")) {
     return 7;
   }
 
-  // 8. Theme
-  if (id.endsWith("-theme")) {
+  // 8. Languages
+  if (id.startsWith("lang-")) {
     return 8;
   }
 
+  // 9. Theme
+  if (id.endsWith("-theme")) {
+    return 9;
+  }
+
   // Any remaining items
-  return 9;
+  return 10;
 };
 
 // Sort all items by category priority
