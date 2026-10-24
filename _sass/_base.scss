@@ -16,6 +16,13 @@ $site-font:
   "Noto Serif SC",
   serif;
 
+/* Use Semibold instead of Bold */
+
+strong,
+b {
+  font-weight: 600;
+}
+
 // Global typography
 body {
   font-family: $site-font;
