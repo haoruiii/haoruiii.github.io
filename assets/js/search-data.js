@@ -168,7 +168,7 @@ ninja.data = [{
               window.location.href = "/teachings/en-us/fa26-soc-310/";
             },},{
         id: 'social-email',
-        title: 'send an email',
+        title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%68%61%6F%72%75%69%69%69@%75%6D%69%63%68.%65%64%75", "_blank");
