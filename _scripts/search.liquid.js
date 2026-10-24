@@ -336,7 +336,13 @@ ninja.data = [
       {%- if l == site.default_lang -%}
         {
           id: 'lang-{{ l }}',
-          title: '{% if l == "zh-cn" %}切换为中文{% elsif l == "en-us" %}Switch to English{% else %}Switch to {{ l }}{% endif %}',
+          {% if l == "zh-cn" %}
+            title: 'Switch to Chinese',
+          {% elsif l == "en-us" %}
+            title: 'Switch to English',
+          {% else %}
+            title: 'Switch to {{ l }}',
+          {% endif %}
           section: '{{ site.data[site.active_lang].strings.search.languages }}',
           handler: () => {
             window.location.href = baseurl + updatedUrl;

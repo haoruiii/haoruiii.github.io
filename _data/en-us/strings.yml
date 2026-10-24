@@ -142,8 +142,7 @@ search:
     description: Change the theme of the site to Dark
     title: change theme to dark
   # dropdown: Other Pages
-  email: Send an email
-  zh-cn: switch to Chinese
+  email: send an email
   footer:
     close: to close
     navigate: to navigate
