@@ -35,8 +35,12 @@ My research interests lie in the domain of `social stratification and mobility`.
 
 I grow up in [Nanjing, China](https://youtu.be/P-WsMQMg-Hs?si=iQ6FMIWpqyfnNKug). I am a fan of road cycling races, including the Tour de France. 
 
-Education: 
-- University of Michigan
-  - 2025, B.A. in Sociology with Highest Honors and Highest Distinction
-- Nanjing Foreign Language School
-  - 2021, High School Diploma
+#### Education
+
+**University of Michigan**
+- 2025, B.A. in Sociology with Highest Honors and Highest Distinction
+
+**Nanjing Foreign Language School**
+- 2021, High School Diploma
+
+---
