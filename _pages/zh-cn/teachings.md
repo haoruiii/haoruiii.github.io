@@ -1,7 +1,7 @@
 ---
-page_id: teaching
+page_id: teachings
 layout: page
-permalink: /teaching/
+permalink: /teachings/
 title: 教学
 description: 
 nav: true

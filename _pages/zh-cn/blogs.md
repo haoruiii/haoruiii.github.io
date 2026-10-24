@@ -1,7 +1,7 @@
 ---
-page_id: blog
+page_id: blogs
 layout: default
-permalink: /blog/
+permalink: /blogs/
 title: 博客
 blog_name: 愿此行，终抵群星
 description: 一个读博日记

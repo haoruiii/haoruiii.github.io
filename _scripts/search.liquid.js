@@ -6,15 +6,26 @@ permalink: /assets/js/search-data.js
 {% else %}
 {% assign lang = site.active_lang %}
 {% endif %}
-const currentUrl = window.location.href;
-const siteUrl = "{{ site.url }}"; 
-let updatedUrl = currentUrl.replace("{{ site.url }}{{ site.baseurl }}", "");
-if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
-  const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
-  updatedUrl = currentUrl.replace(otherSiteUrl + "{{ site.baseurl }}", "");
+// Get the current URL path without the domain
+let updatedUrl = window.location.pathname;
+
+// Remove the configured baseurl, if present
+const baseurl = "{{ site.baseurl }}".replace(/\/$/, "");
+
+if (baseurl && (updatedUrl === baseurl || updatedUrl.startsWith(baseurl + "/"))) {
+  updatedUrl = updatedUrl.slice(baseurl.length) || "/";
 }
-if ("{{ lang }}".length > 0) {
-  updatedUrl = updatedUrl.replace("/{{ lang }}", "");
+
+// Remove the current language prefix
+const currentLang = "{{ lang }}";
+
+if (currentLang && (updatedUrl === "/" + currentLang || updatedUrl.startsWith("/" + currentLang + "/"))) {
+  updatedUrl = updatedUrl.slice(currentLang.length + 1) || "/";
+}
+
+// Ensure the path begins with /
+if (!updatedUrl.startsWith("/")) {
+  updatedUrl = "/" + updatedUrl;
 }
 // get the ninja-keys element
 const ninja = document.querySelector('ninja-keys');
@@ -319,7 +330,7 @@ ninja.data = [
           title: '{{ l }}',
           section: '{{ site.data[site.active_lang].strings.search.languages }}',
           handler: () => {
-            window.location.href = "{{ site.baseurl }}" + updatedUrl;
+            window.location.href = baseurl + updatedUrl;
           },
         },
       {%- else -%}
@@ -328,7 +339,7 @@ ninja.data = [
           title: '{{ l }}',
           section: '{{ site.data[site.active_lang].strings.search.languages }}',
           handler: () => {
-            window.location.href = "{{ site.baseurl }}/{{ l }}" + updatedUrl;
+            window.location.href = baseurl + "/{{ l }}" + updatedUrl;
           },
         },
       {%- endif -%}
