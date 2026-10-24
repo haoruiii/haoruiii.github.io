@@ -239,29 +239,27 @@ ninja.data = [{
     },];
 
 
-/* Custom Command-K search ordering */
+/* ============================================
+   Custom Command-K search ordering
+   ============================================ */
+
 const getSearchPriority = (item) => {
   const id = item.id || "";
 
-  // 1. Pages
-  if (
-    id.startsWith("navigation-")
-  ) {
+  // 1. Navigation
+  if (id.startsWith("nav-")) {
     return 1;
   }
 
-  // 2. Dropdowns
-  if (
-    id.startsWith("dropdown-")
-  ) {
+  // 2. Other Pages (Dropdown)
+  if (id.startsWith("dropdown-")) {
     return 2;
   }
 
   // 3. Papers and Publications
   if (
     id.startsWith("papers-") ||
-    id.startsWith("publications-") ||
-    id.startsWith("nav-publications")
+    id.startsWith("publications-")
   ) {
     return 3;
   }
@@ -269,33 +267,24 @@ const getSearchPriority = (item) => {
   // 4. Teachings
   if (
     id.startsWith("teachings-") ||
-    id.startsWith("courses-") ||
-    id.startsWith("nav-teaching")
+    id.startsWith("teaching-") ||
+    id.startsWith("courses-")
   ) {
     return 4;
   }
 
   // 5. Blogs
-  if (
-    id.startsWith("post-") ||
-    id.startsWith("nav-blog")
-  ) {
+  if (id.startsWith("post-")) {
     return 5;
   }
 
   // 6. News
-  if (
-    id.startsWith("news-") ||
-    id.startsWith("nav-news")
-  ) {
+  if (id.startsWith("news-")) {
     return 6;
   }
 
   // 7. Projects
-  if (
-    id.startsWith("projects-") ||
-    id.startsWith("nav-projects")
-  ) {
+  if (id.startsWith("projects-")) {
     return 7;
   }
 
@@ -310,16 +299,35 @@ const getSearchPriority = (item) => {
   }
 
   // 10. Theme
-  if (id.endsWith("-theme")) {
+  if (
+    id === "light-theme" ||
+    id === "dark-theme" ||
+    id === "system-theme"
+  ) {
     return 10;
   }
 
-  // Any remaining items
+  // Any other items
   return 11;
 };
 
-// Sort all items by category priority
-ninja.data = [...ninja.data].sort(
-  (a, b) => getSearchPriority(a) - getSearchPriority(b)
-);
+/* Stable sorting:
+   Preserve original order within each category.
+*/
 
+ninja.data = ninja.data
+  .map((item, index) => ({
+    item,
+    index,
+    priority: getSearchPriority(item)
+  }))
+  .sort((a, b) => {
+    // Sort categories first
+    if (a.priority !== b.priority) {
+      return a.priority - b.priority;
+    }
+
+    // Preserve original order within category
+    return a.index - b.index;
+  })
+  .map(entry => entry.item);
