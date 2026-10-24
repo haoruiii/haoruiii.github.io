@@ -134,7 +134,11 @@ ninja.data = [
           {%- capture social_url %}"https://dl.acm.org/profile/{{ social[1] }}/"{% endcapture -%}
         {%- when "bilibili_url" -%}
           {%- assign social_id = "bilibili" -%}
-          {%- assign social_title = "bilibili" -%}
+          {%- if site.active_lang == "zh-cn" -%}
+            {%- assign social_title = "哔哩哔哩" -%}
+          {%- else -%}
+            {%- assign social_title = "bilibili" -%}
+          {%- endif -%}
           {%- capture social_url %}"{{ social[1] }}"{% endcapture -%}
         {%- when "blogger_url" -%}
           {%- assign social_id = "social-blogger" -%}
@@ -206,7 +210,11 @@ ninja.data = [
           {%- capture social_url %}"https://leetcode.com/u/{{ social[1] }}/"{% endcapture -%}
         {%- when "linkedin_username" -%}
           {%- assign social_id = "social-linkedin" -%}
-          {%- assign social_title = "LinkedIn" -%}
+          {%- if site.active_lang == "zh-cn" -%}
+            {%- assign social_title = "领英" -%}
+          {%- else -%}
+            {%- assign social_title = "LinkedIn" -%}
+          {%- endif -%}
           {%- capture social_url %}"https://www.linkedin.com/in/{{ social[1] }}"{% endcapture -%}
         {%- when "mastodon_username" -%}
           {%- assign social_id = "social-mastodon" -%}
@@ -315,7 +323,11 @@ ninja.data = [
           {%- assign social_id = "social-" | append: social[0] -%}
           {%- case social[0] -%}
             {%- when "rednote" -%}
-              {%- assign social_title = "Red Note" -%}
+              {%- if site.active_lang == "zh-cn" -%}
+                {%- assign social_title = "小红书" -%}
+              {%- else -%}
+                {%- assign social_title = "Red Note" -%}
+              {%- endif -%}
             {%- else -%}
               {%- assign social_title = social[0] | capitalize -%}
           {%- endcase -%}
@@ -411,56 +423,63 @@ const getSearchPriority = (item) => {
     return 1;
   }
 
-  // 2. Teachings
+  // 2. Dropdowns
+  if (
+    id.startsWith("dropdown-")
+  ) {
+    return 2;
+  }
+
+  // 3. Teachings
   if (
     id.startsWith("teachings-") ||
     id.startsWith("courses-") ||
     id.startsWith("nav-teaching")
   ) {
-    return 2;
+    return 3;
   }
 
-  // 3. Blogs
+  // 4. Blogs
   if (
     id.startsWith("post-") ||
     id.startsWith("nav-blog")
   ) {
-    return 3;
+    return 4;
   }
 
-  // 4. News
+  // 5. News
   if (
     id.startsWith("news-") ||
     id.startsWith("nav-news")
   ) {
-    return 4;
+    return 5;
   }
 
-  // 5. Projects
+  // 6. Projects
   if (
     id.startsWith("projects-") ||
     id.startsWith("nav-projects")
   ) {
-    return 5;
-  }
-
-  // 6. Socials
-  if (id.startsWith("social-")) {
     return 6;
   }
 
-  // 7. Languages
-  if (id.startsWith("lang-")) {
+  // 7. Socials
+  if (id.startsWith("social-")) {
     return 7;
   }
 
-  // 8. Theme
-  if (id.endsWith("-theme")) {
+  // 8. Languages
+  if (id.startsWith("lang-")) {
     return 8;
   }
 
+  // 9. Theme
+  if (id.endsWith("-theme")) {
+    return 9;
+  }
+
   // Any remaining items
-  return 9;
+  return 10;
 };
 
 // Sort all items by category priority
