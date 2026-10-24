@@ -203,7 +203,9 @@ ninja.data = [{
         },
       },{
           id: 'lang-en-us',
-          title: 'Switch to English',
+          
+            title: 'Switch to English',
+          
           section: '语言',
           handler: () => {
             window.location.href = baseurl + updatedUrl;
