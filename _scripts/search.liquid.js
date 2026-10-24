@@ -414,11 +414,9 @@ ninja.data = [
 const getSearchPriority = (item) => {
   const id = item.id || "";
 
-  // 1. Papers and Publications
+  // 1. Pages
   if (
-    id.startsWith("papers-") ||
-    id.startsWith("publications-") ||
-    id.startsWith("nav-publications")
+    id.startsWith("navigation-")
   ) {
     return 1;
   }
@@ -430,56 +428,65 @@ const getSearchPriority = (item) => {
     return 2;
   }
 
-  // 3. Teachings
+  // 3. Papers and Publications
+  if (
+    id.startsWith("papers-") ||
+    id.startsWith("publications-") ||
+    id.startsWith("nav-publications")
+  ) {
+    return 3;
+  }
+
+  // 4. Teachings
   if (
     id.startsWith("teachings-") ||
     id.startsWith("courses-") ||
     id.startsWith("nav-teaching")
   ) {
-    return 3;
+    return 4;
   }
 
-  // 4. Blogs
+  // 5. Blogs
   if (
     id.startsWith("post-") ||
     id.startsWith("nav-blog")
   ) {
-    return 4;
+    return 5;
   }
 
-  // 5. News
+  // 6. News
   if (
     id.startsWith("news-") ||
     id.startsWith("nav-news")
   ) {
-    return 5;
+    return 6;
   }
 
-  // 6. Projects
+  // 7. Projects
   if (
     id.startsWith("projects-") ||
     id.startsWith("nav-projects")
   ) {
-    return 6;
-  }
-
-  // 7. Socials
-  if (id.startsWith("social-")) {
     return 7;
   }
 
-  // 8. Languages
-  if (id.startsWith("lang-")) {
+  // 8. Socials
+  if (id.startsWith("social-")) {
     return 8;
   }
 
-  // 9. Theme
-  if (id.endsWith("-theme")) {
+  // 9. Languages
+  if (id.startsWith("lang-")) {
     return 9;
   }
 
+  // 10. Theme
+  if (id.endsWith("-theme")) {
+    return 10;
+  }
+
   // Any remaining items
-  return 10;
+  return 11;
 };
 
 // Sort all items by category priority
