@@ -164,7 +164,7 @@ ninja.data = [{
             },},{id: "teachings-gsi-sociological-research-methods",
           title: 'GSI: Sociological Research Methods',
           description: "This course explores the basic methods of sociological research. Students will examine the relationship between social theory and research, the research process, choosing a sample, conditions for inferring causation, and methods of data collection, along with the applications and ethics of sociological research.",
-          section: "",handler: () => {
+          section: "教学",handler: () => {
               window.location.href = "/zh-cn/teachings/en-us/fa26-soc-310/";
             },},{
         id: 'social-email',
@@ -237,3 +237,75 @@ ninja.data = [{
         setThemeSetting("system");
       },
     },];
+
+
+/* Custom Command-K search ordering */
+const getSearchPriority = (item) => {
+  const id = item.id || "";
+
+  // 1. Papers and Publications
+  if (
+    id.startsWith("papers-") ||
+    id.startsWith("publications-") ||
+    id.startsWith("nav-publications")
+  ) {
+    return 1;
+  }
+
+  // 2. Teachings
+  if (
+    id.startsWith("teachings-") ||
+    id.startsWith("courses-") ||
+    id.startsWith("nav-teaching")
+  ) {
+    return 2;
+  }
+
+  // 3. Blogs
+  if (
+    id.startsWith("post-") ||
+    id.startsWith("nav-blog")
+  ) {
+    return 3;
+  }
+
+  // 4. News
+  if (
+    id.startsWith("news-") ||
+    id.startsWith("nav-news")
+  ) {
+    return 4;
+  }
+
+  // 5. Projects
+  if (
+    id.startsWith("projects-") ||
+    id.startsWith("nav-projects")
+  ) {
+    return 5;
+  }
+
+  // 6. Socials
+  if (id.startsWith("social-")) {
+    return 6;
+  }
+
+  // 7. Languages
+  if (id.startsWith("lang-")) {
+    return 7;
+  }
+
+  // 8. Theme
+  if (id.endsWith("-theme")) {
+    return 8;
+  }
+
+  // Any remaining items
+  return 9;
+};
+
+// Sort all items by category priority
+ninja.data = [...ninja.data].sort(
+  (a, b) => getSearchPriority(a) - getSearchPriority(b)
+);
+
