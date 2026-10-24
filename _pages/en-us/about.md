@@ -37,8 +37,8 @@ I grow up in [Nanjing, China](https://youtu.be/P-WsMQMg-Hs?si=iQ6FMIWpqyfnNKug).
 
 ## Education
 
-**School Name**  
-2022–Present, Ph.D. in Sociology
+**University of Michigan**  
+2025, B.A. in Sociology with Highest Honors and Highest Distinction
 
-**School Name**  
-2018–2022, B.A. in Sociology
+**Nanjing Foreign Language School**  
+2021, High School Diploma
