@@ -60,7 +60,7 @@
       institution: University of Michigan
       location: Ann Arbor, MI
       year: "2023-2024"
-    - title: Dean's list
+    - title: Dean’s list
       institution: University of Wisconsin-Oshkosh
       location: Menasha, WI
       year: "2021-2022"
@@ -105,7 +105,7 @@
       year: "Aug. 2026"
     - title: Annual Conference of the Chinese Sociological Association
       description: 
-        - Xi'an, Shaanxi, China
+        - Xi’an, Shaanxi, China
         - Poster Presentation
       year: "July 2026"
     - title: Annual Meeting of the PAA
@@ -128,7 +128,7 @@
 - title: Professional Activities
   type: time_table
   contents: 
-    - title: Coordinator, China Reading Group, LRCCS
+    - title: Coordinator, China Reading Group
       institution: University of Michigan
       year: "2026-"
     - title: Coordinator, Inequality and Social Demography (ISD) Workshop

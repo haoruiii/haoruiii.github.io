@@ -1,9 +1,9 @@
 ---
-page_id: project_5
+page_id: personal_2306-Kelihua
 layout: page
 title: 画笔下的回忆
 description: 南京市科利华中学原创心理剧
-img: assets/img/project/project_5/bg.png
+img: assets/img/projects/personal_2306-Kelihua/bg.png
 importance: 3
 # redirect: https://unsplash.com
 category: Personal

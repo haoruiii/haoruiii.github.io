@@ -5,6 +5,7 @@ date: 2026-03-01 07:08:00
 description: 关于哈佛、关于密歇根
 tags: 
 categories: "random.thoughts"
+thumbnail: assets/img/blogs/2026-03-01-about-Michigan/IMG_2183.heic
 ---
 
 我仍记得那天的夕阳，  
@@ -56,10 +57,16 @@ D 老师和 S 老师在我询问如何比较的时候，不约而同地点出了
 
 > 我们寻找着在这条路的中间
 > 
-> 我们迷失者在这条路的两端
+> 我们迷失着在这条路的两端
 > 
 > 每当黄昏阳光把所有都渲染
 > 
 > 你看那金黄多耀眼、多耀眼
 > 
 > ——梁博《日落大道》
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blogs/2026-03-01-about-Michigan/IMG_2183.heic" zoomable=true %}
+    </div>
+</div>

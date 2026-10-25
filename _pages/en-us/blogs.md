@@ -4,7 +4,7 @@ layout: default
 permalink: /blogs/
 title: Blogs
 blog_name: Per Aspera Ad Astra
-description: grad school and more
+description: me other than academics
 nav: true
 nav_order: 4
 pagination:

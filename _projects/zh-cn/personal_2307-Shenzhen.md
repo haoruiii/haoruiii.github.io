@@ -1,9 +1,9 @@
 ---
-page_id: project_4
+page_id: personal_2307-Shenzhen
 layout: page
 title: 城村烟火
 description: 记2023深圳高校联合工作坊
-img: assets/img/project/project_4/bg.jpg
+img: assets/img/projects/personal_2307-Shenzhen/bg.jpg
 importance: 4
 # redirect: https://unsplash.com
 category: Personal

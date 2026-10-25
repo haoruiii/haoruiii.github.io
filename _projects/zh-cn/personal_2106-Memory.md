@@ -1,9 +1,9 @@
 ---
-page_id: project_6
+page_id: personal_2106-Memory
 layout: page
 title: 致青春
 description: NFLS 2021届高三留念视频
-img: assets/img/project/project_6/bg.jpg
+img: assets/img/projects/personal_2106-Memory/bg.jpg
 importance: 2
 # redirect: https://unsplash.com
 category: Personal
