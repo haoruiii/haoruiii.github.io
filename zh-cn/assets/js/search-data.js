@@ -54,7 +54,7 @@ ninja.data = [{
           },
         },{id: "nav-博客",
           title: "博客",
-          description: "一个读博日记",
+          description: "你好！这里是我的花园",
           section: "页面",
           handler: () => {
             window.location.href = "/zh-cn/blogs/index.html";
