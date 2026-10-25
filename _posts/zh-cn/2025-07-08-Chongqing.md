@@ -6,8 +6,6 @@ description: 重庆·暴雨之前
 tags: China
 categories: photos
 thumbnail: assets/img/blogs/2025-07-08_Chongqing/IMG_3131.heic
-related_publications: false
-giscus_comments: true
 images:
   compare: true 
   slider: true

@@ -6,8 +6,6 @@ description: 关于哈佛、关于密歇根
 tags: 
 categories: "random.thoughts"
 thumbnail: assets/img/blogs/2026-03-01-about-Michigan/IMG_2183.heic
-related_publications: false
-giscus_comments: true
 ---
 
 我仍记得那天的夕阳，  
