@@ -121,9 +121,9 @@ ninja.data = [{
             },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
           title: 'It is officially the first day of my graduate career!',
           description: "",
-          section: "News",},{id: "projects-2026-fall-sociological-research-methods-gsi",
-          title: '2026 Fall: Sociological Research Methods (GSI)',
-          description: "thoughts and lesson plans",
+          section: "News",},{id: "projects-sociological-research-methods",
+          title: 'Sociological Research Methods',
+          description: "2026 Fall, GSI",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gsi_fa26-soc-310/";
             },},{id: "projects-再见",
