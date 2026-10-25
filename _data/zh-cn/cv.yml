@@ -64,19 +64,19 @@
 - title: 奖学金
   type: time_table
   contents: 
-    - title: Rackham会议旅行资金
-      institution: 密歇根大学Rackham研究生院
+    - title: Rackham 会议旅行资金
+      institution: 密歇根大学 Rackham 研究生院
       year: "2026-2027"
       description: $900
-    - title: Rackham会议旅行资金
-      institution: 密歇根大学Rackham研究生院
+    - title: Rackham 会议旅行资金
+      institution: 密歇根大学 Rackham 研究生院
       year: "2025-2026"
       description: $900
-    - title: LRCCS博士奖学金
+    - title: LRCCS 博士奖学金
       institution: 密歇根大学<a href = 'https://ii.umich.edu/lrccs/about-us.html'>李侃如－罗睿驰中国研究中心 (LRCCS)</a>
       year: "2025-2030"
       description: $25,000
-    - title: Howard and Alice Curler学术优秀奖学金
+    - title: Howard and Alice Curler 学术优秀奖学金
       institution: 福克斯谷地区社区基金会
       year: "2022"
       description: $1,750
@@ -92,7 +92,7 @@
     - title: 国际华人社会学会年会
       location: 纽约
       year: "2026.08"
-    - title: RC28夏季会议
+    - title: RC28 夏季会议
       location: 纽约
       year: "2026.08"
     - title: 中国社会学会学术年会
@@ -116,13 +116,13 @@
       institution: 密歇根大学
       value: 社会学310 - <a href = 'https://haoruiii.github.io/teachings/en-us/fa26-soc-310/'>社会学研究方法</a>，助教
 
-- title: Professional Activities
+- title: 学术服务
   type: time_table
   contents: 
-    - title: Coordinator, China Reading Group, LRCCS
+    - title: 项目统筹, China Reading Group
       institution: 密歇根大学
       year: "2026-"
-    - title: Coordinator, Inequality and Social Demography (ISD) Workshop
+    - title: 项目统筹, Inequality and Social Demography (ISD) Workshop
       institution: 密歇根大学
       year: "2026-2027"
 

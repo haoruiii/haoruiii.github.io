@@ -4,7 +4,7 @@ layout: default
 permalink: /blogs/
 title: 博客
 blog_name: 愿此行，终抵群星
-description: 一个读博日记
+description: 你好！这里是我的花园
 nav: true
 nav_order: 4
 pagination:
@@ -89,7 +89,7 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      Leitura de {{ read_time }} min &nbsp; &middot; &nbsp;
+                      阅读时间{{ read_time }}分钟 &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
@@ -146,7 +146,7 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        Leitura de {{ read_time }} min &nbsp; &middot; &nbsp;
+        阅读时间{{ read_time }}分钟 &nbsp; &middot; &nbsp;
         {% include date_format.liquid format="long" date=post.date %}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
