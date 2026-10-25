@@ -117,7 +117,7 @@ ninja.data = [{
           title: '2025 CSA Annual Meeting',
           description: "",
           section: "简讯",handler: () => {
-              window.location.href = "/zh-cn/news/en-us/2025-07-06_2025CSA/";
+              window.location.href = "/zh-cn/news/2025-07-06_2025CSA/";
             },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
           title: 'It is officially the first day of my graduate career!',
           description: "",
@@ -125,47 +125,32 @@ ninja.data = [{
           title: 'Sociological Research Methods (GSI)',
           description: "thoughts and lesson plans",
           section: "课题",handler: () => {
-              window.location.href = "/zh-cn/projects/en-us/gsi_fa26-soc-310/";
-            },},{id: "projects-试论当代中国的教育与流动性变迁",
-          title: '试论当代中国的教育与流动性变迁',
-          description: "来自CGSS的一些结果",
-          section: "课题",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_1/";
-            },},{id: "projects-当代中国的教育流动性及其变化",
-          title: '当代中国的教育流动性及其变化',
-          description: "关于年龄组、性别、户口和地域",
-          section: "课题",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_2/";
-            },},{id: "projects-本科期间的其他研究经历",
-          title: '本科期间的其他研究经历',
-          description: "",
-          section: "课题",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_3/";
-            },},{id: "projects-城村烟火",
-          title: '城村烟火',
-          description: "记2023深圳高校联合工作坊",
-          section: "课题",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_4/";
-            },},{id: "projects-画笔下的回忆",
-          title: '画笔下的回忆',
-          description: "南京市科利华中学原创心理剧",
-          section: "课题",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_5/";
-            },},{id: "projects-致青春",
-          title: '致青春',
-          description: "NFLS 2021届高三留念视频",
-          section: "课题",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_6/";
+              window.location.href = "/zh-cn/projects/gsi_fa26-soc-310/";
             },},{id: "projects-再见",
           title: '再见',
           description: "NFLS 2021届高三毕业视频",
           section: "课题",handler: () => {
-              window.location.href = "/zh-cn/projects/zh-cn/project_7/";
+              window.location.href = "/zh-cn/projects/personal_2106-Graduation/";
+            },},{id: "projects-致青春",
+          title: '致青春',
+          description: "NFLS 2021届高三留念视频",
+          section: "课题",handler: () => {
+              window.location.href = "/zh-cn/projects/personal_2106-Memory/";
+            },},{id: "projects-画笔下的回忆",
+          title: '画笔下的回忆',
+          description: "南京市科利华中学原创心理剧",
+          section: "课题",handler: () => {
+              window.location.href = "/zh-cn/projects/personal_2306-Kelihua/";
+            },},{id: "projects-城村烟火",
+          title: '城村烟火',
+          description: "记2023深圳高校联合工作坊",
+          section: "课题",handler: () => {
+              window.location.href = "/zh-cn/projects/personal_2307-Shenzhen/";
             },},{id: "teachings-gsi-sociological-research-methods",
           title: 'GSI: Sociological Research Methods',
           description: "This course explores the basic methods of sociological research. Students will examine the relationship between social theory and research, the research process, choosing a sample, conditions for inferring causation, and methods of data collection, along with the applications and ethics of sociological research.",
           section: "教学",handler: () => {
-              window.location.href = "/zh-cn/teachings/en-us/fa26-soc-310/";
+              window.location.href = "/zh-cn/teachings/fa26-soc-310/";
             },},{
         id: 'social-email',
         title: '邮箱',

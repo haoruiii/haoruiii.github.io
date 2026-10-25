@@ -54,14 +54,14 @@ ninja.data = [{
           },
         },{id: "nav-blogs",
           title: "Blogs",
-          description: "grad school and more",
+          description: "me other than academics",
           section: "Pages",
           handler: () => {
             window.location.href = "/blogs/index.html";
           },
         },{id: "nav-teachings",
           title: "Teachings",
-          description: "",
+          description: "A growing collection of my courses.",
           section: "Pages",
           handler: () => {
             window.location.href = "/teachings/";
@@ -117,7 +117,7 @@ ninja.data = [{
           title: '2025 CSA Annual Meeting',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/en-us/2025-07-06_2025CSA/";
+              window.location.href = "/news/2025-07-06_2025CSA/";
             },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
           title: 'It is officially the first day of my graduate career!',
           description: "",
@@ -125,47 +125,32 @@ ninja.data = [{
           title: 'Sociological Research Methods (GSI)',
           description: "thoughts and lesson plans",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/gsi_fa26-soc-310/";
-            },},{id: "projects-education-s-role-in-intergenerational-persistence",
-          title: 'Education’s Role in Intergenerational Persistence',
-          description: "The Experiences of China",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/project_1/";
-            },},{id: "projects-educational-mobility-and-its-variation",
-          title: 'Educational Mobility and Its Variation',
-          description: "The Experiences of China",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/project_2/";
-            },},{id: "projects-undergraduate-research-experiences",
-          title: 'Undergraduate Research Experiences',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/project_3/";
-            },},{id: "projects-life-in-the-cities-and-villages",
-          title: 'Life in the Cities and Villages',
-          description: "A Workshop in Shenzhen, China",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/project_4/";
-            },},{id: "projects-画笔下的回忆",
-          title: '画笔下的回忆',
-          description: "南京市科利华中学原创心理剧",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/project_5/";
-            },},{id: "projects-致青春",
-          title: '致青春',
-          description: "NFLS 2021届高三留念视频",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/project_6/";
+              window.location.href = "/projects/gsi_fa26-soc-310/";
             },},{id: "projects-再见",
           title: '再见',
           description: "NFLS 2021届高三毕业视频",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/project_7/";
+              window.location.href = "/projects/personal_2106-Graduation/";
+            },},{id: "projects-致青春",
+          title: '致青春',
+          description: "NFLS 2021届高三留念视频",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/personal_2106-Memory/";
+            },},{id: "projects-画笔下的回忆",
+          title: '画笔下的回忆',
+          description: "南京市科利华中学原创心理剧",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/personal_2306-Kelihua/";
+            },},{id: "projects-城村烟火",
+          title: '城村烟火',
+          description: "记2023深圳高校联合工作坊",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/personal_2307-Shenzhen/";
             },},{id: "teachings-gsi-sociological-research-methods",
           title: 'GSI: Sociological Research Methods',
           description: "This course explores the basic methods of sociological research. Students will examine the relationship between social theory and research, the research process, choosing a sample, conditions for inferring causation, and methods of data collection, along with the applications and ethics of sociological research.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/en-us/fa26-soc-310/";
+              window.location.href = "/teachings/fa26-soc-310/";
             },},{
         id: 'social-email',
         title: 'email',
