@@ -1,9 +1,9 @@
 ---
 page_id: gsi_fa26-soc-310
 layout: page
-title: "Sociological Research Methods (GSI)"
+title: "2026 Fall: Sociological Research Methods (GSI)"
 description: thoughts and lesson plans
-img: assets/img/project/gsi_fa26-soc-310/bg.png
+img: assets/img/projects/gsi_fa26-soc-310/bg.png
 importance: 1
 category: Teachings
 related_publications: false

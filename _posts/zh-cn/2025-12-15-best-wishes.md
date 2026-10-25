@@ -5,6 +5,8 @@ date: 2025-12-15 07:08:00
 description: 又是一年放榜时
 tags: 
 categories: "random.thoughts"
+related_publications: false
+giscus_comments: true
 ---
 
 或许这些文字也是送给未来某些时刻的自己：大概不如意才是人生一路的主旋律。过去几个月里，有许许多多老师说失败和被拒绝是读博路上的常态，而我大多听得懵懵懂懂。希望当那些天真的到来时，面对编辑部的 R&R 和找工作的种种困难，我能或多或少记起今天写下的内容。
