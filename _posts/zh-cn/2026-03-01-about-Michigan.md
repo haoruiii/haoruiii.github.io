@@ -5,6 +5,7 @@ date: 2026-03-01 07:08:00
 description: 关于哈佛、关于密歇根
 tags: 
 categories: "random.thoughts"
+featured: true
 thumbnail: assets/img/blogs/2026-03-01-about-Michigan/IMG_2183.heic
 ---
 
