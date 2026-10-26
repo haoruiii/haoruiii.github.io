@@ -65,7 +65,7 @@ pagination:
 {% if featured_posts.size > 0 %}
 <br>
 <div class="container featured-posts">
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+<div class="row row-cols-1 row-cols-md-2">
 {% for post in featured_posts %}
 <div class="col mb-4">
 <a href="{{ post.url | relative_url }}">
