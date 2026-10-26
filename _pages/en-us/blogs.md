@@ -61,17 +61,26 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site.posts | where: "featured", "true" | sort: "featured_order" %}
 {% if featured_posts.size > 0 %}
 <br>
-
 <div class="container featured-posts">
-{% assign is_even = featured_posts.size | modulo: 2 %}
-<div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
 {% for post in featured_posts %}
 <div class="col mb-4">
 <a href="{{ post.url | relative_url }}">
 <div class="card hoverable">
+
+  {% if post.thumbnail %}
+    <img
+      class="card-img-top"
+      src="{{ post.thumbnail | relative_url }}"
+      alt="{{ post.title | escape }}"
+      loading="lazy"
+      style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover;"
+    >
+  {% endif %}
+
 <div class="row g-0">
 <div class="col-md-12">
 <div class="card-body">
