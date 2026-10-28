@@ -24,7 +24,7 @@ announcements:
   scrollable: true
   scroll_after:
     desktop: 3
-    tablet: 2
+    tablet: 3
     phone: 2
 
 featured_posts:
@@ -42,7 +42,7 @@ latest_posts:
   scrollable: true
   scroll_after:
     desktop: 3
-    tablet: 2
+    tablet: 3
     phone: 2
 ---
 
