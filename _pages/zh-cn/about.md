@@ -19,20 +19,31 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  limit: 10
+  scrollable: true
+  scroll_after:
+    desktop: 3
+    tablet: 2
+    phone: 2
 
 featured_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  scroll_after: 2
-  limit: 5 # leave blank to include all the blog posts
+  limit: 6
+  scrollable: true
+  scroll_after:
+    desktop: 2
+    tablet: 2
+    phone: 1
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 5 # leave blank to include all the blog posts
+  limit: 10
+  scrollable: true
+  scroll_after:
+    desktop: 3
+    tablet: 2
+    phone: 2
 ---
 
 彭浩瑞，江苏南京人。2021年高中毕业于南京外国语学校；2025年本科毕业于美国密歇根大学，获得社会学文学学士学位（最高荣誉）、辅修统计学。

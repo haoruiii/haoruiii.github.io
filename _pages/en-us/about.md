@@ -19,20 +19,31 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  limit: 10
+  scrollable: true
+  scroll_after:
+    desktop: 3
+    tablet: 2
+    phone: 2
 
 featured_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  scroll_after: 2
-  limit: 5 # leave blank to include all the blog posts
+  limit: 6
+  scrollable: true
+  scroll_after:
+    desktop: 2
+    tablet: 2
+    phone: 1
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 5 # leave blank to include all the blog posts
+  limit: 10
+  scrollable: true
+  scroll_after:
+    desktop: 3
+    tablet: 2
+    phone: 2
 ---
 
 I am now a second-year Ph.D. student in the [Department of Sociology at the University of Michigan](https://lsa.umich.edu/soc). I am also a Student Associate of the [Stone Center for Inequality Dynamics (CID)](https://inequality.umich.edu), a Graduate Trainee of the [Population Studies Center (PSC)](https://psc.isr.umich.edu/training/predoctoral/), and a Doctoral Fellow of the [Lieberthal-Rogel Center for Chinese Studies (LRCCS)](https://ii.umich.edu/lrccs). 

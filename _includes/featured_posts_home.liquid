@@ -7,68 +7,111 @@
   {% assign pinned_limit = pinned_total %}
 {% endif %}
 
-{% assign pinned_shown = pinned_total %}
-{% if pinned_limit < pinned_shown %}
-  {% assign pinned_shown = pinned_limit %}
+{% comment %}
+  Responsive scroll_after configuration.
+
+  Supports either:
+    scroll_after: 2
+
+  Or:
+    scroll_after:
+      desktop: 2
+      tablet: 2
+      phone: 1
+
+  Actual heights are calculated by home-scroll.js.
+{% endcomment %}
+
+{% assign scroll_config = page.featured_posts.scroll_after | default: 2 %}
+
+{% if scroll_config.desktop %}
+  {% assign scroll_desktop = scroll_config.desktop %}
+  {% assign scroll_tablet = scroll_config.tablet | default: scroll_desktop %}
+  {% assign scroll_phone = scroll_config.phone | default: scroll_tablet %}
+{% else %}
+  {% assign scroll_desktop = scroll_config %}
+  {% assign scroll_tablet = scroll_config %}
+  {% assign scroll_phone = scroll_config %}
 {% endif %}
 
-{% assign scroll_after = page.featured_posts.scroll_after | default: 2 %}
-
-{% assign mobile_height = scroll_after | times: 116 | minus: 12 %}
-{% assign desktop_rows = scroll_after | plus: 1 | divided_by: 2 %}
-{% assign desktop_height = desktop_rows | times: 116 | minus: 12 %}
-
-{% assign enable_scroll = false %}
-{% if page.featured_posts.scrollable and pinned_shown > scroll_after %}
-  {% assign enable_scroll = true %}
-{% endif %}
-
+<!-- Outer scrolling container -->
 <div
-  class="pinned-home-grid{% if enable_scroll %} pinned-home-scroll{% endif %}"
-  style="--pinned-mobile-height: {{ mobile_height }}px; --pinned-desktop-height: {{ desktop_height }}px;"
+  class="pinned-home-scroll home-scroll-region"
+  {% if page.featured_posts.scrollable %}
+    data-home-scroll
+    data-home-scroll-item=".pinned-home-card"
+    data-scroll-desktop="{{ scroll_desktop }}"
+    data-scroll-tablet="{{ scroll_tablet }}"
+    data-scroll-phone="{{ scroll_phone }}"
+  {% endif %}
 >
-  
-  {% for post in include.posts limit: pinned_limit %}
-    <a
-      class="card pinned-home-card"
-      href="{{ post.url | relative_url }}"
-      title="{{ post.title | escape }}"
-    >
 
-      <!-- Blog title and date on the left -->
-      <div class="pinned-home-content">
-        <span class="news-title pinned-home-title">
-          {{ post.title }}
-        </span>
+  <!-- Inner card grid -->
+  <div class="pinned-home-grid">
 
-        <div class="post-meta pinned-home-date">
-          {% include date_format.liquid format='short' date=post.date %}
+    {% for post in include.posts limit: pinned_limit %}
+      <a
+        class="card pinned-home-card"
+        href="{{ post.url | relative_url }}"
+        title="{{ post.title | escape }}"
+      >
+
+        <!-- Blog title and date on the left -->
+        <div class="pinned-home-content">
+          <span class="news-title pinned-home-title">
+            {{ post.title }}
+          </span>
+
+          <div class="post-meta pinned-home-date">
+            {% include date_format.liquid format='short' date=post.date %}
+          </div>
         </div>
-      </div>
 
-      <!-- Thumbnail on the right -->
-      {% if post.thumbnail %}
-        <span class="pinned-home-thumbnail">
-          <img
-            src="{{ post.thumbnail | relative_url }}"
-            alt="{{ post.title | escape }}"
-            loading="lazy"
-          >
-        </span>
-      {% endif %}
+        <!-- Thumbnail on the right -->
+        {% if post.thumbnail %}
+          <span class="pinned-home-thumbnail">
+            <img
+              src="{{ post.thumbnail | relative_url }}"
+              alt="{{ post.title | escape }}"
+              loading="lazy"
+            >
+          </span>
+        {% endif %}
 
-    </a>
-  {% endfor %}
+      </a>
+    {% endfor %}
+
+  </div>
 </div>
 
 <style>
+  /*********************************
+   * Pinned blogs: scrolling wrapper
+   *********************************/
+
+  .pinned-home-scroll {
+    max-height: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 6px;
+    margin-bottom: 2rem;
+  }
+
+  /*********************************
+   * Pinned blogs: card grid
+   *********************************/
+
   .pinned-home-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-auto-rows: 104px;
     gap: 12px;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
+
+  /*********************************
+   * Individual cards
+   *********************************/
 
   .pinned-home-card {
     display: flex;
@@ -95,6 +138,10 @@
     color: var(--global-theme-color);
   }
 
+  /*********************************
+   * Card text
+   *********************************/
+
   .pinned-home-content {
     flex: 1;
     min-width: 0;
@@ -117,6 +164,10 @@
     color: var(--global-text-color-light);
   }
 
+  /*********************************
+   * Thumbnail
+   *********************************/
+
   .pinned-home-thumbnail {
     flex: 0 0 96px;
     width: 96px;
@@ -130,19 +181,13 @@
     border-radius: 4px;
   }
 
-  .pinned-home-scroll {
-    max-height: var(--pinned-desktop-height);
-    overflow-y: auto;
-    padding-right: 6px;
-  }
+  /*********************************
+   * Responsive layout
+   *********************************/
 
   @media (max-width: 767.98px) {
     .pinned-home-grid {
       grid-template-columns: 1fr;
-    }
-
-    .pinned-home-scroll {
-      max-height: var(--pinned-mobile-height);
     }
   }
 </style>

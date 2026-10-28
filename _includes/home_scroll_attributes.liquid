@@ -1,0 +1,20 @@
+
+{% if include.settings.scrollable %}
+  {% assign scroll_config = include.settings.scroll_after | default: 3 %}
+
+  {% if scroll_config.desktop %}
+    {% assign scroll_desktop = scroll_config.desktop %}
+    {% assign scroll_tablet = scroll_config.tablet | default: scroll_desktop %}
+    {% assign scroll_phone = scroll_config.phone | default: scroll_tablet %}
+  {% else %}
+    {% assign scroll_desktop = scroll_config %}
+    {% assign scroll_tablet = scroll_config %}
+    {% assign scroll_phone = scroll_config %}
+  {% endif %}
+
+  data-home-scroll
+  data-home-scroll-item="{{ include.item_selector }}"
+  data-scroll-desktop="{{ scroll_desktop }}"
+  data-scroll-tablet="{{ scroll_tablet }}"
+  data-scroll-phone="{{ scroll_phone }}"
+{% endif %}

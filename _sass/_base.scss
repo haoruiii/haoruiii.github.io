@@ -1590,3 +1590,16 @@ figure.cover {
   white-space: pre-wrap; 
   word-break: break-word; 
 }
+
+/*********************************
+ * Dynamic homepage scroll regions
+ *********************************/
+
+.home-scroll-region {
+  max-height: none;
+  overflow-y: auto;
+}
+
+.home-scroll-region.is-scrollable {
+  overflow-y: auto;
+}
