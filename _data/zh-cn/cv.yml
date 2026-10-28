@@ -114,7 +114,7 @@
   contents:
     - name: 2026学年第一学期
       institution: 密歇根大学
-      value: 社会学310 - <a {% static_href %}href="{{ /zh-cn/teachings/fa26-soc-310/ | relative_url }}"{% endstatic_href %}>社会学研究方法</a>，助教
+      value: 社会学310 - <a href="{{ '/zh-cn/teachings/fa26-soc-310/' | relative_url }}">社会学研究方法</a>，助教
 
 - title: 学术服务
   type: time_table
@@ -137,24 +137,24 @@
 - title: 证书课程
   type: time_table
   contents:
-    - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/XSLSLKJT7ZME'>用Python进行统计</a>
+    - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/XSLSLKJT7ZME'>用 Python 进行统计</a>
       institution: 密歇根大学
       location: Coursera
       year: "2024"
       description:
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/SNG74KPQXLRJ'>使用Python理解和可视化数据</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/LTFLCSRBDF82'>使用Python进行推理统计分析</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/DHPKRM93DGHH'>使用Python对数据拟合统计模型</a>
-    - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/J2NQ3CBB9YV2'>面向所有人的Python</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/SNG74KPQXLRJ'>使用 Python 理解和可视化数据</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/LTFLCSRBDF82'>使用 Python 进行推理统计分析</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/DHPKRM93DGHH'>使用 Python 对数据拟合统计模型</a>
+    - title: <a href = 'https://www.coursera.org/account/accomplishments/specialization/J2NQ3CBB9YV2'>面向所有人的 Python</a>
       institution: 密歇根大学
       location: Coursera
       year: "2022"
       description:
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/HFFP8WTBBSLE'>Python入门</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/WVJ5XF72FCKD'>Python数据结构</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/Z4XSNA8LNEG4'>使用Python访问网络数据</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/5L37YDS3GNRP'>用Python使用数据库</a>
-        - <a href = 'https://www.coursera.org/account/accomplishments/records/RQE3RLVRE7ZM'>使用Python检索、处理和可视化数据</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/HFFP8WTBBSLE'>Python 入门</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/WVJ5XF72FCKD'>Python 数据结构</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/Z4XSNA8LNEG4'>使用 Python 访问网络数据</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/5L37YDS3GNRP'>用 Python 使用数据库</a>
+        - <a href = 'https://www.coursera.org/account/accomplishments/records/RQE3RLVRE7ZM'>使用 Python 检索、处理和可视化数据</a>
 
 - title: 其他信息
   type: map
