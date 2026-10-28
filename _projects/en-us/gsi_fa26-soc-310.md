@@ -12,7 +12,13 @@ toc:
   sidebar: left
 ---
 
-In Fall 2026, I worked as the Graduate Student Instructor (GSI) in **Sociology 310 - [Sociological Research Methods](https://haoruiii.github.io/teachings/en-us/fa26-soc-310/)** for Andrei Boutyline, leading two discussion sections. Here, I would like to record my thoughts and lesson plans for each discussion. 
+{% if site.active_lang == 'zh-cn' %}
+  {% assign target_url = '/zh-cn/teachings/fa26-soc-310/' %}
+{% else %}
+  {% assign target_url = '/teachings/fa26-soc-310/' %}
+{% endif %}
+
+In Fall 2026, I worked as the Graduate Student Instructor (GSI) in <strong>Sociology 310 - <a {% static_href %}href="{{ target_url | relative_url }}"{% endstatic_href %}>Sociological Research Methods</a></strong> for Andrei Boutyline, leading two discussion sections. Here, I would like to record my thoughts and lesson plans for each discussion. 
 
 The sessions are listed in a chronological order. 
 
@@ -93,7 +99,7 @@ I plan to do the following:
 5. have students work in groups on their Assignment #1
 6. check-out form
 
-Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk2_0911.pdf). 
+Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk2_0911.pdf). 
 
 ---
 
@@ -152,7 +158,7 @@ I plan to do the following:
 4. have students work on their Assignment #2a
 5. check-out form
 
-Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk3_0918.pdf). 
+Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk3_0918.pdf). 
 
 ---
 
@@ -210,7 +216,7 @@ I plan to do the following:
 4. have students work on their Assignment #2b
 5. check-out form
 
-Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk4_0925.pdf). 
+Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk4_0925.pdf). 
 
 ---
 
@@ -279,14 +285,16 @@ I plan to do the following:
 	- to be neutral
 	- to be indirect and “weaker” 
 2. go over survey techniques
+	- with large-scale surveys like [GSS 2006](https://gss.norc.org/content/dam/gss/get-documentation/pdf/quex/2006%20GSS%20V1.pdf) (cross-sectional) and [CFPS 2022](https://www.isss.pku.edu.cn/cfps/docs/20251009130808714749.pdf) (panel) as examples
 3. go over interview techniques
+	- with [Engquist (2024)](/assets/files/en-us/gsi_fa26-soc-310/materials_wk5_1002_Engquist-2024.pdf), the best Sociology Senior Thesis in 2024 at Michigan Sociology, as an example
 4. if there is still time left, a practice in preparation for their Assignment #3
 	- choose (one of) the most complex concept(s)
 	- for surveys, think about index/proxy and associated questions for each dimension
 	- for interviews, think about major questions and potential probes for this theme
 5. check-out form
 
-Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk5_1002.pdf). 
+Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk5_1002.pdf). 
 
 ---
 
@@ -342,7 +350,7 @@ I plan to do the following:
 3. group work time on Assignment #3
 4. check-out form
 
-Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk6_1009.pdf). 
+Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk6_1009.pdf). 
 
 ---
 
@@ -398,7 +406,7 @@ I plan to do the following:
 2. group work time on Assignment #4
 3. check-out form
 
-Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk7_1016.pdf). 
+Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk7_1016.pdf). 
 
 ---
 
@@ -447,6 +455,74 @@ I plan to do the following:
 	- talk to each group on their surveys (and interview guides)
 3. check-out form
 
-Based on this structure, I prepared [these slides](/assets/pdf/en-us/gsi_fa26-soc-310/slides_wk8_1023.pdf). 
+Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk8_1023.pdf). 
+
+---
+
+## October 30, Qualitative Data Analysis
+
+#### Context
+
+- Students are collecting their data. They will wrap up the pilot round this week, and finish the formal round next week. 
+- In preparation for their actual data analysis, the lectures started to introduce data analysis techniques on Tuesday. This week's section is set to be focusing on qualitative approaches, specifically on coding.  
+- However, none of them have been planning to conduct interviews. They mostly have open-ended questions as probes, therefore will collect qualitative data, though. 
+
+#### Students’ Current Status
+
+Before coming this section, students have
+
+1. encountered general ideas of qualitative data analysis
+	- briefly on how to conduct transcribing
+	- purpose of coding: both the process and the product matter
+	- *Reflection: This won't need much recap.*
+2. been introduced the workflow of grounded theory and inductive research
+	- *Reflection: This should be clear so far, so won't need much recap either.*
+3. learned and practiced coding
+	- the (iterative) process of coding
+	- consolidation
+	- *Reflection: Students should be able to start coding if they have the data, no matter if the coding is perfect already or just ok so far. However, the in-lecture practice was with interview data, but they'll actually have responses to open-ended questions in surveys. They may need some more direct practice.* 
+
+#### ZPD
+
+If I, as a more knowledgeable other (MKO), assist the students, they should be able to
+
+- memorize general principles of coding qualitative data
+- distinguish descriptive topic summary, code, and theme(s) (of codes), therefore conducting real coding during data analysis
+- be aware of differences between data from “responses to open-ended questions in surveys” and those from “interview”
+- have an idea of how to code responses to open-ended questions in surveys
+- apply the introduced techniques to their own data
+
+#### Teaching Goals
+
+When leaving my classroom, I expect that my students are able to 
+
+- conduct basic coding on qualitative data in general
+- analyze the responses to open-ended questions in their surveys to a quiality extent, therefore finding interesting patterns
+
+#### Focus & Students’ Challenges
+
+- to make students understand what is “coding,” including what the codes should be like
+- to apply the introduced techniques and analyze their own data - responses to open-ended questions in their surveys
+
+#### Design
+
+I plan to do the following: 
+
+1. point out two key things about coding
+	- coding’s importance, as to make you master the data and to narrow things down 
+	- develop a good codebook which describe each code clearly, for future reference and smoother group collaboration
+2. provide definition and examples of descriptive topic summary, code, and theme(s) (of codes)
+3. Practice 1: for the coding of the given response, which is a descriptive topic summary? How may we **code** it? 
+	- Sample Research Question: *How do U.S. people develop their intergenerational social mobility expectations in 10 years?*
+	- I use DeepSeek-V4.1-Flash to generate sample *interview* questions and a potential response, with a detailed description & my prompt [here](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p1.pdf)
+	- given students’ codes, offer some potential themes
+4. introduce potential differences / uniquenesses of responses to open-ended questions in surveys as qualitative data
+5. list helpful steps for coding open-ended question responses
+6. Practice 2: to code a sample’s survey results, which include two probe questions
+	- Sample Research Question: *How do U.S. people develop their intergenerational social mobility expectations in 10 years?* (the same as Practice 1)
+	- I provide sample *survey* questions to DeepSeek-V4.1-Flash, and have it revise the questions & generate 28 potential responses, with a detailed description & my prompt [here](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2info.pdf) and sample data [here](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2data.xlsx)
+	- have students reflect on their individual work flow, group work mode, and insights on their actual data analysis in the near future
+
+Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk9_1030.pdf). 
 
 ---
