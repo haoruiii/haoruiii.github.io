@@ -520,7 +520,7 @@ I plan to do the following:
 5. list helpful steps for coding open-ended question responses
 6. Practice 2: to code a sample’s survey results, which include two probe questions
 	- Sample Research Question: *How do U.S. people develop their intergenerational social mobility expectations in 10 years?* (the same as Practice 1)
-	- I give sample *survey* questions to DeepSeek-V4.1-Flash, and have it revise the questions & generate 28 potential responses, with a detailed description & my prompt [here](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2info.pdf) and sample data [here](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2data.xlsx)
+	- I provide sample *survey* questions to DeepSeek-V4.1-Flash, and have it revise the questions & generate 28 potential responses, with a detailed description & my prompt [here](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2info.pdf) and sample data [here](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2data.xlsx)
 	- have students reflect on their individual work flow, group work mode, and insights on their actual data analysis in the near future
 
 Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk9_1030.pdf). 

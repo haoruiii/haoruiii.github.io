@@ -191,14 +191,13 @@
     }
   }
 
+
   /*********************************
-  * Desktop: additional vertical
-  * space around pinned blog cards
+  * Desktop: prevent last row clipping
   *********************************/
 
   @media (min-width: 992px) {
-    .pinned-home-scroll {
-      padding-top: 12px;
+    .pinned-home-scroll.is-scrollable .pinned-home-grid {
       padding-bottom: 16px;
     }
   }
