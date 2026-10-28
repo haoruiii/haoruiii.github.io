@@ -1,4 +1,3 @@
-
 {% assign pinned_total = include.posts | size %}
 
 {% if page.featured_posts.limit %}
@@ -7,19 +6,21 @@
   {% assign pinned_limit = pinned_total %}
 {% endif %}
 
+{% assign pinned_shown = pinned_total %}
+{% if pinned_limit < pinned_shown %}
+  {% assign pinned_shown = pinned_limit %}
+{% endif %}
+
 {% comment %}
-  Responsive scroll_after configuration.
+  Responsive scroll_after settings:
 
-  Supports either:
+  scroll_after:
+    desktop: 2
+    tablet: 2
+    phone: 1
+
+  Also supports the old format:
     scroll_after: 2
-
-  Or:
-    scroll_after:
-      desktop: 2
-      tablet: 2
-      phone: 1
-
-  Actual heights are calculated by home-scroll.js.
 {% endcomment %}
 
 {% assign scroll_config = page.featured_posts.scroll_after | default: 2 %}
@@ -34,19 +35,57 @@
   {% assign scroll_phone = scroll_config %}
 {% endif %}
 
-<!-- Outer scrolling container -->
+{% comment %}
+  Calculate visible rows based on grid columns.
+
+  Desktop >= 992px: 2 columns
+  Tablet 768-991px: 2 columns
+  Tablet 576-767px: 1 column
+  Phone < 576px: 1 column
+{% endcomment %}
+
+{% assign desktop_rows = scroll_desktop | plus: 1 | divided_by: 2 | at_least: 1 %}
+{% assign tablet_wide_rows = scroll_tablet | plus: 1 | divided_by: 2 | at_least: 1 %}
+{% assign tablet_narrow_rows = scroll_tablet | at_least: 1 %}
+{% assign phone_rows = scroll_phone | at_least: 1 %}
+
+{% comment %}
+  Calculate window heights.
+
+  Card height: 104px
+  Row gap: 12px
+  Top clearance: 16px
+  Bottom clearance: 20px
+
+  Height = rows * 104
+         + (rows - 1) * 12
+         + 16 + 20
+
+  Simplified:
+  Height = rows * 116 + 24
+{% endcomment %}
+
+{% assign desktop_height = desktop_rows | times: 116 | plus: 24 %}
+{% assign tablet_wide_height = tablet_wide_rows | times: 116 | plus: 24 %}
+{% assign tablet_narrow_height = tablet_narrow_rows | times: 116 | plus: 24 %}
+{% assign phone_height = phone_rows | times: 116 | plus: 24 %}
+
+{% comment %}
+  CSS controls pinned-blog scrolling independently.
+  Do not add data-home-scroll here because the
+  shared JS would override these calculated heights.
+{% endcomment %}
+
 <div
-  class="pinned-home-scroll home-scroll-region"
-  {% if page.featured_posts.scrollable %}
-    data-home-scroll
-    data-home-scroll-item=".pinned-home-card"
-    data-scroll-desktop="{{ scroll_desktop }}"
-    data-scroll-tablet="{{ scroll_tablet }}"
-    data-scroll-phone="{{ scroll_phone }}"
-  {% endif %}
+  class="pinned-home-scroll{% if page.featured_posts.scrollable %} pinned-home-scroll-enabled{% endif %}"
+  style="
+    --pinned-desktop-height: {{ desktop_height }}px;
+    --pinned-tablet-wide-height: {{ tablet_wide_height }}px;
+    --pinned-tablet-narrow-height: {{ tablet_narrow_height }}px;
+    --pinned-phone-height: {{ phone_height }}px;
+  "
 >
 
-  <!-- Inner card grid -->
   <div class="pinned-home-grid">
 
     {% for post in include.posts limit: pinned_limit %}
@@ -86,19 +125,24 @@
 
 <style>
   /*********************************
-   * Pinned blogs: scrolling wrapper
+   * Pinned blogs: outer wrapper
    *********************************/
 
   .pinned-home-scroll {
+    box-sizing: border-box;
     max-height: none;
-    overflow-y: auto;
     overflow-x: hidden;
-    padding-right: 6px;
+    overflow-y: visible;
     margin-bottom: 2rem;
   }
 
+  .pinned-home-scroll-enabled {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
   /*********************************
-   * Pinned blogs: card grid
+   * Pinned blogs: inner grid
    *********************************/
 
   .pinned-home-grid {
@@ -106,11 +150,20 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-auto-rows: 104px;
     gap: 12px;
-    margin-bottom: 0;
+
+    /*
+     * Internal clearance ensures that
+     * card borders and shadows are visible,
+     * including at the end of scrolling.
+     */
+    padding: 16px 14px 20px;
+
+    margin: 0;
+    box-sizing: border-box;
   }
 
   /*********************************
-   * Individual cards
+   * Individual pinned blog cards
    *********************************/
 
   .pinned-home-card {
@@ -118,7 +171,9 @@
     flex-direction: row;
     align-items: center;
     gap: 12px;
+
     padding: 10px 12px;
+
     min-width: 0;
     min-height: 0;
 
@@ -153,6 +208,7 @@
     -webkit-line-clamp: 2;
     line-clamp: 2;
     overflow: hidden;
+
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.4;
@@ -182,23 +238,46 @@
   }
 
   /*********************************
-   * Responsive layout
+   * Responsive scrolling heights
    *********************************/
 
-  @media (max-width: 767.98px) {
-    .pinned-home-grid {
-      grid-template-columns: 1fr;
+  /* Desktop: 2 columns */
+
+  @media (min-width: 992px) {
+    .pinned-home-scroll-enabled {
+      max-height: var(--pinned-desktop-height);
     }
   }
 
+  /* Wider tablets: 2 columns */
 
-  /*********************************
-  * Desktop: prevent last row clipping
-  *********************************/
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .pinned-home-scroll-enabled {
+      max-height: var(--pinned-tablet-wide-height);
+    }
+  }
 
-  @media (min-width: 992px) {
-    .pinned-home-scroll.is-scrollable .pinned-home-grid {
-      padding-bottom: 16px;
+  /* Narrower tablets: 1 column */
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .pinned-home-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .pinned-home-scroll-enabled {
+      max-height: var(--pinned-tablet-narrow-height);
+    }
+  }
+
+  /* Phones: 1 column */
+
+  @media (max-width: 575.98px) {
+    .pinned-home-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .pinned-home-scroll-enabled {
+      max-height: var(--pinned-phone-height);
     }
   }
 </style>
