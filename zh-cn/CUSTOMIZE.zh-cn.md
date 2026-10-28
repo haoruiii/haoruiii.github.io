@@ -148,10 +148,10 @@ Existem diversas palavras-chave BibTeX personalizadas que você pode utilizar pa
 - `code`: Adiciona um botão “Code” que redireciona para o link especificado.
 - `dimensions`: Adiciona um selo do [Dimensions](https://www.dimensions.ai/) (Nota: se o DOI ou PMID for fornecido, utilize apenas `true`; caso contrário, adicione apenas o identificador do Dimensions – o link é gerado automaticamente).
 - `html`: Insere um botão “HTML” que redireciona para o link especificado pelo usuário.
-- `pdf`: Adiciona um botão “PDF” que redireciona para um arquivo especificado (se um link completo não for fornecido, assume-se que o arquivo está no diretório /assets/pdf/).
-- `poster`: Adiciona um botão “Poster” que redireciona para um arquivo especificado (se um link completo não for fornecido, assume-se que o arquivo está no diretório /assets/pdf/).
-- `slides`: Adiciona um botão “Slides” que redireciona para um arquivo especificado (se um link completo não for fornecido, assume-se que o arquivo está no diretório /assets/pdf/).
-- `supp`: Adiciona um botão “Supp” para um arquivo especificado (se um link completo não for fornecido, assume-se que o arquivo está no diretório /assets/pdf/).
+- `pdf`: Adiciona um botão “PDF” que redireciona para um arquivo especificado (se um link completo não for fornecido, assume-se que o arquivo está no diretório /assets/files/).
+- `poster`: Adiciona um botão “Poster” que redireciona para um arquivo especificado (se um link completo não for fornecido, assume-se que o arquivo está no diretório /assets/files/).
+- `slides`: Adiciona um botão “Slides” que redireciona para um arquivo especificado (se um link completo não for fornecido, assume-se que o arquivo está no diretório /assets/files/).
+- `supp`: Adiciona um botão “Supp” para um arquivo especificado (se um link completo não for fornecido, assume-se que o arquivo está no diretório /assets/files/).
 - `website`: Adiciona um botão “Website” que redireciona para o link especificado.
 
 Você pode implementar seus próprios botões editando o arquivo [\_layouts/bib.liquid](_layouts/bib.liquid).
