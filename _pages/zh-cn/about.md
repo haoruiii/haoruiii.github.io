@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 featured_posts:
   enabled: true
@@ -32,7 +32,7 @@ featured_posts:
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
 ---
 
 彭浩瑞，江苏南京人。2021年高中毕业于南京外国语学校；2025年本科毕业于美国密歇根大学，获得社会学文学学士学位（最高荣誉）、辅修统计学。
