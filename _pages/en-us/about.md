@@ -21,15 +21,18 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 featured_posts:
   enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scroll_after: 2
+  limit: 5 # leave blank to include all the blog posts
 
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
 ---
 
 I am now a second-year Ph.D. student in the [Department of Sociology at the University of Michigan](https://lsa.umich.edu/soc). I am also a Student Associate of the [Stone Center for Inequality Dynamics (CID)](https://inequality.umich.edu), a Graduate Trainee of the [Population Studies Center (PSC)](https://psc.isr.umich.edu/training/predoctoral/), and a Doctoral Fellow of the [Lieberthal-Rogel Center for Chinese Studies (LRCCS)](https://ii.umich.edu/lrccs). 

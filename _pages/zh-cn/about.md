@@ -25,6 +25,9 @@ announcements:
 
 featured_posts:
   enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scroll_after: 2
+  limit: 5 # leave blank to include all the blog posts
 
 latest_posts:
   enabled: true

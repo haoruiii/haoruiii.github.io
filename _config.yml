@@ -4,9 +4,9 @@
 
 title: 彭浩瑞 Peng, Haorui # the website title (if blank, full name will be used instead)
 
-first_name: 彭浩瑞
+first_name: Peng, Haorui
 middle_name: '|'
-last_name: Peng, Haorui
+last_name: 彭浩瑞
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 icon: 🎍 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
