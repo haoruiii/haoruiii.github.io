@@ -54,7 +54,7 @@ ninja.data = [{
           },
         },{id: "nav-博客",
           title: "博客",
-          description: "你好！这里是我的花园",
+          description: "你好👋这里是我的花园",
           section: "页面",
           handler: () => {
             window.location.href = "/zh-cn/blogs/index.html";
@@ -121,19 +121,19 @@ ninja.data = [{
             },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
           title: 'It is officially the first day of my graduate career!',
           description: "",
-          section: "简讯",},{id: "projects-sociological-research-methods",
-          title: 'Sociological Research Methods',
-          description: "2026 Fall, GSI",
+          section: "简讯",},{id: "projects-",
+          title: '',
+          description: "",
           section: "课题",handler: () => {
               window.location.href = "/zh-cn/projects/gsi_fa26-soc-310/";
             },},{id: "projects-再见",
           title: '再见',
-          description: "NFLS 2021届高三毕业视频",
+          description: "NFLS 2021 届高三毕业视频",
           section: "课题",handler: () => {
               window.location.href = "/zh-cn/projects/personal_2106-Graduation/";
             },},{id: "projects-致青春",
           title: '致青春',
-          description: "NFLS 2021届高三留念视频",
+          description: "NFLS 2021 届高三留念视频",
           section: "课题",handler: () => {
               window.location.href = "/zh-cn/projects/personal_2106-Memory/";
             },},{id: "projects-画笔下的回忆",
