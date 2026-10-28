@@ -50,6 +50,6 @@ categories: "random.thoughts"
 
 <hr>
 
-本文首发于[小红书](https://www.xiaohongshu.com/discovery/item/69423ed0000000000d03c32e?source=webshare&xhsshare=pc_web&xsec_token=AB2Gg_MQCThOThEQ8pPawGoqIkdETmWesMOKKC65ZCAFw=&xsec_source=pc_share)。发文时正值美国大学本新申请 ED 轮次放榜，大概是有感而发。
+本文首发于[小红书](https://xhslink.cn/o/4DB56OvUrYr)。发文时正值美国大学本新申请 ED 轮次放榜，大概是有感而发。
 
 这段时间我说了很多恭喜。申请这玩意向来玄学，我也总是说“看缘分”。与“胜利者”相对应，这场零和游戏里总是会有失意的人。我曾经也是。但，或许，我能走到现在、走上目前这一条路，还真要感谢当年那么多的拒信。

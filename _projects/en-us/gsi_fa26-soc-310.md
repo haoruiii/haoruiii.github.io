@@ -7,7 +7,7 @@ img: assets/img/projects/gsi_fa26-soc-310/bg.png
 importance: 1
 category: Teachings
 related_publications: false
-giscus_comments: giscus_comments: 
+giscus_comments: false
 toc: 
   sidebar: left
 ---
