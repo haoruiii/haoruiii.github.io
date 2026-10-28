@@ -134,9 +134,17 @@ pagination:
     {% for post in postlist %}
 
     {% if post.external_source == blank %}
-      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+      {% assign read_content = post.content | markdownify | strip_html %}
     {% else %}
-      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+      {% assign read_content = post.feed_content | strip_html %}
+    {% endif %}
+
+    {% if post.path contains '/zh-cn/' %}
+      {% assign word_count = read_content | number_of_words: 'cjk' %}
+      {% assign read_time = word_count | divided_by: 400.0 | ceil | at_least: 1 %}
+    {% else %}
+      {% assign word_count = read_content | number_of_words %}
+      {% assign read_time = word_count | divided_by: 180.0 | ceil | at_least: 1 %}
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}

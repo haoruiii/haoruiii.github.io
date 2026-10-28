@@ -19,4 +19,4 @@ giscus_comments: false
     {% include video.liquid path="https://player.bilibili.com/player.html?isOutside=true&aid=829491112&bvid=BV18u4y1R7DV&cid=1226906537&p=1&high_quality=1&danmaku=1" %}
 </div>
 
-本片获 2023 年[第十三届江苏省中小学“校园心理剧”创作活动](https://mp.weixin.qq.com/s/R6pRO_RysyqIyTwJ0458IA)三等奖，公开首发于南京市科利华中学微信公众号[ (https://mp.weixin.qq.com/s/eEBd3-atgblq3HsBmsu7VA)](https://mp.weixin.qq.com/s/eEBd3-atgblq3HsBmsu7VA)，我在制作过程中是我是视频的编剧之一、摄像/收音以及后期。
+本片获2023年[第十三届江苏省中小学“校园心理剧”创作活动](https://mp.weixin.qq.com/s/R6pRO_RysyqIyTwJ0458IA)三等奖，公开首发于南京市科利华中学微信公众号[ (https://mp.weixin.qq.com/s/eEBd3-atgblq3HsBmsu7VA)](https://mp.weixin.qq.com/s/eEBd3-atgblq3HsBmsu7VA)，我在制作过程中是我是视频的编剧之一、摄像/收音以及后期。

@@ -135,9 +135,17 @@ pagination:
     {% for post in postlist %}
 
     {% if post.external_source == blank %}
-      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+      {% assign read_content = post.content | markdownify | strip_html %}
     {% else %}
-      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+      {% assign read_content = post.feed_content | strip_html %}
+    {% endif %}
+
+    {% if post.path contains '/zh-cn/' %}
+      {% assign word_count = read_content | number_of_words: 'cjk' %}
+      {% assign read_time = word_count | divided_by: 400.0 | ceil | at_least: 1 %}
+    {% else %}
+      {% assign word_count = read_content | number_of_words %}
+      {% assign read_time = word_count | divided_by: 180.0 | ceil | at_least: 1 %}
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
@@ -164,7 +172,7 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        阅读时间{{ read_time }}分钟 &nbsp; &middot; &nbsp;
+        阅读时间 {{ read_time }} 分钟 &nbsp; &middot; &nbsp;
         {% include date_format.liquid format="long" date=post.date %}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
