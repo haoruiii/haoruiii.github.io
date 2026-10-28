@@ -91,61 +91,6 @@ ninja.data = [{
             window.location.href = "/blogs/2026/about-Michigan/";
           
         },
-      },{id: "post-test5",
-        
-          title: "Test5",
-        
-        description: "又是一年放榜时",
-        section: "Blogs",
-        handler: () => {
-          
-            window.location.href = "/blogs/2025/test5/";
-          
-        },
-      },{id: "post-test4",
-        
-          title: "Test4",
-        
-        description: "又是一年放榜时",
-        section: "Blogs",
-        handler: () => {
-          
-            window.location.href = "/blogs/2025/test4/";
-          
-        },
-      },{id: "post-test3",
-        
-          title: "Test3",
-        
-        description: "又是一年放榜时",
-        section: "Blogs",
-        handler: () => {
-          
-            window.location.href = "/blogs/2025/test3/";
-          
-        },
-      },{id: "post-test2",
-        
-          title: "Test2",
-        
-        description: "又是一年放榜时",
-        section: "Blogs",
-        handler: () => {
-          
-            window.location.href = "/blogs/2025/test2/";
-          
-        },
-      },{id: "post-test1",
-        
-          title: "Test1",
-        
-        description: "又是一年放榜时",
-        section: "Blogs",
-        handler: () => {
-          
-            window.location.href = "/blogs/2025/test1/";
-          
-        },
       },{id: "post-愿你的每一条路都繁花似锦",
         
           title: "愿你的每一条路都繁花似锦",
@@ -174,18 +119,6 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/2025-07-06_2025CSA/";
             },},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
-          title: 'It is officially the first day of my graduate career!',
-          description: "",
-          section: "News",},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
-          title: 'It is officially the first day of my graduate career!',
-          description: "",
-          section: "News",},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
-          title: 'It is officially the first day of my graduate career!',
-          description: "",
-          section: "News",},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
-          title: 'It is officially the first day of my graduate career!',
-          description: "",
-          section: "News",},{id: "news-it-is-officially-the-first-day-of-my-graduate-career",
           title: 'It is officially the first day of my graduate career!',
           description: "",
           section: "News",},{id: "projects-sociological-research-methods",
