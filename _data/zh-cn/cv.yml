@@ -114,7 +114,7 @@
   contents:
     - name: 2026学年第一学期
       institution: 密歇根大学
-      value: 社会学310 - <a {% static_href %}href="{{ '/zh-cn/teachings/fa26-soc-310/' | relative_url }}"{% endstatic_href %}>社会学研究方法</a>，助教
+      value: 社会学310 - <a {% static_href %}href="{{ /zh-cn/teachings/fa26-soc-310/ | relative_url }}"{% endstatic_href %}>社会学研究方法</a>，助教
 
 - title: 学术服务
   type: time_table
