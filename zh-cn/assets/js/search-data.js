@@ -91,61 +91,6 @@ ninja.data = [{
             window.location.href = "/zh-cn/blogs/2026/about-Michigan/";
           
         },
-      },{id: "post-test5",
-        
-          title: "Test5",
-        
-        description: "又是一年放榜时",
-        section: "博客",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blogs/2025/test5/";
-          
-        },
-      },{id: "post-test4",
-        
-          title: "Test4",
-        
-        description: "又是一年放榜时",
-        section: "博客",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blogs/2025/test4/";
-          
-        },
-      },{id: "post-test3",
-        
-          title: "Test3",
-        
-        description: "又是一年放榜时",
-        section: "博客",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blogs/2025/test3/";
-          
-        },
-      },{id: "post-test2",
-        
-          title: "Test2",
-        
-        description: "又是一年放榜时",
-        section: "博客",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blogs/2025/test2/";
-          
-        },
-      },{id: "post-test1",
-        
-          title: "Test1",
-        
-        description: "又是一年放榜时",
-        section: "博客",
-        handler: () => {
-          
-            window.location.href = "/zh-cn/blogs/2025/test1/";
-          
-        },
       },{id: "post-愿你的每一条路都繁花似锦",
         
           title: "愿你的每一条路都繁花似锦",
