@@ -27,37 +27,37 @@
   class="pinned-home-grid{% if enable_scroll %} pinned-home-scroll{% endif %}"
   style="--pinned-mobile-height: {{ mobile_height }}px; --pinned-desktop-height: {{ desktop_height }}px;"
 >
+  
   {% for post in include.posts limit: pinned_limit %}
-    <div class="card pinned-home-card">
+    <a
+      class="card pinned-home-card"
+      href="{{ post.url | relative_url }}"
+      title="{{ post.title | escape }}"
+    >
 
+      <!-- Blog title and date on the left -->
       <div class="pinned-home-content">
-        <a
-          class="news-title pinned-home-title"
-          href="{{ post.url | relative_url }}"
-          title="{{ post.title | escape }}"
-        >
+        <span class="news-title pinned-home-title">
           {{ post.title }}
-        </a>
+        </span>
 
         <div class="post-meta pinned-home-date">
           {% include date_format.liquid format='short' date=post.date %}
         </div>
       </div>
 
+      <!-- Thumbnail on the right -->
       {% if post.thumbnail %}
-        <a
-          href="{{ post.url | relative_url }}"
-          class="pinned-home-thumbnail"
-        >
+        <span class="pinned-home-thumbnail">
           <img
             src="{{ post.thumbnail | relative_url }}"
             alt="{{ post.title | escape }}"
             loading="lazy"
           >
-        </a>
+        </span>
       {% endif %}
 
-    </div>
+    </a>
   {% endfor %}
 </div>
 
@@ -67,6 +67,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-auto-rows: 104px;
     gap: 12px;
+    margin-bottom: 2rem;
   }
 
   .pinned-home-card {
@@ -77,6 +78,21 @@
     padding: 10px 12px;
     min-width: 0;
     min-height: 0;
+
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .pinned-home-card:hover,
+  .pinned-home-card:focus {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .pinned-home-card:hover .pinned-home-title,
+  .pinned-home-card:focus .pinned-home-title {
+    color: var(--global-theme-color);
   }
 
   .pinned-home-content {
