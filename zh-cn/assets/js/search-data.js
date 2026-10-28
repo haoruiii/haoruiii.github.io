@@ -52,6 +52,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh-cn/projects/";
           },
+        },{id: "nav-博客",
+          title: "博客",
+          description: "你好👋欢迎来我的花园",
+          section: "页面",
+          handler: () => {
+            window.location.href = "/zh-cn/blogs/index.html";
+          },
         },{id: "nav-教学",
           title: "教学",
           description: "",
