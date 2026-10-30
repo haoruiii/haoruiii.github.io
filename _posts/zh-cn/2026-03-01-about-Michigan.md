@@ -7,7 +7,7 @@ tags:
 categories: "random.thoughts"
 featured: true
 featured_order: 1
-thumbnail: assets/img/blogs/2026-03-01-about-Michigan/IMG_2183.heic
+thumbnail: assets/img/blogs/2026-03-01-about-Michigan/IMG_2183.jpeg
 ---
 
 我仍记得那天的夕阳，  
@@ -69,6 +69,6 @@ D 老师和 S 老师在我询问如何比较的时候，不约而同地点出了
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blogs/2026-03-01-about-Michigan/IMG_2183.heic" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/blogs/2026-03-01-about-Michigan/IMG_2183.jpeg" zoomable=true %}
     </div>
 </div>

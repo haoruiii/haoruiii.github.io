@@ -525,4 +525,6 @@ I plan to do the following:
 
 Based on this structure, I prepared [these slides](/assets/files/en-us/gsi_fa26-soc-310/slides_wk9_1030.pdf). 
 
+After class, I provide the coding of LLM (DeepSeek-V4.1-Flash) on the generated 28 responses [here](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2LLMcode/). 
+
 ---

@@ -34,7 +34,7 @@ featured_posts:
   scroll_after:
     desktop: 2
     tablet: 2
-    phone: 1
+    phone: 2
 
 latest_posts:
   enabled: true
