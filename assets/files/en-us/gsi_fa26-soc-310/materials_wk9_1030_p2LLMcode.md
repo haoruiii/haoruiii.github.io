@@ -1,10 +1,13 @@
 ---
 layout: page
-title: "LLM's Coding of Sample Survey Responses"
+title: "LLM’s Coding of Sample Survey Responses"
+description: "for umich FA26 SOC 310 section on Oct. 30, 2026"
 permalink: /assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2LLMcode/
 nav: false
 lang: en-us
 ---
+
+For the [discussion sections on Friday, October 30, 2026](/assets/files/en-us/gsi_fa26-soc-310/slides_wk9_1030.pdf) for **Sociology 310 - [Sociological Research Methods](/teachings/fa26-soc-310/)** at the University of Michigan, I designed [a practice](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2info.pdf) for students to try coding for responses to open-ended questions in surveys. This page is to record how LLM (DeepSeek-V4.1-Flash), which generated the responses, may code [the simulated responses](/assets/files/en-us/gsi_fa26-soc-310/materials_wk9_1030_p2data.xlsx). 
 
 ---
 
