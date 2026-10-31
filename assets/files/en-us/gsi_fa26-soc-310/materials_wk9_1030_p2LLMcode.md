@@ -32,6 +32,8 @@ Memos are analytic, not descriptive: each states a pattern, gives the evidence, 
 | **Q1A (general: does HE make *people* expect better?)** | **22 / 28 (79%)** | 6 / 28 | **0 / 28** |
 | **Q1B (personal: did *your* HE make *you* expect better?)** | **14 / 28 (50%)** | 9 / 28 | **5 / 28 (18%)** |
 
+  
+
 Nobody in the sample chose "much worse" on any item. But the more striking fact is directional: **not a single respondent said the general effect was negative, while five said their own was.** All five downward cases (5, 9, 14, 23, 27) answered **"d" (better)** on Q1A. They believe the credential works in the abstract and believe it will not work for them.
 
 **Interpretation.** This is not inconsistency to be cleaned; it is the substantive finding. The general item is measuring a *cultural schema* — "education pays" — that almost everyone endorses because it is the available public vocabulary for talking about mobility. The personal item is measuring *position*: the respondent's assessment of their own trajectory given their debt, their labor market, their family's baseline. The dissociation is the classic structure of a norm that is hegemonic in the abstract and contested in application.
@@ -101,6 +103,8 @@ This also explains why the four debt cases read so similarly despite different e
 | 17 | 29 | Skills → own small business | Parents "worked for others" | **d** (better) |
 | 27 | 27 | Nothing — "dropped out because of finances" | "Fewer opportunities without a degree" | **b** (worse) |
 
+  
+
 **Interpretation.** The credential status is constant; what varies is (a) whether the partial credential was *converted* into a labor-market position, and (b) whether the parental comparison is read as a precedent (7: they did it, so this is normal) or as a contrast (17: they were constrained, so I am not). ID 27 has neither conversion nor a usable comparison, and lands downward by default — the only one of the three for whom the absence of a degree is narrated as *loss* rather than as *route*.
 
 **Use in class.** This is the best eight-minute exercise in the dataset. Hand out the three verbatims with Q1B blanked. Students will code them differently; several will code 7 and 27 identically because both mention "didn't finish." The disagreement is the lesson: **the same code (B4) subsumes opposite trajectories, and only the surrounding text disambiguates.**
@@ -119,6 +123,8 @@ This also explains why the four debt cases read so similarly despite different e
 | **d** (better) | 8 | 0 | 0 |
 | **c** (similar) | **0** | 1 | **5** |
 | **b** (worse) | 0 | 3 | 0 |
+
+  
 
 Three claims follow:
 
@@ -152,6 +158,8 @@ Three claims follow:
 | 16 | c | substantive (A4, B1, C3) | **skip** |
 | 22 | c | **NR-blank ("")** | substantive |
 | 25 | c | **NR-refusal** | substantive |
+
+  
 
 **Every general skeptic left at least one question effectively unanswered.** Only ID 7 gave both a substantive Q1 probe and a substantive Q2 probe — and his Q2 probe contradicts his Q2 closed answers.
 
